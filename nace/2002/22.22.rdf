@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/22.22">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.22</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.22</skos:notation>
+    <skos:prefLabel xml:lang="en">Printing n.e.c.</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; printing of magazines and other periodicals, books and brochures, music and music manuscripts, maps, atlases, posters, advertising catalogues, prospectuses and other printed advertising, postage stamps, taxation stamps, documents of title, cheques and other security papers, registers, albums, diaries, calendars, business forms and other commercial printed matter, personal stationery and other printed matter (e.g. plastic labels, plastic bags and glass sheets, articles of metal) by letterpress, offset, photogravure, flexographic, screen printing and other printing presses, duplication machines, computer printers, embossers, photocopiers and thermocopiers</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; printing of magazines and other periodicals, books and brochures, music and music manuscripts, maps, atlases, posters, advertising catalogues, prospectuses and other printed advertising, postage stamps, taxation stamps, documents of title, cheques and other security papers, registers, albums, diaries, calendars, business forms and other commercial printed matter, personal stationery and other printed matter (e.g. plastic labels, plastic bags and glass sheets, articles of metal) by letterpress, offset, photogravure, flexographic, screen printing and other printing presses, duplication machines, computer printers, embossers, photocopiers and thermocopiers</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; printing of labels, see 21.25 &#x2013; publishing, see 22.1</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/22.2"/>
+  </rdf:Description>
+</rdf:RDF>

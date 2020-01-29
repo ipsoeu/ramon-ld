@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/15.41">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.41</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.41</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of crude oils and fats</skos:prefLabel>
+    <skos:definition xml:lang="en">- production of crude vegetable oils: olive oil, soya-bean oil, palm oil, sunflower-seed oil, cotton-seed oil, rape, colza or mustard oil, linseed oil, etc. - production of non-defatted flour or meal of oilseeds, oil nuts or oil kernels</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- production of crude vegetable oils: olive oil, soya-bean oil, palm oil, sunflower-seed oil, cotton-seed oil, rape, colza or mustard oil, linseed oil, etc. - production of non-defatted flour or meal of oilseeds, oil nuts or oil kernels</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="en">- production of non-edible animal oils and fats - extraction of fish and marine mammal oils Note: Cotton linters, oilcakes and other residual products of oil production are by-products of this class</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="en">- rendering and refining of lard and other edible animal fats, see 15.11 - wet corn milling, see 15.62 - production of essential oils, see 24.63</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/15.4"/>
+  </rdf:Description>
+</rdf:RDF>

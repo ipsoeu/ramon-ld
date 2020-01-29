@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/86.10.1">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86.10.1</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86.10.1</skos:notation>
+    <skos:prefLabel xml:lang="en">Hospital services</skos:prefLabel>
+    <skos:definition xml:lang="all">This category includes: - short- or long-term hospital services, i.e. medical, diagnostic and treatment services, of general hospitals (e.g. community and regional hospitals, hospitals of non-profit organisations, university hospitals, military-base and prison hospitals) and specialised hospitals (e.g. mental health and substance abuse hospitals, hospitals for infectious diseases, maternity hospitals, specialised sanatoriums) The services are chiefly directed to inpatients and are carried out under the direct supervision of medical doctors: &#x2022; medical and paramedical services &#x2022; laboratory and technical services &#x2022; emergency room, operating room etc. services</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This category includes: - short- or long-term hospital services, i.e. medical, diagnostic and treatment services, of general hospitals (e.g. community and regional hospitals, hospitals of non-profit organisations, university hospitals, military-base and prison hospitals) and specialised hospitals (e.g. mental health and substance abuse hospitals, hospitals for infectious diseases, maternity hospitals, specialised sanatoriums) The services are chiefly directed to inpatients and are carried out under the direct supervision of medical doctors: &#x2022; medical and paramedical services &#x2022; laboratory and technical services &#x2022; emergency room, operating room etc. services</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This category excludes: - services delivered by hospital outpatient clinics, see 86.21.10, 86.22.1</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10.11"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10.12"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10.13"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10.14"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10.15"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/86.10.19"/>
+  </rdf:Description>
+</rdf:RDF>

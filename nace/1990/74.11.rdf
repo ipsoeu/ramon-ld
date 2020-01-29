@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/74.11">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.11</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.11</skos:notation>
+    <skos:prefLabel xml:lang="en">Legal activities</skos:prefLabel>
+    <skos:definition xml:lang="en">- legal representation of one party's interest against another party, whether or not before courts or other judicial bodies by, or under supervision of, persons who are members of the bar: &#x2022; advice and representation in civil cases &#x2022; advice and representation in criminal actions &#x2022; advice and representation in connection with labour disputes - general counselling and advising, preparation of legal documents: &#x2022; articles of incorporation, partnership agreements or similar documents in connection with company formation &#x2022; patents and copyrights &#x2022; preparation of deeds, wills, trusts, etc. - activities of notaries public, notaries, bailiffs, arbitrators, examiners and referees</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- legal representation of one party's interest against another party, whether or not before courts or other judicial bodies by, or under supervision of, persons who are members of the bar: &#x2022; advice and representation in civil cases &#x2022; advice and representation in criminal actions &#x2022; advice and representation in connection with labour disputes - general counselling and advising, preparation of legal documents: &#x2022; articles of incorporation, partnership agreements or similar documents in connection with company formation &#x2022; patents and copyrights &#x2022; preparation of deeds, wills, trusts, etc. - activities of notaries public, notaries, bailiffs, arbitrators, examiners and referees</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">- arbitration and conciliation between labour and management, see 74.14 - law court activities, see 75.23</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/74.1"/>
+  </rdf:Description>
+</rdf:RDF>

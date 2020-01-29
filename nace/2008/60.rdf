@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/60">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</skos:notation>
+    <skos:prefLabel xml:lang="en">Programming and broadcasting activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This division includes the activities of creating content or acquiring the right to distribute content and subsequently broadcasting that content, such as radio, television and data programs of entertainment, news, talk, and the like. Also included is data broadcasting, typically integrated with radio or TV broadcasting. The broadcasting can be performed using different technologies, over-the-air, via satellite, via a cable network or via Internet.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This division includes the activities of creating content or acquiring the right to distribute content and subsequently broadcasting that content, such as radio, television and data programs of entertainment, news, talk, and the like. Also included is data broadcasting, typically integrated with radio or TV broadcasting. The broadcasting can be performed using different technologies, over-the-air, via satellite, via a cable network or via Internet.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This division also includes the production of programs that are typically narrowcast in nature (limited format, such as news, sports, education, and youth-oriented programming) on a subscription or fee basis, to a third party, for subsequent broadcasting to the public.</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This division excludes the distribution of cable and other subscription programming (see division 61).</xkos:exclusionNote>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/60.1"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/60.2"/>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/J"/>
+  </rdf:Description>
+</rdf:RDF>

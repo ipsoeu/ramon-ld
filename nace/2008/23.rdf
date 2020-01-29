@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/23">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of other non-metallic mineral products</skos:prefLabel>
+    <skos:definition xml:lang="all">This division includes manufacturing activities related to a single substance of mineral origin. This division includes the manufacture of glass and glass products (e.g. flat glass, hollow glass, fibres, technical glassware etc.), ceramic products, tiles and baked clay products, and cement and plaster, from raw materials to finished articles.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This division includes manufacturing activities related to a single substance of mineral origin. This division includes the manufacture of glass and glass products (e.g. flat glass, hollow glass, fibres, technical glassware etc.), ceramic products, tiles and baked clay products, and cement and plaster, from raw materials to finished articles.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">The manufacture of shaped and finished stone and other mineral products is also included in this division.</xkos:additionalContentNote>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.1"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.2"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.3"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.4"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.5"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.6"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.7"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/23.9"/>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/C"/>
+  </rdf:Description>
+</rdf:RDF>

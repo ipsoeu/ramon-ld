@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/26.13">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.13</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.13</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of hollow glass</skos:prefLabel>
+    <skos:definition xml:lang="en">- manufacture of bottles and other containers of glass or crystal - manufacture of drinking glasses and other domestic glass or crystal articles</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- manufacture of bottles and other containers of glass or crystal - manufacture of drinking glasses and other domestic glass or crystal articles</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">- manufacture of glass toys, see 36.50</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/26.1"/>
+  </rdf:Description>
+</rdf:RDF>

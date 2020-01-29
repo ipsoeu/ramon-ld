@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/55.30">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55.30</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55.30</skos:notation>
+    <skos:prefLabel xml:lang="en">Restaurants</skos:prefLabel>
+    <skos:definition xml:lang="en">- sale of meals for consumption generally on the premises, as well as sale of drinks accompanying the meals, possibly accompanied by some form of entertainment, by: &#x2022; restaurants &#x2022; self-service restaurants such as cafeterias &#x2022; fast-food outlets such as burger bars &#x2022; take-away restaurants &#x2022; fish and chips stands and the like &#x2022; ice cream parlours &#x2022; dining car activities of railway companies and other passenger transport facilities</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- sale of meals for consumption generally on the premises, as well as sale of drinks accompanying the meals, possibly accompanied by some form of entertainment, by: &#x2022; restaurants &#x2022; self-service restaurants such as cafeterias &#x2022; fast-food outlets such as burger bars &#x2022; take-away restaurants &#x2022; fish and chips stands and the like &#x2022; ice cream parlours &#x2022; dining car activities of railway companies and other passenger transport facilities</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">- sale through vending machines, see 52.63</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/55.3"/>
+  </rdf:Description>
+</rdf:RDF>

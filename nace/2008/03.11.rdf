@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/03.11">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03.11</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03.11</skos:notation>
+    <skos:prefLabel xml:lang="en">Marine fishing</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - fishing on a commercial basis in ocean and coastal waters - taking of marine crustaceans and molluscs - whale catching - taking of marine aquatic animals: turtles, sea squirts, tunicates, sea urchins etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - fishing on a commercial basis in ocean and coastal waters - taking of marine crustaceans and molluscs - whale catching - taking of marine aquatic animals: turtles, sea squirts, tunicates, sea urchins etc.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - activities of vessels engaged both in marine fishing and in processing and preserving of fish - gathering of other marine organisms and materials: natural pearls, sponges, coral and algae</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - capturing of marine mammals, except whales, e.g. walruses, seals, see 01.70 - processing of whales on factory ships, see 10.11 - processing of fish, crustaceans and molluscs on factory ships or in factories ashore, see 10.20 - rental of pleasure boats with crew for sea and coastal water transport (e.g. for fishing cruises), see 50.10 - fishing inspection, protection and patrol services, see 84.24 - fishing practiced for sport or recreation and related services, see 93.19 - operation of sport fishing preserves, see 93.19</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/03.1"/>
+  </rdf:Description>
+</rdf:RDF>

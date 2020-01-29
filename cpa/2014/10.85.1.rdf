@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/10.85.1">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.85.1</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.85.1</skos:notation>
+    <skos:prefLabel xml:lang="en">Prepared meals and dishes</skos:prefLabel>
+    <skos:definition xml:lang="all">This category includes: - ready (i.e. prepared, seasoned and cooked) meals and dishes, in vacuum-packaged, frozen or canned form. These dishes are usually packaged and labelled for re-sale.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This category includes: - ready (i.e. prepared, seasoned and cooked) meals and dishes, in vacuum-packaged, frozen or canned form. These dishes are usually packaged and labelled for re-sale.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This category also includes: - local and national specialities composed of at least two products</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This category excludes: - food consisting of less than two components, see the appropriate part of division 10, - soups and stocks, see 10.89.11 - ready-perishable foods, see 10.89.16 - wholesale of ready meals and dishes, see 46.38 - retail sale of ready meals and dishes in stores, see the appropriate part of division 47 - ready-made meals prepared in catering establishments for immediate consumption, see the appropriate part of division 56</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/10.85"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/10.85.11"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/10.85.12"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/10.85.13"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/10.85.14"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/10.85.19"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Claset PUBLIC "-//EUROSTAT EG6 WG3//CLASET//EN" "http://ec.europa.eu/eurostat/ramon/claset/clasetxml.dtd">
+<Claset reference="CL_COFOG99">
+	<Classification id="CL_COFOG99" type="Classification">
+		<Label qualifier="Usual">
+			<LabelText language="EN">SCL - Classification of the functions of government (COFOG 1999)</LabelText>
+		</Label>
+		<Property name="Comment" dataType="AN">
+			<PropertyQualifier name="PlainText" language="EN">
+				<PropertyText type="Content">SCL - Classification of the functions of government (COFOG 1999)</PropertyText>
+			</PropertyQualifier>
+		</Property>
+		<Level id="1" nbItems="11">
+		<Level id="2" nbItems="69">
+		<Level id="3" nbItems="109">
+		</Level>
+		</Level>
+		</Level>
+		<Item id="10" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">TOTAL</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Total</LabelText>
+			</Label>
+		</Item>
+		<Item id="20" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF01</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General public services</LabelText>
+			</Label>
+		</Item>
+		<Item id="30" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0101</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Executive and legislative organs, financial and fiscal affairs, external affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="40" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010101</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Executive and legislative organs</LabelText>
+			</Label>
+		</Item>
+		<Item id="50" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010102</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Financial and fiscal affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="60" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010103</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">External affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="70" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0102</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Foreign economic aid</LabelText>
+			</Label>
+		</Item>
+		<Item id="80" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010201</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Economic aid to developing countries and countries in transition</LabelText>
+			</Label>
+		</Item>
+		<Item id="90" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010202</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Economic aid routed through international organizations</LabelText>
+			</Label>
+		</Item>
+		<Item id="100" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0103</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General services</LabelText>
+			</Label>
+		</Item>
+		<Item id="110" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010301</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General personnel services</LabelText>
+			</Label>
+		</Item>
+		<Item id="120" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010302</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Overall planning and statistical services</LabelText>
+			</Label>
+		</Item>
+		<Item id="130" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010303</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Other general services</LabelText>
+			</Label>
+		</Item>
+		<Item id="140" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0104</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Basic research</LabelText>
+			</Label>
+		</Item>
+		<Item id="150" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Basic research</LabelText>
+			</Label>
+		</Item>
+		<Item id="160" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0105</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D General public services</LabelText>
+			</Label>
+		</Item>
+		<Item id="170" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D General public services</LabelText>
+			</Label>
+		</Item>
+		<Item id="180" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0106</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General public services n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="190" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General public services n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="200" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0107</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public debt transactions</LabelText>
+			</Label>
+		</Item>
+		<Item id="210" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010700</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public debt transactions</LabelText>
+			</Label>
+		</Item>
+		<Item id="220" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0108</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Transfers of a general character between different levels of government</LabelText>
+			</Label>
+		</Item>
+		<Item id="230" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF010800</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Transfers of a general character between different levels of government</LabelText>
+			</Label>
+		</Item>
+		<Item id="240" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF02</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="250" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0201</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Military defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="260" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF020100</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Military defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="270" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0202</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Civil defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="280" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF020200</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Civil defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="290" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0203</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Foreign military aid</LabelText>
+			</Label>
+		</Item>
+		<Item id="300" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF020300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Foreign military aid</LabelText>
+			</Label>
+		</Item>
+		<Item id="310" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0204</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="320" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF020400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Defence</LabelText>
+			</Label>
+		</Item>
+		<Item id="330" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0205</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Defence n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="340" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF020500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Defence n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="350" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF03</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public order and safety</LabelText>
+			</Label>
+		</Item>
+		<Item id="360" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0301</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Police services</LabelText>
+			</Label>
+		</Item>
+		<Item id="370" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF030100</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Police services</LabelText>
+			</Label>
+		</Item>
+		<Item id="380" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0302</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Fire-protection services</LabelText>
+			</Label>
+		</Item>
+		<Item id="390" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF030200</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Fire-protection services</LabelText>
+			</Label>
+		</Item>
+		<Item id="400" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0303</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Law courts</LabelText>
+			</Label>
+		</Item>
+		<Item id="410" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF030300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Law courts</LabelText>
+			</Label>
+		</Item>
+		<Item id="420" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0304</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Prisons</LabelText>
+			</Label>
+		</Item>
+		<Item id="430" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF030400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Prisons</LabelText>
+			</Label>
+		</Item>
+		<Item id="440" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0305</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Public order and safety</LabelText>
+			</Label>
+		</Item>
+		<Item id="450" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF030500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Public order and safety</LabelText>
+			</Label>
+		</Item>
+		<Item id="460" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0306</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public order and safety n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="470" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF030600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public order and safety n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="480" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF04</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Economic affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="490" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0401</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General economic, commercial and labour affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="500" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040101</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General economic and commercial affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="510" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040102</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General labour affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="520" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0402</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Agriculture, forestry, fishing and hunting</LabelText>
+			</Label>
+		</Item>
+		<Item id="530" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040201</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Agriculture</LabelText>
+			</Label>
+		</Item>
+		<Item id="540" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040202</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Forestry</LabelText>
+			</Label>
+		</Item>
+		<Item id="550" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040203</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Fishing and hunting</LabelText>
+			</Label>
+		</Item>
+		<Item id="560" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0403</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Fuel and energy</LabelText>
+			</Label>
+		</Item>
+		<Item id="570" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040301</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Coal and other solid mineral fuels</LabelText>
+			</Label>
+		</Item>
+		<Item id="580" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040302</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Petroleum and natural gas</LabelText>
+			</Label>
+		</Item>
+		<Item id="590" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040303</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Nuclear fuel</LabelText>
+			</Label>
+		</Item>
+		<Item id="600" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040304</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Other fuels</LabelText>
+			</Label>
+		</Item>
+		<Item id="610" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040305</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Electricity</LabelText>
+			</Label>
+		</Item>
+		<Item id="620" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040306</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Non-electric energy</LabelText>
+			</Label>
+		</Item>
+		<Item id="630" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0404</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Mining, manufacturing and construction</LabelText>
+			</Label>
+		</Item>
+		<Item id="640" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040401</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Mining of mineral resources other than mineral fuels</LabelText>
+			</Label>
+		</Item>
+		<Item id="650" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040402</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Manufacturing</LabelText>
+			</Label>
+		</Item>
+		<Item id="660" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040403</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Construction</LabelText>
+			</Label>
+		</Item>
+		<Item id="670" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0405</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="680" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040501</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Road transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="690" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040502</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Water transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="700" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040503</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Railway transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="710" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040504</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Air transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="720" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040505</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Pipeline and other transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="730" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0406</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Communication</LabelText>
+			</Label>
+		</Item>
+		<Item id="740" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Communication</LabelText>
+			</Label>
+		</Item>
+		<Item id="750" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0407</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Other industries</LabelText>
+			</Label>
+		</Item>
+		<Item id="760" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040701</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Distributive trades, storage and warehousing</LabelText>
+			</Label>
+		</Item>
+		<Item id="770" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040702</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Hotels and restaurants</LabelText>
+			</Label>
+		</Item>
+		<Item id="780" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040703</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Tourism</LabelText>
+			</Label>
+		</Item>
+		<Item id="790" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040704</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Multi-purpose development projects</LabelText>
+			</Label>
+		</Item>
+		<Item id="800" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0408</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Economic affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="810" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040801</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D General economic, commercial and labour affairs</LabelText>
+			</Label>
+		</Item>
+		<Item id="820" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040802</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Agriculture, forestry, fishing and hunting</LabelText>
+			</Label>
+		</Item>
+		<Item id="830" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040803</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Fuel and energy</LabelText>
+			</Label>
+		</Item>
+		<Item id="840" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040804</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Mining, manufacturing and construction</LabelText>
+			</Label>
+		</Item>
+		<Item id="850" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040805</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Transport</LabelText>
+			</Label>
+		</Item>
+		<Item id="860" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040806</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Communication</LabelText>
+			</Label>
+		</Item>
+		<Item id="870" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040807</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Other industries</LabelText>
+			</Label>
+		</Item>
+		<Item id="880" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0409</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Economic affairs n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="890" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF040900</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Economic affairs n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="900" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF05</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Environmental protection</LabelText>
+			</Label>
+		</Item>
+		<Item id="910" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0501</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Waste management</LabelText>
+			</Label>
+		</Item>
+		<Item id="920" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF050100</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Waste management</LabelText>
+			</Label>
+		</Item>
+		<Item id="930" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0502</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Waste water management</LabelText>
+			</Label>
+		</Item>
+		<Item id="940" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF050200</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Waste water management</LabelText>
+			</Label>
+		</Item>
+		<Item id="950" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0503</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Pollution abatement</LabelText>
+			</Label>
+		</Item>
+		<Item id="960" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF050300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Pollution abatement</LabelText>
+			</Label>
+		</Item>
+		<Item id="970" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0504</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Protection of biodiversity and landscape</LabelText>
+			</Label>
+		</Item>
+		<Item id="980" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF050400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Protection of biodiversity and landscape</LabelText>
+			</Label>
+		</Item>
+		<Item id="990" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0505</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Environmental protection</LabelText>
+			</Label>
+		</Item>
+		<Item id="1000" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF050500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Environmental protection</LabelText>
+			</Label>
+		</Item>
+		<Item id="1010" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0506</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Environmental protection n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1020" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF050600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Environmental protection n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1030" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF06</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing and community amenities</LabelText>
+			</Label>
+		</Item>
+		<Item id="1040" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0601</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing development</LabelText>
+			</Label>
+		</Item>
+		<Item id="1050" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF060100</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing development</LabelText>
+			</Label>
+		</Item>
+		<Item id="1060" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0602</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Community development</LabelText>
+			</Label>
+		</Item>
+		<Item id="1070" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF060200</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Community development</LabelText>
+			</Label>
+		</Item>
+		<Item id="1080" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0603</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Water supply</LabelText>
+			</Label>
+		</Item>
+		<Item id="1090" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF060300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Water supply</LabelText>
+			</Label>
+		</Item>
+		<Item id="1100" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0604</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Street lighting</LabelText>
+			</Label>
+		</Item>
+		<Item id="1110" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF060400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Street lighting</LabelText>
+			</Label>
+		</Item>
+		<Item id="1120" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0605</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Housing and community amenities</LabelText>
+			</Label>
+		</Item>
+		<Item id="1130" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF060500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Housing and community amenities</LabelText>
+			</Label>
+		</Item>
+		<Item id="1140" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0606</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing and community amenities n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1150" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF060600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing and community amenities n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1160" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF07</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Health</LabelText>
+			</Label>
+		</Item>
+		<Item id="1170" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0701</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Medical products, appliances and equipment</LabelText>
+			</Label>
+		</Item>
+		<Item id="1180" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070101</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Pharmaceutical products</LabelText>
+			</Label>
+		</Item>
+		<Item id="1190" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070102</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Other medical products</LabelText>
+			</Label>
+		</Item>
+		<Item id="1200" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070103</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Therapeutic appliances and equipment</LabelText>
+			</Label>
+		</Item>
+		<Item id="1210" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0702</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Outpatient services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1220" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070201</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General medical services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1230" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070202</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Specialized medical services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1240" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070203</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Dental services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1250" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070204</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Paramedical services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1260" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0703</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Hospital services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1270" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070301</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">General hospital services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1280" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070302</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Specialized hospital services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1290" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070303</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Medical and maternity centre services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1300" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070304</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Nursing and convalescent home services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1310" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0704</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public health services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1320" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Public health services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1330" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0705</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Health</LabelText>
+			</Label>
+		</Item>
+		<Item id="1340" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Health</LabelText>
+			</Label>
+		</Item>
+		<Item id="1350" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0706</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Health n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1360" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF070600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Health n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1370" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF08</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Recreation, culture and religion</LabelText>
+			</Label>
+		</Item>
+		<Item id="1380" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0801</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Recreational and sporting services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1390" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF080100</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Recreational and sporting services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1400" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0802</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Cultural services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1410" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF080200</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Cultural services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1420" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0803</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Broadcasting and publishing services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1430" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF080300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Broadcasting and publishing services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1440" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0804</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Religious and other community services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1450" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF080400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Religious and other community services</LabelText>
+			</Label>
+		</Item>
+		<Item id="1460" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0805</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Recreation, culture and religion</LabelText>
+			</Label>
+		</Item>
+		<Item id="1470" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF080500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Recreation, culture and religion</LabelText>
+			</Label>
+		</Item>
+		<Item id="1480" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0806</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Recreation, culture and religion n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1490" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF080600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Recreation, culture and religion n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1500" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF09</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1510" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0901</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Pre-primary and primary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1520" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090101</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Pre-primary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1530" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090102</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Primary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1540" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0902</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Secondary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1550" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090201</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Lower-secondary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1560" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090202</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Upper-secondary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1570" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0903</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Post-secondary non-tertiary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1580" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Post-secondary non-tertiary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1590" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0904</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Tertiary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1600" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090401</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">First stage of tertiary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1610" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090402</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Second stage of tertiary education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1620" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0905</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Education not definable by level</LabelText>
+			</Label>
+		</Item>
+		<Item id="1630" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Education not definable by level</LabelText>
+			</Label>
+		</Item>
+		<Item id="1640" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0906</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Subsidiary services to education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1650" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Subsidiary services to education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1660" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0907</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1670" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090700</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Education</LabelText>
+			</Label>
+		</Item>
+		<Item id="1680" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF0908</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Education n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1690" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF090800</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Education n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1700" idLevel="1">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF10</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Social protection</LabelText>
+			</Label>
+		</Item>
+		<Item id="1710" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1001</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Sickness and disability</LabelText>
+			</Label>
+		</Item>
+		<Item id="1720" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100101</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Sickness</LabelText>
+			</Label>
+		</Item>
+		<Item id="1730" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100102</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Disability</LabelText>
+			</Label>
+		</Item>
+		<Item id="1740" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1002</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Old age</LabelText>
+			</Label>
+		</Item>
+		<Item id="1750" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100200</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Old age</LabelText>
+			</Label>
+		</Item>
+		<Item id="1760" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1003</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Survivors</LabelText>
+			</Label>
+		</Item>
+		<Item id="1770" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100300</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Survivors</LabelText>
+			</Label>
+		</Item>
+		<Item id="1780" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1004</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Family and children</LabelText>
+			</Label>
+		</Item>
+		<Item id="1790" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100400</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Family and children</LabelText>
+			</Label>
+		</Item>
+		<Item id="1800" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1005</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Unemployment</LabelText>
+			</Label>
+		</Item>
+		<Item id="1810" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100500</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Unemployment</LabelText>
+			</Label>
+		</Item>
+		<Item id="1820" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1006</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing</LabelText>
+			</Label>
+		</Item>
+		<Item id="1830" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100600</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Housing</LabelText>
+			</Label>
+		</Item>
+		<Item id="1840" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1007</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Social exclusion n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1850" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100700</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Social exclusion n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1860" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1008</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Social protection</LabelText>
+			</Label>
+		</Item>
+		<Item id="1870" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100800</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">R&amp;D Social protection</LabelText>
+			</Label>
+		</Item>
+		<Item id="1880" idLevel="2">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF1009</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Social protection n.e.c.</LabelText>
+			</Label>
+		</Item>
+		<Item id="1890" idLevel="3">
+			<Label qualifier="Usual">
+				<LabelText language="ALL">GF100900</LabelText>
+			</Label>
+			<Label qualifier="Usual">
+				<LabelText language="EN">Social protection n.e.c.</LabelText>
+			</Label>
+		</Item>
+	</Classification>
+</Claset>

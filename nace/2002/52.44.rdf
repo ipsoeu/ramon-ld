@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/52.44">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.44</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.44</skos:notation>
+    <skos:prefLabel xml:lang="en">Retail sale of furniture, lighting equipment and household articles n.e.c.</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; retail sale of furniture &#x2013; retail sale of articles for lighting &#x2013; retail sale of household utensils and cutlery, crockery, glassware, china and pottery &#x2013; retail sale of curtains, net curtains and other household furnishing articles of textile materials &#x2013; retail sale of wood, cork goods and wickerwork goods &#x2013; retail sale of household articles and equipment n.e.c.</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; retail sale of furniture &#x2013; retail sale of articles for lighting &#x2013; retail sale of household utensils and cutlery, crockery, glassware, china and pottery &#x2013; retail sale of curtains, net curtains and other household furnishing articles of textile materials &#x2013; retail sale of wood, cork goods and wickerwork goods &#x2013; retail sale of household articles and equipment n.e.c.</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; retail sale of cork floor tiles, see 52.48 &#x2013; retail sale of antiques, see 52.50</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/52.4"/>
+  </rdf:Description>
+</rdf:RDF>

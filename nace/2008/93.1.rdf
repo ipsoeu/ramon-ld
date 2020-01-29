@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/93.1">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.1</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.1</skos:notation>
+    <skos:prefLabel xml:lang="en">Sports activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This group includes the operation of sports facilities; activities of sports teams or clubs primarily participating in live sports events before a paying audience; independent athletes engaged in participating in live sporting or racing events before a paying audience; owners of racing participants such as cars, dogs, horses, etc. primarily engaged in entering them in racing events or other spectator sports events; sports trainers providing specialised services to support participants in sports events or competitions; operators of arenas and stadiums; other activities of organising, promoting or managing sports events, n.e.c.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This group includes the operation of sports facilities; activities of sports teams or clubs primarily participating in live sports events before a paying audience; independent athletes engaged in participating in live sporting or racing events before a paying audience; owners of racing participants such as cars, dogs, horses, etc. primarily engaged in entering them in racing events or other spectator sports events; sports trainers providing specialised services to support participants in sports events or competitions; operators of arenas and stadiums; other activities of organising, promoting or managing sports events, n.e.c.</xkos:coreContentNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/93"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/93.11"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/93.12"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/93.13"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/93.19"/>
+  </rdf:Description>
+</rdf:RDF>

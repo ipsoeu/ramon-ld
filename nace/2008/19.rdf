@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/19">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of coke and refined petroleum products</skos:prefLabel>
+    <skos:definition xml:lang="all">This division includes the transformation of crude petroleum and coal into usable products. The dominant process is petroleum refining, which involves the separation of crude petroleum into component products through such techniques as cracking and distillation. This division includes the manufacture of gases such as ethane, propane and butane as products of petroleum refineries.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This division includes the transformation of crude petroleum and coal into usable products. The dominant process is petroleum refining, which involves the separation of crude petroleum into component products through such techniques as cracking and distillation. This division includes the manufacture of gases such as ethane, propane and butane as products of petroleum refineries.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This division also includes the manufacture for own account of characteristic products (e.g. coke, butane, propane, petrol, kerosene, fuel oil etc.) as well as processing services (e.g. custom refining).</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">Not included is the manufacture of such gases in other units (20.14), manufacture of industrial gases (20.11), extraction of natural gas (methane, ethane, butane or propane) (06.20), and manufacture of fuel gas, other than petroleum gases (e.g. coal gas, water gas, producer gas, gasworks gas) (35.21). The manufacture of petrochemicals from refined petroleum is classified in division 20.</xkos:exclusionNote>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/19.1"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/19.2"/>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/C"/>
+  </rdf:Description>
+</rdf:RDF>

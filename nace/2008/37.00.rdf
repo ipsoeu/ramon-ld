@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/37.00">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.00</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.00</skos:notation>
+    <skos:prefLabel xml:lang="en">Sewerage</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - operation of sewer systems or sewer treatment facilities - collecting and transporting of human or industrial wastewater from one or several users, as well as rain water by means of sewerage networks, collectors, tanks and other means of transport (sewage vehicles etc.) - emptying and cleaning of cesspools and septic tanks, sinks and pits from sewage; servicing of chemical toilets - treatment of wastewater (including human and industrial wastewater, water from swimming pools etc.) by means of physical, chemical and biological processes like dilution, screening, filtering, sedimentation etc. - maintenance and cleaning of sewers and drains, including sewer rodding</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - operation of sewer systems or sewer treatment facilities - collecting and transporting of human or industrial wastewater from one or several users, as well as rain water by means of sewerage networks, collectors, tanks and other means of transport (sewage vehicles etc.) - emptying and cleaning of cesspools and septic tanks, sinks and pits from sewage; servicing of chemical toilets - treatment of wastewater (including human and industrial wastewater, water from swimming pools etc.) by means of physical, chemical and biological processes like dilution, screening, filtering, sedimentation etc. - maintenance and cleaning of sewers and drains, including sewer rodding</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - decontamination of surface water and groundwater at the place of pollution, see 39.00 - cleaning and deblocking of drainpipes in buildings, see 43.22</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/37.0"/>
+  </rdf:Description>
+</rdf:RDF>

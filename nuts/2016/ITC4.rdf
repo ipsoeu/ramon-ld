@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC4">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITC4</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITC4</skos:notation>
+    <skos:prefLabel xml:lang="en">Lombardia</skos:prefLabel>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC41"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC42"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC43"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC44"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC46"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC47"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC48"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC49"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC4A"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC4B"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC4C"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/ITC4D"/>
+  </rdf:Description>
+</rdf:RDF>

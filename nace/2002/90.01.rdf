@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/90.01">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90.01</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90.01</skos:notation>
+    <skos:prefLabel xml:lang="en">Collection and treatment of sewage</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; collecting and transporting of human waste water from one or several users, as well as rain water by means of sewerage networks, collectors, tanks and other means of transport (sewage vehicles etc.) and their treatment and disposal &#x2013; treatment of waste water by means of physical, chemical and biological processes like dilution, screening, filtering, sedimentation, etc. &#x2013; maintenance and cleaning of sewers and drains &#x2013; emptying and cleaning of cesspools and septic tanks, sinks and pits from sewage, servicing of chemical toilets &#x2013; treatment of waste water from swimming pools and from industry</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; collecting and transporting of human waste water from one or several users, as well as rain water by means of sewerage networks, collectors, tanks and other means of transport (sewage vehicles etc.) and their treatment and disposal &#x2013; treatment of waste water by means of physical, chemical and biological processes like dilution, screening, filtering, sedimentation, etc. &#x2013; maintenance and cleaning of sewers and drains &#x2013; emptying and cleaning of cesspools and septic tanks, sinks and pits from sewage, servicing of chemical toilets &#x2013; treatment of waste water from swimming pools and from industry</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; construction of sewer systems, see 45.21 &#x2013; clearing, de-blocking of sewers, see 45.33 &#x2013; treatment of polluted ground or surface water in combination with cleaning up of environmental pollution, see 90.03</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/90.0"/>
+  </rdf:Description>
+</rdf:RDF>

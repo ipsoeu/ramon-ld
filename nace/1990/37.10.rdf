@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/37.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Recycling of metal waste and scrap</skos:prefLabel>
+    <skos:definition xml:lang="en">- processing of metal waste and scrap and of metal articles, whether or not used, into secondary raw material. Typical is that, in terms of commodities, input consists of waste and scrap, the input being sorted or unsorted but always unfit for further direct use in an industrial process whereas the output is made fit for further processing and is to be considered then as an intermediate good. A process is required, either mechanical or chemical</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- processing of metal waste and scrap and of metal articles, whether or not used, into secondary raw material. Typical is that, in terms of commodities, input consists of waste and scrap, the input being sorted or unsorted but always unfit for further direct use in an industrial process whereas the output is made fit for further processing and is to be considered then as an intermediate good. A process is required, either mechanical or chemical</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="en">- mechanical crushing of metal waste such as used cars, washing machines, bikes, etc. with subsequent sorting and separation - mechanical reduction of large iron pieces such as railway wagons - stripping of used goods such as cars in order to obtain reusable parts - stripping of used goods such as cars or refrigerators to eliminate harmful waste (oil, cooling liquid, fuel, etc.)</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="en">- manufacture of new products from secondary raw material, see 27 to 36 - wholesale in waste and scrap, including collecting, sorting, packing, dealing, etc. without an industrial process, see 51.57 - wholesale or retail sale trade in second-hand goods, see 51, 52.50</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/37.1"/>
+  </rdf:Description>
+</rdf:RDF>

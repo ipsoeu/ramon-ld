@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/01.19.39">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.19.39</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.19.39</skos:notation>
+    <skos:prefLabel xml:lang="en">Raw vegetable materials n.e.c.</skos:prefLabel>
+    <xkos:additionalContentNote xml:lang="all">This subcategory also includes: - sweet sorghum, - pollen (pollen meal) i.e. small pellets containing pollen gathered by bees formed by nectar, honey and bee saliva</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - chicory roots, see 01.28.19 - pollen obtained by a mechanical process classified as part of the plant from which it is derived (e.g. pollen of plants used primarily in perfumery, pharmacy and the like), see 01.28.30 - dried pollen extract obtained by the solvent extraction, see 10.89.15</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/01.19.3"/>
+  </rdf:Description>
+</rdf:RDF>

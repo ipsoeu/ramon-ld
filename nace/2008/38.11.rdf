@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/38.11">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.11</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.11</skos:notation>
+    <skos:prefLabel xml:lang="en">Collection of non-hazardous waste</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - collection of non-hazardous solid waste (i.e. garbage) within a local area, such as collection of waste from households and businesses by means of refuse bins, wheeled bins, containers etc may include mixed recoverable materials - collection of recyclable materials - collection of refuse in litter-bins in public places</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - collection of non-hazardous solid waste (i.e. garbage) within a local area, such as collection of waste from households and businesses by means of refuse bins, wheeled bins, containers etc may include mixed recoverable materials - collection of recyclable materials - collection of refuse in litter-bins in public places</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - collection of construction and demolition waste - collection and removal of debris such as brush and rubble - collection of waste output of textile mills - operation of waste transfer facilities for non-hazardous waste</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - collection of hazardous waste, see 38.12 - operation of landfills for the disposal of non-hazardous waste, see 38.21 - operation of facilities where commingled recoverable materials such as paper, plastics, etc. are sorted into distinct categories, see 38.32</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/38.1"/>
+  </rdf:Description>
+</rdf:RDF>

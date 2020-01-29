@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/33.14">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.14</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.14</skos:notation>
+    <skos:prefLabel xml:lang="en">Repair of electrical equipment</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes the repair and maintenance of goods of division 27, except those in class group 27.5 (domestic appliances). This class includes: - repair and maintenance of power, distribution, and specialty transformers - repair and maintenance of electric motors, generators, and motor generator sets - repair and maintenance of switchgear and switchboard apparatus - repair and maintenance of relays and industrial controls - repair and maintenance of primary and storage batteries - repair and maintenance of electric lighting equipment - repair and maintenance of current-carrying wiring devices and non current-carrying wiring devices for wiring electrical circuits</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes the repair and maintenance of goods of division 27, except those in class group 27.5 (domestic appliances). This class includes: - repair and maintenance of power, distribution, and specialty transformers - repair and maintenance of electric motors, generators, and motor generator sets - repair and maintenance of switchgear and switchboard apparatus - repair and maintenance of relays and industrial controls - repair and maintenance of primary and storage batteries - repair and maintenance of electric lighting equipment - repair and maintenance of current-carrying wiring devices and non current-carrying wiring devices for wiring electrical circuits</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - repair and maintenance of computers and peripheral computer equipment, see 95.11 - repair and maintenance of telecommunications equipment, see 95.12 - repair and maintenance of consumer electronics, see 95.21 - repair of watches and clocks, see 95.25</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/33.1"/>
+  </rdf:Description>
+</rdf:RDF>

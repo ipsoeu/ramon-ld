@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/29.14">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.14</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.14</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of bearings, gears, gearing and driving elements</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; manufacture of ball and roller bearings and parts thereof &#x2013; manufacture of mechanical power transmission equipment: &#x2022; transmission shafts and cranks: camshafts, crankshafts, cranks, etc. &#x2022; bearing housings and plain shaft bearings &#x2013; manufacture of gears, gearing and gear boxes and other speed changers &#x2013; manufacture of clutches and shaft couplings &#x2013; manufacture of flywheels and pulleys &#x2013; manufacture of articulated link chain &#x2013; manufacture of hydraulic transmission equipment</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of ball and roller bearings and parts thereof &#x2013; manufacture of mechanical power transmission equipment: &#x2022; transmission shafts and cranks: camshafts, crankshafts, cranks, etc. &#x2022; bearing housings and plain shaft bearings &#x2013; manufacture of gears, gearing and gear boxes and other speed changers &#x2013; manufacture of clutches and shaft couplings &#x2013; manufacture of flywheels and pulleys &#x2013; manufacture of articulated link chain &#x2013; manufacture of hydraulic transmission equipment</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of other chain, see 28.74 &#x2013; manufacture of electromagnetic clutches, see 31.62</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/29.1"/>
+  </rdf:Description>
+</rdf:RDF>

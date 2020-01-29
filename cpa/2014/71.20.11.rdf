@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/71.20.11">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.20.11</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.20.11</skos:notation>
+    <skos:prefLabel xml:lang="en">Composition and purity testing and analysis services</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - testing and analysis services for the chemical and biological properties of materials such as air, water, waste (municipal and industrial), fuels, metal, soil, minerals, food and chemicals - testing and analysis services in related scientific fields such as microbiology, biochemistry, bacteriology etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - testing and analysis services for the chemical and biological properties of materials such as air, water, waste (municipal and industrial), fuels, metal, soil, minerals, food and chemicals - testing and analysis services in related scientific fields such as microbiology, biochemistry, bacteriology etc.</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - testing services related to animal health care and control, see 75.00.1 - medical and dental testing services, see 86.90.15</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/71.20.1"/>
+  </rdf:Description>
+</rdf:RDF>

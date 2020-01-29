@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/52.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Warehousing and storage</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - operation of storage and warehouse facilities for all kinds of goods: &#x2022; operation of grain silos, general merchandise warehouses, refrigerated warehouses, storage tanks etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - operation of storage and warehouse facilities for all kinds of goods: &#x2022; operation of grain silos, general merchandise warehouses, refrigerated warehouses, storage tanks etc.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - storage of goods in foreign trade zones - blast freezing</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - parking facilities for motor vehicles, see 52.21 - operation of self storage facilities, see 68.20 - rental of vacant space, see 68.20</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/52.1"/>
+  </rdf:Description>
+</rdf:RDF>

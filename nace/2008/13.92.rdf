@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/13.92">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.92</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.92</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of made-up textile articles, except apparel</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - manufacture, of made-up articles of any textile material, including of knitted or crocheted fabrics: &#x2022; blankets, including travelling rugs &#x2022; bed, table, toilet or kitchen linen &#x2022; quilts, eiderdowns, cushions, pouffes, pillows, sleeping bags etc. - manufacture of made-up furnishing articles: &#x2022; curtains, valances, blinds, bedspreads, furniture or machine covers etc. &#x2022; tarpaulins, tents, camping goods, sails, sunblinds, loose covers for cars, machines or furniture etc. &#x2022; flags, banners, pennants etc. &#x2022; dust cloths, dishcloths and similar articles, life jackets, parachutes etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - manufacture, of made-up articles of any textile material, including of knitted or crocheted fabrics: &#x2022; blankets, including travelling rugs &#x2022; bed, table, toilet or kitchen linen &#x2022; quilts, eiderdowns, cushions, pouffes, pillows, sleeping bags etc. - manufacture of made-up furnishing articles: &#x2022; curtains, valances, blinds, bedspreads, furniture or machine covers etc. &#x2022; tarpaulins, tents, camping goods, sails, sunblinds, loose covers for cars, machines or furniture etc. &#x2022; flags, banners, pennants etc. &#x2022; dust cloths, dishcloths and similar articles, life jackets, parachutes etc.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of the textile part of electric blankets - manufacture of hand-woven tapestries</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of textile articles for technical use, see 13.96</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/13.9"/>
+  </rdf:Description>
+</rdf:RDF>

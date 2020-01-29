@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/42.91.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42.91.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42.91.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Construction works for coastal and port constructions, dams, locks and related hydro-mechanical structures</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - construction works for harbour and river constructions, pleasure ports (marinas), quays, piers, jetties, docks and similar harbour installations, including repair - construction works for dams and dykes, including repair - construction and repair works for locks, floodgates, sluices, lifts, dry docks, slipways, barrages and other hydromechanical structures - dredging works, rock and silt removal and other water-associated construction works - underwater works (by divers, frogmen or other techniques) and various hydraulic engineering works - construction and repair works for other waterworks and the repair of all the above</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - construction works for harbour and river constructions, pleasure ports (marinas), quays, piers, jetties, docks and similar harbour installations, including repair - construction works for dams and dykes, including repair - construction and repair works for locks, floodgates, sluices, lifts, dry docks, slipways, barrages and other hydromechanical structures - dredging works, rock and silt removal and other water-associated construction works - underwater works (by divers, frogmen or other techniques) and various hydraulic engineering works - construction and repair works for other waterworks and the repair of all the above</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - laying of submarine cables, see 42.22.21 - construction works for power plants, see 42.22.23 - pile driving works, see 43.99.30</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/42.91.2"/>
+  </rdf:Description>
+</rdf:RDF>

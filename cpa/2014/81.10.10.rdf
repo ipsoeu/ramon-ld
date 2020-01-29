@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/81.10.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.10.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.10.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Combined facilities support services</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - performing a combination of support services within a client's facilities, such as general interior cleaning, maintenance, trash disposal, guard and security, mail routing, reception, laundry etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - performing a combination of support services within a client's facilities, such as general interior cleaning, maintenance, trash disposal, guard and security, mail routing, reception, laundry etc.</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - provision services of only one of the support services (e.g. general interior cleaning services), see the appropriate class according to the service provided - provision services of management and operating staff for the complete operation of a client's establishment, such as a hotel, restaurant, mine, or hospital, see the class of the unit operated</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/81.10.1"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/93.29">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.29</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.29</skos:notation>
+    <skos:prefLabel xml:lang="en">Other amusement and recreation activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes activities related to entertainment and recreation (except amusement parks and theme parks) not elsewhere classified: - operation (exploitation) of coin-operated games - activities of recreation parks (without accommodation) - operation of recreational transport facilities, e.g. marinas - operation of ski hills - rental of leisure and pleasure equipment as an integral part of recreational facilities - fairs and shows of a recreational nature - activities of beaches, including rental of facilities such as bathhouses, lockers, chairs etc. - operation of dance floors</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes activities related to entertainment and recreation (except amusement parks and theme parks) not elsewhere classified: - operation (exploitation) of coin-operated games - activities of recreation parks (without accommodation) - operation of recreational transport facilities, e.g. marinas - operation of ski hills - rental of leisure and pleasure equipment as an integral part of recreational facilities - fairs and shows of a recreational nature - activities of beaches, including rental of facilities such as bathhouses, lockers, chairs etc. - operation of dance floors</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes activities of producers or entrepreneurs of live events other than arts or sports events, with or without facilities.</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - operation of teleferics, funiculars, ski and cable lifts, see 49.39 - fishing cruises, see 50.10, 50.30 - provision of space and facilities for short stay by visitors in recreational parks and forests and campgrounds, see 55.30 - trailer parks, recreational camps, hunting and fishing camps, campsites and campgrounds, see 55.30 - discotheques, see 56.30 - theatrical and circus groups, see 90.01</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/93.2"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/28.51">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.51</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.51</skos:notation>
+    <skos:prefLabel xml:lang="en">Treatment and coating of metals</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; plating, anodizing, etc. of metal &#x2013; heat treatment of metal &#x2013; deburring, sand blasting, tumbling polishing, cleaning of metals &#x2013; colouring and engraving of metal &#x2013; non-metallic coating of metal: &#x2022; plastifying, enamelling, lacquering, etc. &#x2013; hardening, buffing of metal</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; plating, anodizing, etc. of metal &#x2013; heat treatment of metal &#x2013; deburring, sand blasting, tumbling polishing, cleaning of metals &#x2013; colouring and engraving of metal &#x2013; non-metallic coating of metal: &#x2022; plastifying, enamelling, lacquering, etc. &#x2013; hardening, buffing of metal</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; rolling precious metals onto base metals or other metals, see 27.41 &#x2013; while-you-wait services, see 52.74</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/28.5"/>
+  </rdf:Description>
+</rdf:RDF>

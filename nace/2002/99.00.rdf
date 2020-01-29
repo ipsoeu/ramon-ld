@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/99.00">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99.00</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99.00</skos:notation>
+    <skos:prefLabel xml:lang="en">Extra-territorial organizations and bodies</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; activities of international organizations such as the United Nations and its specialized agencies, regional bodies, etc., European Communities, European Free Trade Association, Organization for Economic Cooperation and Development, Customs Cooperation Council, Organization of Oil Producing and Exporting Countries, International Monetary Fund, World Bank, etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; activities of international organizations such as the United Nations and its specialized agencies, regional bodies, etc., European Communities, European Free Trade Association, Organization for Economic Cooperation and Development, Customs Cooperation Council, Organization of Oil Producing and Exporting Countries, International Monetary Fund, World Bank, etc.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; activities of diplomatic and consular missions when being surveyed by the country of their location rather than by the country they represent</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; administration and operation of diplomatic and consular missions stationed abroad or at offices of international organizations, see 75.21</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/99.0"/>
+  </rdf:Description>
+</rdf:RDF>

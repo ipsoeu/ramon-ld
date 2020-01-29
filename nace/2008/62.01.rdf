@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/62.01">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.01</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.01</skos:notation>
+    <skos:prefLabel xml:lang="en">Computer programming activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes the writing, modifying, testing and supporting of software. This class includes: - designing the structure and content of, and/or writing the computer code necessary to create and implement: &#x2022; systems software (including updates and patches) &#x2022; software applications (including updates and patches) &#x2022; databases &#x2022; web pages - customising of software, i.e. modifying and configuring an existing application so that it is functional within the clients' information system environment</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes the writing, modifying, testing and supporting of software. This class includes: - designing the structure and content of, and/or writing the computer code necessary to create and implement: &#x2022; systems software (including updates and patches) &#x2022; software applications (including updates and patches) &#x2022; databases &#x2022; web pages - customising of software, i.e. modifying and configuring an existing application so that it is functional within the clients' information system environment</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - publishing packaged software, see 58.29 - translation or adaptation of non-customised software for a particular market on own account, see 58.29 - planning and designing computer systems that integrate computer hardware, software and communication technologies, even though providing software might be an integral part, see 62.02</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/62.0"/>
+  </rdf:Description>
+</rdf:RDF>

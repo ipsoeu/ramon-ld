@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/61.10.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61.10.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61.10.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Carrier services for wired telecommunications</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - provision by a telecommunication carrier of wired facilities to originate, terminate, or transit calls for another telecommunications service provider - charging for interconnection, settlement or termination of domestic or international calls - charging long-distance carriers for calls originating at a pay phone or within another carriers local network - charging for jointly used facilities such as pole attachment - charging for the exclusive use of circuits</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - provision by a telecommunication carrier of wired facilities to originate, terminate, or transit calls for another telecommunications service provider - charging for interconnection, settlement or termination of domestic or international calls - charging long-distance carriers for calls originating at a pay phone or within another carriers local network - charging for jointly used facilities such as pole attachment - charging for the exclusive use of circuits</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - carriage of wired Internet traffic by one ISP for another ISP, see 61.10.41</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/61.10.2"/>
+  </rdf:Description>
+</rdf:RDF>

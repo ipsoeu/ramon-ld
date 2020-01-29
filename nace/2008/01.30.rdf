@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/01.30">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.30</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.30</skos:notation>
+    <skos:prefLabel xml:lang="en">Plant propagation</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes the production of all vegetative planting materials including cuttings, suckers and seedlings for direct plant propagation or to create plant grafting stock into which selected scion is grafted for eventual planting to produce crops. This class includes: - growing of plants for planting - growing of plants for ornamental purposes, including turf for transplanting - growing of live plants for bulbs, tubers and roots; cuttings and slips; mushroom spawn - operation of tree nurseries, except forest tree nurseries</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes the production of all vegetative planting materials including cuttings, suckers and seedlings for direct plant propagation or to create plant grafting stock into which selected scion is grafted for eventual planting to produce crops. This class includes: - growing of plants for planting - growing of plants for ornamental purposes, including turf for transplanting - growing of live plants for bulbs, tubers and roots; cuttings and slips; mushroom spawn - operation of tree nurseries, except forest tree nurseries</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - growing of plants for the purpose of seed production, see 01.1, 01.2 - operation of forest tree nurseries, see 02.10</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/01.3"/>
+  </rdf:Description>
+</rdf:RDF>

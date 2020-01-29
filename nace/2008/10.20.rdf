@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/10.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Processing and preserving of fish, crustaceans and molluscs</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - preparation and preservation of fish, crustaceans and molluscs: freezing, deep-freezing, drying, cooking, smoking, salting, immersing in brine, canning etc. - production of fish, crustacean and mollusc products: fish fillets, roes, caviar, caviar substitutes etc. - production of fishmeal for human consumption or animal feed - production of meals and solubles from fish and other aquatic animals unfit for human consumption</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - preparation and preservation of fish, crustaceans and molluscs: freezing, deep-freezing, drying, cooking, smoking, salting, immersing in brine, canning etc. - production of fish, crustacean and mollusc products: fish fillets, roes, caviar, caviar substitutes etc. - production of fishmeal for human consumption or animal feed - production of meals and solubles from fish and other aquatic animals unfit for human consumption</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - activities of vessels engaged only in the processing and preserving of fish - processing of seaweed</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - processing and preserving of fish on vessels engaged in fishing, see 03.11 - processing of whales on land or specialised vessels, see 10.11 - production of oils and fats from marine material, see 10.41 - manufacture of prepared frozen fish dishes, see 10.85 - manufacture of fish soups, see 10.89</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/10.2"/>
+  </rdf:Description>
+</rdf:RDF>

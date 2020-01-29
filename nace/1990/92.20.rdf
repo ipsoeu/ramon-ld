@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/92.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Radio and television activities</skos:prefLabel>
+    <skos:definition xml:lang="en">- broadcasting of radio and television programmes - production of radio and television programmes whether or not combined with broadcasting The programmes produced and broadcast may be for entertainment, promotion, education or training or news dissemination. The production of programmes may result in a permanent tape which may be sold, rented or stored for broadcast or rebroadcast</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- broadcasting of radio and television programmes - production of radio and television programmes whether or not combined with broadcasting The programmes produced and broadcast may be for entertainment, promotion, education or training or news dissemination. The production of programmes may result in a permanent tape which may be sold, rented or stored for broadcast or rebroadcast</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">- radio and television transmission via cable networks, see 64.20 - radio and television transmission by relay or satellite, see 64.20 - production of movies and video tapes which are nominally produced in movie studios, see 92.11 - press agencies, see 92.40</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/92.2"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/02.01">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.01</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.01</skos:notation>
+    <skos:prefLabel xml:lang="en">Forestry and logging</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; growing of standing timber: planting, replanting, transplanting, thinning and conserving of forests and timber tracts &#x2013; growing of coppice and pulpwood &#x2013; operation of forest tree nurseries &#x2013; growing of Christmas trees &#x2013; logging: felling of timber and production of wood in the rough such as pit-props, split poles, pickets or fuel wood &#x2013; growing of vegetable materials used for plaiting</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; growing of standing timber: planting, replanting, transplanting, thinning and conserving of forests and timber tracts &#x2013; growing of coppice and pulpwood &#x2013; operation of forest tree nurseries &#x2013; growing of Christmas trees &#x2013; logging: felling of timber and production of wood in the rough such as pit-props, split poles, pickets or fuel wood &#x2013; growing of vegetable materials used for plaiting</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; gathering of wild growing forest materials: balatta and other rubber-like gums, cork, lac, resins, balsams, vegetable hair, eel grass, acorns, horse-chestnuts, mosses, lichens</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; growing and gathering of mushrooms or truffles, see 01.12 &#x2013; gathering of berries or nuts, see 01.13 &#x2013; production of wood chips, see 20.10</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/02.0"/>
+  </rdf:Description>
+</rdf:RDF>

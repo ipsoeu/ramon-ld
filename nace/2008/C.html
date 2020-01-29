@@ -1,0 +1,146 @@
+<!DOCTYPE html SYSTEM "about:legacy-compact">
+<html xmlns:cc="http://creativecommons.org/ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rec="http://www.w3.org/2001/02pd/rec54#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:voaf="http://purl.org/vocommons/voaf#" xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>MANUFACTURING</title>
+<link rel="alternate" title="RDF/XML" href="https://ipsoeu.github.io/ramon-ld//nace/2008/C.rdf" type="application/rdf+xml">
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" media="screen">
+<link type="text/css" rel="stylesheet" href="https://bootswatch.com/3/assets/css/custom.min.css" media="screen">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css" media="screen">
+<link type="text/css" rel="stylesheet" href="http://getbootstrap.com/docs/3.3/assets/css/docs.min.css">
+<link type="text/css" rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script><script type="text/javascript" src="https://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script><script type="text/javascript" src="https://bootswatch.com/3/assets/js/custom.js"></script><script type="text/javascript" src="http://getbootstrap.com/docs/3.3/assets/js/docs.min.js"></script><script type="text/javascript">
+    //  $("html").css("visibility","hidden");
+    </script><script type="text/javascript" src="/ramon-ld/js/style.js"></script><script type="text/javascript">
+$(document).ready(function() {
+  var table = $("table").DataTable( { 
+    "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
+//    "order": [[ 1, "desc" ]],
+    "buttons": [ "copy", "csv", "excel", "pdf" ] 
+  } );
+/*
+  table.columns().every( function () {
+    var that = this;
+    $( "input.filter", this.footer() ).on( "keyup change", function () {
+      if ( that.search() !== this.value ) {
+        that.search( this.value ).draw();
+      }
+    } );
+  } );
+*/    
+});
+    </script>
+</head>
+<body>
+<header><h1>dataset-item - NACE</h1></header><nav><p><a href="https://ipsoeu.github.io/ramon-ld/" title="RAMON as Linked Data">RAMON-LD</a></p>
+<ul id="actions">
+<li id="classification-name"><a href="https://ipsoeu.github.io/ramon-ld/nace" title="">NACE</a></li>
+<li id="classification-version"><a href="https://ipsoeu.github.io/ramon-ld/nace/2008" title="">2008</a></li>
+</ul>
+<ul id="info">
+<li id="format-list"><a href="#" title="Available formats">Formats</a></li>
+<li id="about"><a href="#">About</a></li>
+</ul></nav><section id="dataset-item-section"><h2>C - MANUFACTURING</h2>
+<p>This section includes the physical or chemical transformation of materials, substances, or components into new products, although this cannot be used as the single universal criterion for defining manufacturing (see remark on processing of waste below). The materials, substances, or components transformed are raw materials that are products of agriculture, forestry, fishing, mining or quarrying as well as products of other manufacturing activities. Substantial alteration, renovation or reconstruction of goods is generally considered to be manufacturing. The output of a manufacturing process may be finished in the sense that it is ready for utilisation or consumption, or it may be semi-finished in the sense that it is to become an input for further manufacturing. For example, the output of alumina refining is the input used in the primary production of aluminium; primary aluminium is the input to aluminium wire drawing; and aluminium wire is the input for the manufacture of fabricated wire products. Manufacture of specialised components and parts of, and accessories and attachments to, machinery and equipment is, as a general rule, classified in the same class as the manufacture of the machinery and equipment for which the parts and accessories are intended. Manufacture of unspecialised components and parts of machinery and equipment, e.g. engines, pistons, electric motors, electrical assemblies, valves, gears, roller bearings, is classified in the appropriate class of manufacturing, without regard to the machinery and equipment in which these items may be included. However, making specialised components and accessories by moulding or extruding plastics materials is included in group 22.2. Assembly of the component parts of manufactured products is considered manufacturing. This includes the assembly of manufactured products from either self-produced or purchased components. The recovery of waste, i.e. the processing of waste into secondary raw materials is classified in group 38.3 (Materials recovery). While this may involve physical or chemical transformations, this is not considered to be a part of manufacturing. The primary purpose of these activities is considered to be the treatment or processing of waste and they are therefore classified in Section E (Water supply; sewerage, waste management and remediation activities). However, the manufacture of new final products (as opposed to secondary raw materials) is classified in manufacturing, even if these processes use waste as an input. For example, the production of silver from film waste is considered to be a manufacturing process. Specialised maintenance and repair of industrial, commercial and similar machinery and equipment is, in general, classified in division 33 (Repair, maintenance and installation of machinery and equipment). However, the repair of computers and personal and household goods is classified in division 95 (Repair of computers and personal and household goods), while the repair of motor vehicles is classified in division 45 (Wholesale and retail trade and repair of motor vehicles and motorcycles). The installation of machinery and equipment, when carried out as a specialised activity, is classified in 33.20. Remark: The boundaries of manufacturing and the other sectors of the classification system can be somewhat blurry. As a general rule, the activities in the manufacturing section involve the transformation of materials into new products. Their output is a new product. However, the definition of what constitutes a new product can be somewhat subjective. As clarification, the following activities are considered manufacturing in NACE: - fresh fish processing (oyster shucking, fish filleting), not done on a fishing boat (see 10.20) - milk pasteurising and bottling (see 10.51) - leather converting (see 15.11) - wood preserving (see 16.10) - printing and related activities (see 18.1) - tyre retreading (see 22.11) - ready-mixed concrete production (see 23.63) - electroplating, plating, and metal heat treating (see 25.61) - rebuilding or remanufacture of machinery (e.g. automobile engines, see 29.10) Conversely, there are activities that, although sometimes involving transformation processes, are classified in other sections of NACE; in other words, they are not classified as manufacturing. They include: - logging, classified in section A (Agriculture, forestry and fishing); - beneficiating of agricultural products, classified in section A (Agriculture, forestry and fishing); - preparation of food for immediate consumption on the premises is classified to division 56 (Food and beverage service activities); - beneficiating of ores and other minerals, classified in section B (Mining and quarrying); - construction of structures and fabricating operations performed at the site of construction, classified in section F (Construction); - activities of breaking bulk and redistribution in smaller lots, including packaging, repackaging, or bottling products, such as liquors or chemicals; sorting of scrap; mixing paints to customer order; and cutting metals to customer order; treatment not resulting into a different good is classified to section G (Wholesale and retail trade; repair of motor vehicles and motorcycles).</p>
+<dl>
+<dt>Core content note</dt>
+<dd><p>This section includes the physical or chemical transformation of materials, substances, or components into new products, although this cannot be used as the single universal criterion for defining manufacturing (see remark on processing of waste below). The materials, substances, or components transformed are raw materials that are products of agriculture, forestry, fishing, mining or quarrying as well as products of other manufacturing activities. Substantial alteration, renovation or reconstruction of goods is generally considered to be manufacturing. The output of a manufacturing process may be finished in the sense that it is ready for utilisation or consumption, or it may be semi-finished in the sense that it is to become an input for further manufacturing. For example, the output of alumina refining is the input used in the primary production of aluminium; primary aluminium is the input to aluminium wire drawing; and aluminium wire is the input for the manufacture of fabricated wire products. Manufacture of specialised components and parts of, and accessories and attachments to, machinery and equipment is, as a general rule, classified in the same class as the manufacture of the machinery and equipment for which the parts and accessories are intended. Manufacture of unspecialised components and parts of machinery and equipment, e.g. engines, pistons, electric motors, electrical assemblies, valves, gears, roller bearings, is classified in the appropriate class of manufacturing, without regard to the machinery and equipment in which these items may be included. However, making specialised components and accessories by moulding or extruding plastics materials is included in group 22.2. Assembly of the component parts of manufactured products is considered manufacturing. This includes the assembly of manufactured products from either self-produced or purchased components. The recovery of waste, i.e. the processing of waste into secondary raw materials is classified in group 38.3 (Materials recovery). While this may involve physical or chemical transformations, this is not considered to be a part of manufacturing. The primary purpose of these activities is considered to be the treatment or processing of waste and they are therefore classified in Section E (Water supply; sewerage, waste management and remediation activities). However, the manufacture of new final products (as opposed to secondary raw materials) is classified in manufacturing, even if these processes use waste as an input. For example, the production of silver from film waste is considered to be a manufacturing process. Specialised maintenance and repair of industrial, commercial and similar machinery and equipment is, in general, classified in division 33 (Repair, maintenance and installation of machinery and equipment). However, the repair of computers and personal and household goods is classified in division 95 (Repair of computers and personal and household goods), while the repair of motor vehicles is classified in division 45 (Wholesale and retail trade and repair of motor vehicles and motorcycles). The installation of machinery and equipment, when carried out as a specialised activity, is classified in 33.20. Remark: The boundaries of manufacturing and the other sectors of the classification system can be somewhat blurry. As a general rule, the activities in the manufacturing section involve the transformation of materials into new products. Their output is a new product. However, the definition of what constitutes a new product can be somewhat subjective. As clarification, the following activities are considered manufacturing in NACE: - fresh fish processing (oyster shucking, fish filleting), not done on a fishing boat (see 10.20) - milk pasteurising and bottling (see 10.51) - leather converting (see 15.11) - wood preserving (see 16.10) - printing and related activities (see 18.1) - tyre retreading (see 22.11) - ready-mixed concrete production (see 23.63) - electroplating, plating, and metal heat treating (see 25.61) - rebuilding or remanufacture of machinery (e.g. automobile engines, see 29.10) Conversely, there are activities that, although sometimes involving transformation processes, are classified in other sections of NACE; in other words, they are not classified as manufacturing. They include: - logging, classified in section A (Agriculture, forestry and fishing); - beneficiating of agricultural products, classified in section A (Agriculture, forestry and fishing); - preparation of food for immediate consumption on the premises is classified to division 56 (Food and beverage service activities); - beneficiating of ores and other minerals, classified in section B (Mining and quarrying); - construction of structures and fabricating operations performed at the site of construction, classified in section F (Construction); - activities of breaking bulk and redistribution in smaller lots, including packaging, repackaging, or bottling products, such as liquors or chemicals; sorting of scrap; mixing paints to customer order; and cutting metals to customer order; treatment not resulting into a different good is classified to section G (Wholesale and retail trade; repair of motor vehicles and motorcycles).</p></dd>
+<dt>In scheme</dt>
+<dd><p><a title="http://localhost/ramon-ld/nace/2008" href="http://localhost/ramon-ld/nace/2008.html">NACE / 2008</a></p></dd>
+<dt>Narrower</dt>
+<dd>
+<p><a href="http://localhost/ramon-ld/nace/2008/10.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/11.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/12.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/13.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/14.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/15.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/16.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/17.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/18.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/19.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/20.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/21.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/22.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/23.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/24.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/25.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/26.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/27.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/28.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/29.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/30.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/31.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/32.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/33.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/35.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/36.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/37.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/38.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/39.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/41.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/42.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/43.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/45.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/46.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/47.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/49.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/50.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/51.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/52.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/53.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/55.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/56.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/58.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/59.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/60.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/61.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/62.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/63.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/64.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/65.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/66.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/68.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/69.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/70.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/71.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/72.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/73.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/74.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/75.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/77.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/78.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/79.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/80.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/81.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/82.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/84.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/85.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/86.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/87.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/88.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/90.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/91.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/92.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/93.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/94.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/95.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/96.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/97.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/98.html"></a></p>
+<p><a href="http://localhost/ramon-ld/nace/2008/99.html"></a></p>
+</dd>
+</dl></section><section id="format-list-section"><h4>Available formats</h4>
+<div>
+<p>Representations of this data are also available in the following encodings:</p>
+<div id="format-list-rdf"><a title="RDF/XML" href="https://ipsoeu.github.io/ramon-ld//nace/2008/C.rdf">RDF/XML</a></div>
+<div id="format-list-others"></div>
+</div></section><section id="about-section"><h4>About RAMON-LD</h4>
+<div>
+<p>RAMON-LD is an experimental Linked Data implementation of the EUROSTAT RAMON registry.</p>
+<p>For more information: <a target="_blank" href="https://github.com/ipsoeu/ramon-ld">RAMON-LD @ GitHub</a></p>
+</div></section><aside></aside><footer></footer>
+</body>
+</html>

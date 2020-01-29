@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/15.12">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.12</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.12</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of luggage, handbags and the like, saddlery and harness</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - manufacture of luggage, handbags and the like, of leather, composition leather or any other material, such as plastic sheeting, textile materials, vulcanised fibre or paperboard, where the same technology is used as for leather - manufacture of saddlery and harness - manufacture of non-metallic watch bands (e.g. fabric, leather, plastic) - manufacture of diverse articles of leather or composition leather: driving belts, packings etc. - manufacture of shoe-lace, of leather - manufacture of horse whips and riding crops</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of luggage, handbags and the like, of leather, composition leather or any other material, such as plastic sheeting, textile materials, vulcanised fibre or paperboard, where the same technology is used as for leather - manufacture of saddlery and harness - manufacture of non-metallic watch bands (e.g. fabric, leather, plastic) - manufacture of diverse articles of leather or composition leather: driving belts, packings etc. - manufacture of shoe-lace, of leather - manufacture of horse whips and riding crops</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of leather wearing apparel, see 14.11 - manufacture of leather gloves and hats, see 14.19 - manufacture of footwear, see 15.20 - manufacture of saddles for bicycles, see 30.92 - manufacture of precious metal watch bands, see 32.12 - manufacture of non-precious metal watch bands, see 32.13 - manufacture of linemen's safety belts and other belts for occupational use, see 32.99</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/15.1"/>
+  </rdf:Description>
+</rdf:RDF>

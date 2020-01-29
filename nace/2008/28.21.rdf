@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/28.21">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.21</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.21</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of ovens, furnaces and furnace burners</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - manufacture of electrical and other industrial and laboratory furnaces and ovens, including incinerators - manufacture of burners - manufacture of permanent mount electric space heaters, electric swimming pool heaters - manufacture of permanent mount non-electric household heating equipment, such as solar heating, steam heating, oil heat and similar furnaces and heating equipment - manufacture of electric household-type furnaces (electric forced air furnaces, heat pumps, etc.), non-electric household forced air furnaces</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of electrical and other industrial and laboratory furnaces and ovens, including incinerators - manufacture of burners - manufacture of permanent mount electric space heaters, electric swimming pool heaters - manufacture of permanent mount non-electric household heating equipment, such as solar heating, steam heating, oil heat and similar furnaces and heating equipment - manufacture of electric household-type furnaces (electric forced air furnaces, heat pumps, etc.), non-electric household forced air furnaces</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of mechanical stokers, grates, ash dischargers etc.</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of household ovens, see 27.51 - manufacture of agricultural dryers, see 28.93 - manufacture of bakery ovens, see 28.93 - manufacture of dryers for wood, paper pulp, paper or paperboard, see 28.99 - manufacture of medical, surgical or laboratory sterilisers, see 32.50 - manufacture of (dental) laboratory furnaces, see 32.50</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/28.2"/>
+  </rdf:Description>
+</rdf:RDF>

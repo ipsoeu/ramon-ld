@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/43.99.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43.99.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43.99.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Waterproofing works</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - waterproofing works on flat roofs and roof terraces - waterproofing works on the outside of constructions and other subterranean structures - damp proofing</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - waterproofing works on flat roofs and roof terraces - waterproofing works on the outside of constructions and other subterranean structures - damp proofing</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - insulation works, see 43.29.11</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/43.99.1"/>
+  </rdf:Description>
+</rdf:RDF>

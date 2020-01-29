@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/01.70.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.70.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.70.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Hunting and trapping and related services</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - hunting and trapping on a commercial basis - taking of animals (dead or alive) for food, fur, skin, or for use in research, in zoos or as pets - production of fur skins, reptile or bird skins from hunting or trapping activities</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - hunting and trapping on a commercial basis - taking of animals (dead or alive) for food, fur, skin, or for use in research, in zoos or as pets - production of fur skins, reptile or bird skins from hunting or trapping activities</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This subcategory also includes: - land-based catching of sea mammals such as walrus and seal</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - production of fur skins, reptile or bird skins from ranching operations, see group 01.4 - raising of game animals on ranching operations, see 01.49.1 - catching of whales, see 03.00.69 - production of hides and skins originating from slaughterhouses, see 10.11 - hunting for sport or recreation and related service activities, see 93.19.13 - service activities to promote hunting and trapping, see 94.99.19</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/01.70.1"/>
+  </rdf:Description>
+</rdf:RDF>

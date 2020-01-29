@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/81.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Combined facilities support activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes the provision of a combination of support services within a client's facilities. These services include general interior cleaning, maintenance, trash disposal, guard and security, mail routing, reception, laundry and related services to support operations within facilities. These support activities are performed by operating staff, which is not involved with or responsible for the core business or activities of the client.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes the provision of a combination of support services within a client's facilities. These services include general interior cleaning, maintenance, trash disposal, guard and security, mail routing, reception, laundry and related services to support operations within facilities. These support activities are performed by operating staff, which is not involved with or responsible for the core business or activities of the client.</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - provision of only one of the support services (e.g. general interior cleaning services) or addressing only a single function (e.g. heating), see the appropriate class according to the service provided - provision of management and operating staff for the complete operation of a client's establishment, such as a hotel, restaurant, mine, or hospital, see the class of the unit operated - provision of on site management and operation of a client's computer systems and/or data processing facilities, see 62.03 - operation of correctional facilities on a contract or fee basis, see 84.23</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/81.1"/>
+  </rdf:Description>
+</rdf:RDF>

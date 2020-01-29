@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/24.44">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.44</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.44</skos:notation>
+    <skos:prefLabel xml:lang="en">Copper production</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - production of copper from ores - production of copper from electrolytic refining of copper waste and scrap - production of copper alloys - manufacture of fuse wire or strip - semi-manufacture of copper</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - production of copper from ores - production of copper from electrolytic refining of copper waste and scrap - production of copper alloys - manufacture of fuse wire or strip - semi-manufacture of copper</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of wire of these metals by drawing</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - casting of non-ferrous metals, see 24.53, 24.54</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/24.4"/>
+  </rdf:Description>
+</rdf:RDF>

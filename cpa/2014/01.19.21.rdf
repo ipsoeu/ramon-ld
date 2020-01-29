@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/01.19.21">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.19.21</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.19.21</skos:notation>
+    <skos:prefLabel xml:lang="en">Cut flowers and flower buds</skos:prefLabel>
+    <xkos:additionalContentNote xml:lang="all">This subcategory also includes: - bouquets, wreaths, floral baskets etc. arrangements containing flowers or flower buds (e.g. posies, buttonholes) - cut branches of trees, shrubs and bushes, if they have flowers or flower buds (e.g. willow branches with flower buds or flowers, sunflowers)</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - willow branches without flower buds or flowers, see 01.29.30, - foliage, branches and other parts of wild growing plants, without flowers or flower buds, suitable for ornamental purposes, see 02.30.30</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/01.19.2"/>
+  </rdf:Description>
+</rdf:RDF>

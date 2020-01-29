@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/80">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</skos:notation>
+    <skos:prefLabel xml:lang="en">Education</skos:prefLabel>
+    <skos:definition xml:lang="en">- public as well as private education at any level or for any profession, oral or written as well as by radio and television It includes both education by the different institutions in the regular school system at its different levels as well as adult education, literacy programmes, etc. For each level of initial education the classes include special education for physically or mentally handicapped pupils The levels and stages referred to in the explanatory notes to this division are those of the International Standard Classification of Education (ISCED)</skos:definition>
+    <xkos:coreContentNote xml:lang="en">- public as well as private education at any level or for any profession, oral or written as well as by radio and television It includes both education by the different institutions in the regular school system at its different levels as well as adult education, literacy programmes, etc. For each level of initial education the classes include special education for physically or mentally handicapped pupils The levels and stages referred to in the explanatory notes to this division are those of the International Standard Classification of Education (ISCED)</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="en">- other education such as driving schools</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="en">- education primarily concerned with recreation such as bridge or golf, see 92</xkos:exclusionNote>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/1990/80.1"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/1990/80.2"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/1990/80.3"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/1990/80.4"/>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/MA"/>
+  </rdf:Description>
+</rdf:RDF>

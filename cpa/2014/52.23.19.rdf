@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/52.23.19">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.23.19</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.23.19</skos:notation>
+    <skos:prefLabel xml:lang="en">Other service activities incidental to air transportation</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes other supporting services for air transport, such as: - aircraft fire fighting and fire prevention services - aircraft maintenance and upkeep services (excluding repair) - hangar services - aircraft towing</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes other supporting services for air transport, such as: - aircraft fire fighting and fire prevention services - aircraft maintenance and upkeep services (excluding repair) - hangar services - aircraft towing</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - disinfecting and exterminating services for aircraft, see 81.29.11 - runway cleaning and snow removal services, see 81.29.12 - cleaning services for aircraft, see 81.29.19 - air-sea rescue services, see 84.24.11, 84.25.19 - non-commercial flying school services, see 85.53.12</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/52.23.1"/>
+  </rdf:Description>
+</rdf:RDF>

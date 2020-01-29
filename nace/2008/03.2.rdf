@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/03.2">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03.2</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03.2</skos:notation>
+    <skos:prefLabel xml:lang="en">Aquaculture</skos:prefLabel>
+    <skos:definition xml:lang="all">This group includes "aquaculture" (or aquafarming), i.e. the production process involving the culturing or farming (including harvesting) of aquatic organisms (fish, molluscs, crustaceans, plants, crocodiles, alligators and amphibians) using techniques designed to increase the production of the organisms in question beyond the natural capacity of the environment (for example regular stocking, feeding and protection from predators). Culturing/farming refers to the rearing up to their juvenile and/or adult phase under captive conditions of the above organisms.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This group includes "aquaculture" (or aquafarming), i.e. the production process involving the culturing or farming (including harvesting) of aquatic organisms (fish, molluscs, crustaceans, plants, crocodiles, alligators and amphibians) using techniques designed to increase the production of the organisms in question beyond the natural capacity of the environment (for example regular stocking, feeding and protection from predators). Culturing/farming refers to the rearing up to their juvenile and/or adult phase under captive conditions of the above organisms.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">In addition, "aquaculture" also encompasses individual, corporate or state ownership of the individual organisms throughout the rearing or culture stage, up to and including harvesting.</xkos:additionalContentNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/03"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/03.21"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/03.22"/>
+  </rdf:Description>
+</rdf:RDF>

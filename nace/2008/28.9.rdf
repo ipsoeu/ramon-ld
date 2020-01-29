@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/28.9">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.9</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.9</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of other special-purpose machinery</skos:prefLabel>
+    <skos:definition xml:lang="all">This group includes the manufacture of special-purpose machinery, i.e. machinery for exclusive use in an NACE industry or a small cluster of NACE industries.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This group includes the manufacture of special-purpose machinery, i.e. machinery for exclusive use in an NACE industry or a small cluster of NACE industries.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">While most of these are used in other manufacturing processes, such as food manufacturing or textile manufacturing, this group also includes the manufacture of machinery specific for other (non-manufacturing industries), such as aircraft launching gear or amusement park equipment.</xkos:additionalContentNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/28"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.91"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.92"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.93"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.94"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.95"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.96"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/28.99"/>
+  </rdf:Description>
+</rdf:RDF>

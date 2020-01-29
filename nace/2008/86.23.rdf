@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/86.23">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86.23</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86.23</skos:notation>
+    <skos:prefLabel xml:lang="en">Dental practice activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - dental practice activities of a general or specialised nature, e.g. dentistry, endodontic and pediatric dentistry; oral pathology - orthodontic activities</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - dental practice activities of a general or specialised nature, e.g. dentistry, endodontic and pediatric dentistry; oral pathology - orthodontic activities</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - dental activities in operating rooms</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - production of artificial teeth, denture and prosthetic appliances by dental laboratories, see 32.50 - inpatient hospital activities, see 86.10 - activities of dental paramedical personnel such as dental hygienists, see 86.90</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/86.2"/>
+  </rdf:Description>
+</rdf:RDF>

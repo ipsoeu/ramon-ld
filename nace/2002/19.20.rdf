@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/19.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of luggage, handbags and the like, saddlery and harness</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; manufacture of luggage, handbags and the like, of leather, composition leather and of any other material, such as plastic sheeting, textile materials, vulcanized fibre or paperboard, where the same technology is used as for leather &#x2013; manufacture of non-metallic watch straps &#x2013; manufacture of diverse articles of leather or composition leather: driving belts, packings, etc. &#x2013; manufacture of saddlery and harness</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of luggage, handbags and the like, of leather, composition leather and of any other material, such as plastic sheeting, textile materials, vulcanized fibre or paperboard, where the same technology is used as for leather &#x2013; manufacture of non-metallic watch straps &#x2013; manufacture of diverse articles of leather or composition leather: driving belts, packings, etc. &#x2013; manufacture of saddlery and harness</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of leather wearing apparel, see 18.10 &#x2013; manufacture of leather gloves and hats, see 18.24 &#x2013; manufacture of footwear, see 19.30 &#x2013; manufacture of metallic watch straps, see 33.50</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/19.2"/>
+  </rdf:Description>
+</rdf:RDF>

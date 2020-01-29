@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/62.09.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.09.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62.09.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Other information technology and computer services n.e.c.</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - data recovery services, i.e. retrieving a client's data from a damaged or unstable hard drive or other storage medium, or providing standby computer equipment and duplicate software in a separate location to enable a client to relocate regular staff to resume and maintain routine computerised operations in event of a disaster such as a fire or flood - software installation services - other IT technical support services n.e.c.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - data recovery services, i.e. retrieving a client's data from a damaged or unstable hard drive or other storage medium, or providing standby computer equipment and duplicate software in a separate location to enable a client to relocate regular staff to resume and maintain routine computerised operations in event of a disaster such as a fire or flood - software installation services - other IT technical support services n.e.c.</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - computer programming services, see 62.01.1 - IT consultancy services, see 62.02 - data processing and hosting services, see 63.11.1</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/62.09.2"/>
+  </rdf:Description>
+</rdf:RDF>

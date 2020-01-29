@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/10.83">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.83</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.83</skos:notation>
+    <skos:prefLabel xml:lang="en">Processing of tea and coffee</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - decaffeinating and roasting of coffee - production of coffee products: &#x2022; ground coffee &#x2022; soluble coffee &#x2022; extracts and concentrates of coffee - manufacture of coffee substitutes - blending of tea and mat&#xE9; - manufacture of extracts and preparations based on tea or mat&#xE9; - packing of tea including packing in tea-bags</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - decaffeinating and roasting of coffee - production of coffee products: &#x2022; ground coffee &#x2022; soluble coffee &#x2022; extracts and concentrates of coffee - manufacture of coffee substitutes - blending of tea and mat&#xE9; - manufacture of extracts and preparations based on tea or mat&#xE9; - packing of tea including packing in tea-bags</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of herb infusions (mint, vervain, chamomile etc.)</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of inulin, see 10.62 - manufacture of spirits, beer, wine and soft drinks, see division 11 - preparation of botanical products for pharmaceutical use, see 21.20</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/10.8"/>
+  </rdf:Description>
+</rdf:RDF>

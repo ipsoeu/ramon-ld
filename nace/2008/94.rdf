@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/94">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94</skos:notation>
+    <skos:prefLabel xml:lang="en">Activities of membership organisations</skos:prefLabel>
+    <skos:definition xml:lang="all">This division includes activities of organisations representing interests of special groups or promoting ideas to the general public. These organisations usually have a constituency of members, but their activities may involve and benefit non-members as well. The primary breakdown of this division is determined by the purpose that these organisations serve, namely interests of employers, self-employed individuals and the scientific community (group 94.1), interests of employees (group 94.2) or promotion of religious, political, cultural, educational or recreational ideas and activities (group 94.9).</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This division includes activities of organisations representing interests of special groups or promoting ideas to the general public. These organisations usually have a constituency of members, but their activities may involve and benefit non-members as well. The primary breakdown of this division is determined by the purpose that these organisations serve, namely interests of employers, self-employed individuals and the scientific community (group 94.1), interests of employees (group 94.2) or promotion of religious, political, cultural, educational or recreational ideas and activities (group 94.9).</xkos:coreContentNote>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/94.1"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/94.2"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/94.9"/>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/S"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/24.20">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.20</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.20</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of pesticides and other agro-chemical products</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; manufacture of insecticides, rodenticides, fungicides, herbicides &#x2013; manufacture of anti-sprouting products, plant growth regulators &#x2013; manufacture of disinfectants &#x2013; manufacture of other agro-chemical products n.e.c.</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of insecticides, rodenticides, fungicides, herbicides &#x2013; manufacture of anti-sprouting products, plant growth regulators &#x2013; manufacture of disinfectants &#x2013; manufacture of other agro-chemical products n.e.c.</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of fertilizers and nitrogen compounds, see 24.15</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/24.2"/>
+  </rdf:Description>
+</rdf:RDF>

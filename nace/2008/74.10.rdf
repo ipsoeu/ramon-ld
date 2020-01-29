@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/74.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Specialised design activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes: - fashion design related to textiles, wearing apparel, shoes, jewellery, furniture and other interior decoration and other fashion goods as well as other personal or household goods - industrial design, i.e. creating and developing designs and specifications that optimise the use, value and appearance of products, including the determination of the materials, mechanism, shape, colour and surface finishes of the product, taking into consideration human characteristics and needs, safety, market appeal in distribution, use and maintenance - activities of graphic designers - activities of interior decorators</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes: - fashion design related to textiles, wearing apparel, shoes, jewellery, furniture and other interior decoration and other fashion goods as well as other personal or household goods - industrial design, i.e. creating and developing designs and specifications that optimise the use, value and appearance of products, including the determination of the materials, mechanism, shape, colour and surface finishes of the product, taking into consideration human characteristics and needs, safety, market appeal in distribution, use and maintenance - activities of graphic designers - activities of interior decorators</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - design and programming of web pages, see 62.01 - architectural design, see 71.11 - engineering design, i.e. applying physical laws and principles of engineering in the design of machines, materials, instruments, structures, processes and systems, see 71.12</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/74.1"/>
+  </rdf:Description>
+</rdf:RDF>

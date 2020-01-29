@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/91.02.10">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91.02.10</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91.02.10</skos:notation>
+    <skos:prefLabel xml:lang="en">Museum operation services</skos:prefLabel>
+    <skos:definition xml:lang="all">This subcategory includes: - display services of collections of all kinds (art, science and technology, history) - management and conservation services for the collections - organisation of travelling collection exhibitions</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This subcategory includes: - display services of collections of all kinds (art, science and technology, history) - management and conservation services for the collections - organisation of travelling collection exhibitions</xkos:coreContentNote>
+    <xkos:exclusionNote xml:lang="all">This subcategory excludes: - sale and display services furnished by commercial art galleries, see 47.00.69 - restoration services of works of art and museum collection objects, see 90.03.11 - library and archive services, see 91.01.1 - services of historical sites and buildings, see 91.03.10 - services of botanical and zoological gardens, see 91.04.11</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/91.02.1"/>
+  </rdf:Description>
+</rdf:RDF>

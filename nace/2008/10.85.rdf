@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/10.85">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.85</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.85</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of prepared meals and dishes</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes the manufacture of ready-made (i.e. prepared, seasoned and cooked) meals and dishes. These dishes are processed to preserve them, such as in frozen or canned form, and are usually packaged and labelled for re-sale, i.e. this class does not include the preparation of meals for immediate consumption, such as in restaurants. To be considered a dish, these foods have to contain at least two distinct ingredients (except seasonings etc.). This class includes: - manufacture of meat or poultry dishes - manufacture of fish dishes, including fish and chips - manufacture of vegetable dishes - manufacture of frozen or otherwise preserved pizza</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes the manufacture of ready-made (i.e. prepared, seasoned and cooked) meals and dishes. These dishes are processed to preserve them, such as in frozen or canned form, and are usually packaged and labelled for re-sale, i.e. this class does not include the preparation of meals for immediate consumption, such as in restaurants. To be considered a dish, these foods have to contain at least two distinct ingredients (except seasonings etc.). This class includes: - manufacture of meat or poultry dishes - manufacture of fish dishes, including fish and chips - manufacture of vegetable dishes - manufacture of frozen or otherwise preserved pizza</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of local and national dishes</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of fresh foods or foods with less than two ingredients, see corresponding class in division 10 - manufacture of perishable prepared foods, see 10.89 - retail sale of prepared meals and dishes in stores, see 47.11, 47.29 - wholesale of prepared meals and dishes, see 46.38 - activities of food service contractors, see 56.29</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/10.8"/>
+  </rdf:Description>
+</rdf:RDF>

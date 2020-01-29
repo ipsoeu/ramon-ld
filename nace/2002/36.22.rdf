@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/36.22">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.22</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.22</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of jewellery and related articles n.e.c.</skos:prefLabel>
+    <skos:definition xml:lang="en">This class includes: &#x2013; production of worked pearls &#x2013; production of precious and semi-precious stones in the worked state. Included is the working of industrial quality stones and synthetic or reconstructed precious or semi-precious stones &#x2013; working of diamonds &#x2013; manufacture of jewellery of precious metal or of base metals clad with precious metals, or precious or semi-precious stones, or of combinations of precious metal and precious or semi-precious stones or of other materials &#x2013; manufacture of goldsmiths' articles of precious metals or of base metals clad with precious metals: &#x2022; dinnerware, flatware, hollowware, toilet articles, office or desk articles, articles for religious use, etc.</skos:definition>
+    <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; production of worked pearls &#x2013; production of precious and semi-precious stones in the worked state. Included is the working of industrial quality stones and synthetic or reconstructed precious or semi-precious stones &#x2013; working of diamonds &#x2013; manufacture of jewellery of precious metal or of base metals clad with precious metals, or precious or semi-precious stones, or of combinations of precious metal and precious or semi-precious stones or of other materials &#x2013; manufacture of goldsmiths' articles of precious metals or of base metals clad with precious metals: &#x2022; dinnerware, flatware, hollowware, toilet articles, office or desk articles, articles for religious use, etc.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; personalised engraving on objects of precious metals</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of articles of base metal plated with precious metal, see 28 &#x2013; manufacture of watch cases and metal straps, see 33.50 &#x2013; manufacture of imitation jewellery, see 36.61</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/36.2"/>
+  </rdf:Description>
+</rdf:RDF>

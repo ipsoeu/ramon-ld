@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE25">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE25</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE25</skos:notation>
+    <skos:prefLabel xml:lang="en">Mittelfranken</skos:prefLabel>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE2"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE251"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE252"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE253"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE254"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE255"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE256"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE257"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE258"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE259"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE25A"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE25B"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE25C"/>
+  </rdf:Description>
+</rdf:RDF>

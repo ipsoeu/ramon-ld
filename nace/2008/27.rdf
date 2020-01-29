@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/27">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</skos:notation>
+    <skos:prefLabel xml:lang="en">Manufacture of electrical equipment</skos:prefLabel>
+    <skos:definition xml:lang="all">This division includes the manufacture of products that generate, distribute and use electrical power.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This division includes the manufacture of products that generate, distribute and use electrical power.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">Also included is the manufacture of electrical lighting, signalling equipment and electric household appliances.</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This division excludes the manufacture of electronic products (see division 26).</xkos:exclusionNote>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/27.1"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/27.2"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/27.3"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/27.4"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/27.5"/>
+    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/27.9"/>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/C"/>
+  </rdf:Description>
+</rdf:RDF>

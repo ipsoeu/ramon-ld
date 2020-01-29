@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/59.12">
+    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59.12</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59.12</skos:notation>
+    <skos:prefLabel xml:lang="en">Motion picture, video and television programme post-production activities</skos:prefLabel>
+    <skos:definition xml:lang="all">This class includes post-production activities such as editing, film/tape transfers, titling, subtitling, credits, closed captioning, computer-produced graphics, animation and special effects, developing and processing motion picture film, as well as activities of motion picture film laboratories and activities of special laboratories for animated films.</skos:definition>
+    <xkos:coreContentNote xml:lang="all">This class includes post-production activities such as editing, film/tape transfers, titling, subtitling, credits, closed captioning, computer-produced graphics, animation and special effects, developing and processing motion picture film, as well as activities of motion picture film laboratories and activities of special laboratories for animated films.</xkos:coreContentNote>
+    <xkos:additionalContentNote xml:lang="all">This class also includes: - activities of stock footage film libraries etc.</xkos:additionalContentNote>
+    <xkos:exclusionNote xml:lang="all">This class excludes: - film duplicating (except reproduction of motion picture film for theatrical distribution) as well as audio and video tape, CD or DVD reproduction from master copies, see 18.20 - wholesale of recorded video tapes, CDs, DVDs, see 46.43 - wholesale of blank video tapes, CDs, see 46.52 - retail trade of video tapes, CDs, DVDs, see 47.63 - film processing other than for the motion picture industry, see 74.20 - rental of video tapes, DVDs to the general public, see 77.22 - activities of own account actors, cartoonists, directors, stage designers and technical specialists, see 90.0</xkos:exclusionNote>
+    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/59.1"/>
+  </rdf:Description>
+</rdf:RDF>
