@@ -31,7 +31,12 @@ foreach (rglob(ROOT . "*.rdf") as $file) {
   
   $xmluri = $file;
 //  $uri = end(explode(dirname($file),$abs_path))."/".basename($file,".rdf");
-  $uri = rtrim($base_uri.substr(dirname($file),strlen(ROOT)-1),"/")."/".basename($file,".rdf");
+//  $uri = rtrim($base_uri.substr(dirname($file),strlen(ROOT)-1),"/")."/".basename($file,".rdf");
+//  $uri = rtrim(rtrim($base_uri.substr(dirname($file),strlen(ROOT)),"/")."/".basename($file,".rdf"),"/index");
+  $uri = $base_uri.trim(rtrim(rtrim(substr(dirname($file),strlen(ROOT))."/".basename($file,".rdf"),"/"),"/index"),"/");
+//  echo dirname($file) . "\n";
+//  echo $file . "\n";
+  echo $uri . "\n";
   $targetfile = dirname($file)."/".basename($file,".rdf").".html";
 
   $xml = new DOMDocument;

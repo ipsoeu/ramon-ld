@@ -140,6 +140,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title><xsl:value-of select="$title"/></title>
+    <link rel="canonical" href="{$uri}" />
     <xsl:copy-of select="$alternate"/>
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" media="screen"/>
     <link type="text/css" rel="stylesheet" href="https://bootswatch.com/3/assets/css/custom.min.css" media="screen"/>
@@ -366,7 +367,7 @@ $(document).ready(function() {
 	      <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#Concept']">
 -->
                 <tr>
-                  <td><a href="{$top-concept-uri}.html" title="{$top-concept-uri}"><xsl:value-of select="/*//*[@rdf:about = $top-concept-uri]/dcterms:identifier"/></a></td>
+                  <td><a href="{$top-concept-uri}" title="{$top-concept-uri}"><xsl:value-of select="/*//*[@rdf:about = $top-concept-uri]/dcterms:identifier"/></a></td>
                   <td><xsl:value-of select="/*//*[@rdf:about = $top-concept-uri]/skos:prefLabel"/></td>
                 </tr>
               </xsl:for-each>
@@ -391,7 +392,7 @@ $(document).ready(function() {
 	    <tbody>
 	      <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#Concept']">
                 <tr>
-                  <td><a href="{@rdf:about}.html" title="{@rdf:about}"><xsl:value-of select="dcterms:identifier"/></a></td>
+                  <td><a href="{@rdf:about}" title="{@rdf:about}"><xsl:value-of select="dcterms:identifier"/></a></td>
                   <td><xsl:value-of select="skos:prefLabel"/></td>
 		  <td>
 		    <xsl:for-each select="skos:broader">
@@ -399,9 +400,9 @@ $(document).ready(function() {
 <!--		    
 		      <xsl:variable name="broader_id" select="/*//*[@rdf:about = $broader_uri]/dcterms:identifier"/>
 		      <xsl:variable name="broader_name" select="/*//*[@rdf:about = $broader_uri]/skos:prefLabel"/>
-	              <a href="{$broader_uri}.html" title="{$broader_uri}"><xsl:value-of select="concat($broader_id,' - ',$broader_name)"/></a>
+	              <a href="{$broader_uri}" title="{$broader_uri}"><xsl:value-of select="concat($broader_id,' - ',$broader_name)"/></a>
 -->
-		      <a href="{$broader_uri}.html" title="{$broader_uri}"><xsl:value-of select="substring-after($broader_uri,concat($base_uri,$code,'/',$version,'/'))"/></a>
+		      <a href="{$broader_uri}" title="{$broader_uri}"><xsl:value-of select="substring-after($broader_uri,concat($base_uri,$code,'/',$version,'/'))"/></a>
 		    </xsl:for-each>
 		  </td>
                 </tr>
@@ -432,14 +433,14 @@ $(document).ready(function() {
           <dt>In scheme</dt>
           <dd>
             <xsl:for-each select="rdf:RDF/*/skos:inScheme">
-              <p><a title="{@rdf:resource}" href="{@rdf:resource}.html"><xsl:value-of select="concat($name,' / ',$version)"/></a></p>
+              <p><a title="{@rdf:resource}" href="{@rdf:resource}"><xsl:value-of select="concat($name,' / ',$version)"/></a></p>
             </xsl:for-each>
           </dd>
           <xsl:if test="rdf:RDF/*/skos:broader">
             <dt>Broader</dt>
             <dd>
               <xsl:for-each select="rdf:RDF/*/skos:broader">
-                <p><a href="{@rdf:resource}.html"><xsl:value-of select="substring-after(@rdf:resource,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
+                <p><a href="{@rdf:resource}"><xsl:value-of select="substring-after(@rdf:resource,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
               </xsl:for-each>
             </dd>
           </xsl:if>
@@ -447,7 +448,7 @@ $(document).ready(function() {
             <dt>Narrower</dt>
             <dd>
               <xsl:for-each select="rdf:RDF/*/skos:narrower">
-                <p><a href="{@rdf:resource}.html"><xsl:value-of select="substring-after(@rdf:resource,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
+                <p><a href="{@rdf:resource}"><xsl:value-of select="substring-after(@rdf:resource,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
               </xsl:for-each>
             </dd>
           </xsl:if>

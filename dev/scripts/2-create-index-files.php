@@ -104,6 +104,7 @@
     $output .= '  </rdf:Description>' . "\n";
     $output .= '</rdf:RDF>' . "\n";
     
+    file_put_contents($target_folder . '/' . $k . '.rdf', $output);
     file_put_contents($target_folder . '/' . $k . '/index.rdf', $output);
 
 //    echo $output;
