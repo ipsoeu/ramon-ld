@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
+  <rdf:Description rdf:about="https://ipsoeu.github.io/ramon-ld/nuts">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:identifier>nuts</dct:identifier>
+    <dct:alternative>NUTS</dct:alternative>
+    <dct:title xml:lang="en">Nomenclature of Territorial Units for Statistics</dct:title>
+    <dct:description xml:lang="en">Nomenclature of Territorial Units for Statistics</dct:description>
+    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts"/>
+    <dct:hasVersion rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2010"/>
+    <dct:hasVersion rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2013"/>
+    <dct:hasVersion rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016"/>
+  </rdf:Description>
+</rdf:RDF>
