@@ -15,7 +15,8 @@ foreach (rglob(ROOT . "*.rdf") as $file) {
   $version = "";
 //  echo dirname($file)."/".basename($file,".rdf").".html" . "\n";
 //  echo basename(dirname($file))."\n";
-  $p = explode("/",substr($file, strlen(ROOT)));
+//  $p = explode("/",substr($file, strlen(ROOT)));
+  $p = explode("/",substr(dirname($file)."/".basename($file,".rdf"), strlen(ROOT)));
 //  var_dump($p);
   if (count($p) > 0) {
     if (isset($dataset[$p[0]])) {
