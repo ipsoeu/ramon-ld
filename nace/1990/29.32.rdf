@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/29.32">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/29.32">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.32</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.32</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- manufacture of mowers, including lawnmowers - manufacture of agricultural self-loading or self-unloading trailers or semi-trailers - manufacture of agricultural machinery for soil preparation, planting or fertilizing: &#x2022; ploughs, manure spreaders, seeders, harrows, etc. - manufacture of harvesting or threshing machinery: &#x2022; harvesters, threshers, sorters, etc. - manufacture of milking machines - manufacture of spraying machinery for agricultural use - manufacture of diverse agricultural machinery: &#x2022; poultry-keeping machinery, bee-keeping machinery, equipment for preparing fodder, etc. &#x2022; machines for cleaning, sorting or grading eggs, fruit, seed, grain, etc.</skos:definition>
     <xkos:coreContentNote xml:lang="en">- manufacture of mowers, including lawnmowers - manufacture of agricultural self-loading or self-unloading trailers or semi-trailers - manufacture of agricultural machinery for soil preparation, planting or fertilizing: &#x2022; ploughs, manure spreaders, seeders, harrows, etc. - manufacture of harvesting or threshing machinery: &#x2022; harvesters, threshers, sorters, etc. - manufacture of milking machines - manufacture of spraying machinery for agricultural use - manufacture of diverse agricultural machinery: &#x2022; poultry-keeping machinery, bee-keeping machinery, equipment for preparing fodder, etc. &#x2022; machines for cleaning, sorting or grading eggs, fruit, seed, grain, etc.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- manufacture of agricultural hand tools, see 28.62 - manufacture of works trucks, see 29.22 - manufacture of cream separators, see 29.53 - manufacture of road trailers or semi-trailers, see 34.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/29.3"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/29.3"/>
   </rdf:Description>
 </rdf:RDF>

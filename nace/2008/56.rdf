@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/56">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/56">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56</skos:notation>
@@ -9,9 +9,9 @@
     <skos:definition xml:lang="all">This division includes food and beverage serving activities providing complete meals or drinks fit for immediate consumption, whether in traditional restaurants, self-service or take-away restaurants, whether as permanent or temporary stands with or without seating. Decisive is the fact that meals fit for immediate consumption are offered, not the kind of facility providing them.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This division includes food and beverage serving activities providing complete meals or drinks fit for immediate consumption, whether in traditional restaurants, self-service or take-away restaurants, whether as permanent or temporary stands with or without seating. Decisive is the fact that meals fit for immediate consumption are offered, not the kind of facility providing them.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">Excluded is the production of meals not fit for immediate consumption or not planned to be consumed immediately or of prepared food which is not considered to be a meal (see divisions 10: manufacture of food products and 11: manufacture of beverages). Also excluded is the sale of not self-manufactured food that is not considered to be a meal or of meals that are not fit for immediate consumption (see section G: wholesale and retail trade).</xkos:exclusionNote>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/56.1"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/56.2"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/56.3"/>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/I"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/56.1"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/56.2"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/56.3"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/I"/>
   </rdf:Description>
 </rdf:RDF>

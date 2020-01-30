@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/77">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/77">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</skos:notation>
@@ -9,10 +9,10 @@
     <skos:definition xml:lang="all">This division includes the rental and leasing of tangible and non-financial intangible assets, including a wide array of tangible goods, such as automobiles, computers, consumer goods, and industrial machinery and equipment, to customers in return for a periodic rental or lease payment. It is subdivided into: (1) the rental of motor vehicles, (2) the rental of recreational and sports equipment and personal and household equipment, (3) the leasing of other machinery and equipment of the kind often used for business operations, including other transport equipment and (4) the leasing of intellectual property products and similar products. Only the provision of operating leases is included in this division.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This division includes the rental and leasing of tangible and non-financial intangible assets, including a wide array of tangible goods, such as automobiles, computers, consumer goods, and industrial machinery and equipment, to customers in return for a periodic rental or lease payment. It is subdivided into: (1) the rental of motor vehicles, (2) the rental of recreational and sports equipment and personal and household equipment, (3) the leasing of other machinery and equipment of the kind often used for business operations, including other transport equipment and (4) the leasing of intellectual property products and similar products. Only the provision of operating leases is included in this division.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This division excludes: - financial leasing, see 64.91 - rental of real estate, see section L - rental of equipment with operator, see corresponding classes according to activities carried out with this equipment, e.g. construction (section F), transportation (section H)</xkos:exclusionNote>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/77.1"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/77.2"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/77.3"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/77.4"/>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/N"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/77.1"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/77.2"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/77.3"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/77.4"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/N"/>
   </rdf:Description>
 </rdf:RDF>

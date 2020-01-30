@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/31.01">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/31.01">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31.01</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31.01</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes the manufacture of furniture of any kind, any material (except stone, concrete or ceramic) for any place and various purposes. This class includes: - manufacture of chairs and seats for offices, workrooms, hotels, restaurants and public premises - manufacture of chairs and seats for theatres, cinemas and the like - manufacture of special furniture for shops: counters, display cases, shelves etc. - manufacture of office furniture - manufacture of laboratory benches, stools, and other laboratory seating, laboratory furniture (e.g. cabinets and tables) - manufacture of furniture for churches, schools, restaurants</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - decorative restaurant carts, such as a desert cart, food wagons</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - blackboards, see 28.23 - manufacture of car seats, see 29.32 - manufacture of railway car seats, see 30.20 - manufacture of aircraft seats, see 30.30 - manufacture of medical, surgical, dental or veterinary furniture, see 32.50 - modular furniture attachment and installation, partition installation, laboratory equipment furniture installation, see 43.32</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/31.0"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/31.0"/>
   </rdf:Description>
 </rdf:RDF>

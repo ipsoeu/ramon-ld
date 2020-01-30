@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/84.12">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/84.12">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.12</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.12</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - public administration of programmes aimed to increase personal well-being: &#x2022; health &#x2022; education &#x2022; culture &#x2022; sport &#x2022; recreation &#x2022; environment &#x2022; housing &#x2022; social services - public administration of research and development policies and associated funds for these areas</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - sponsoring of recreational and cultural activities - distribution of public grants to artists - administration of potable water supply programmes - administration of waste collection and disposal operations - administration of environmental protection programmes - administration of housing programmes</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - sewage, refuse disposal and remediation activities, see divisions 37, 38, 39 - compulsory social security activities, see 84.30 - education activities, see section P - human health-related activities, see division 86 - museums and other cultural institutions, see division 91 - activities of government operated libraries and archives, see 91.01 - sporting or other recreational activities, see division 93</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/84.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/84.1"/>
   </rdf:Description>
 </rdf:RDF>

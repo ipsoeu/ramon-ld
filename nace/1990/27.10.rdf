@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/27.10">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/27.10">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27.10</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">- production of pig iron and steel resulting from ore or scrap reduction: &#x2022; production of foundry pig iron and steelmaking pig iron &#x2022; production of ferrous products obtained by direct reduction of iron ore, and other spongy ferrous products in lumps, pellets or similar forms &#x2022; production of steel in a converter, electric furnace or by other methods - production of high-carbon ferro-manganese and spiegeleisen - production of hot- or cold-rolled steel products (including those obtained by continuous casting): &#x2022; production of ingots, other primary forms and semi-finished products &#x2022; production and/or continuous coating of hot-rolled wide strip, narrow strip, plates and sheets and wide flats &#x2022; production and/or continuous coating of cold-rolled wide strip, plates and sheets &#x2022; production of tinplate, electrolytically chromium-coated sheet, blackplate &#x2022; production of hot-rolled steel bars and rods &#x2022; production of hot-rolled heavy and light sections and sheet piling &#x2022; production of rails and other hot-rolled railway materials</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- production of hot-rolled products and cold-rolled wide strip and sheet, coated or uncoated, further worked than simply surface-treated, but not thereby classified under another heading</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- production of cold-rolled narrow strip, coated or uncoated, of a width up to 500 mm (non-ECSC) by cold reduction of hot-rolled flat products or by slitting cold-rolled flat products (ECSC), coated or uncoated, see 27.32 - production of granules and powders of pig iron, iron or steel, see 27.35 - production of ferro-alloys other than high-carbon ferro-manganese, see 27.35 - production of forged semi-finished products, blanks and bars, see 27.35 - production of iron and steel castings, see 27.5</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/27.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/27.1"/>
   </rdf:Description>
 </rdf:RDF>

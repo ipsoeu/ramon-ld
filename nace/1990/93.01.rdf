@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/93.01">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/93.01">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.01</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.01</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">- laundering and dry-cleaning, pressing, etc., of all kinds of clothing (including fur) and textiles, provided by mechanical equipment, by hand or by self-service coin-operated machines whether for the general public or for industrial or commercial clients - laundry collection and delivery - carpet and rug shampooing and drapery and curtain cleaning - renting of linens, work uniforms, and related items by laundries</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- repair and minor alteration of garments or other textile articles when done in connection with cleaning</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- repair and alteration of clothing, etc., as an independent activity, see 52.74 - renting of clothing other than work uniforms, even if cleaning of these goods is an integral part of the activity, see 71.40</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/93.0"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/93.0"/>
   </rdf:Description>
 </rdf:RDF>

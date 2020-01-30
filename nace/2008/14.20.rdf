@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/14.20">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/14.20">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14.20</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14.20</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - manufacture of articles made of fur skins: &#x2022; fur wearing apparel and clothing accessories &#x2022; assemblies of fur skins such as "dropped" fur skins, plates, mats, strips etc. &#x2022; diverse articles of fur skins: rugs, unstuffed pouffes, industrial polishing cloths</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of articles made of fur skins: &#x2022; fur wearing apparel and clothing accessories &#x2022; assemblies of fur skins such as "dropped" fur skins, plates, mats, strips etc. &#x2022; diverse articles of fur skins: rugs, unstuffed pouffes, industrial polishing cloths</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - production of raw fur skins, see 01.4, 01.70 - production of raw hides and skins, see 10.11 - manufacture of imitation furs (long-hair cloth obtained by weaving or knitting), see 13.20, 13.91 - manufacture of fur hats, see 14.19 - manufacture of apparel trimmed with fur, see 14.19 - dressing and dyeing of fur, see 15.11 - manufacture of boots or shoes containing fur parts, see 15.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/14.2"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/14.2"/>
   </rdf:Description>
 </rdf:RDF>

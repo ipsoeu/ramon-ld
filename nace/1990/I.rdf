@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/I">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/I">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</skos:notation>
@@ -9,7 +9,7 @@
     <skos:definition xml:lang="en">- activities related to providing passenger or freight transport, whether scheduled or not, by rail, pipeline, road, water or air - supporting activities such as terminal and parking facilities, cargo handling, storage, etc. - postal activities and telecommunication - renting of transport equipment with driver or operator</skos:definition>
     <xkos:coreContentNote xml:lang="en">- activities related to providing passenger or freight transport, whether scheduled or not, by rail, pipeline, road, water or air - supporting activities such as terminal and parking facilities, cargo handling, storage, etc. - postal activities and telecommunication - renting of transport equipment with driver or operator</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- major repair or alteration of transport equipment, except motor vehicles, see 35 - construction, maintenance and repair of roads, railroads, harbours, airfields, see 45 - maintenance and repair of motor vehicles, see 50.20 - renting of transport equipment without driver or operator, see 71.1, 71.2</xkos:exclusionNote>
-    <skos:topConceptOf rdf:resource="http://localhost/ramon-ld/nace/1990"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/1990/IA"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/IA"/>
   </rdf:Description>
 </rdf:RDF>

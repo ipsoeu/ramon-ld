@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/20.15">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/20.15">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.15</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20.15</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of fertilisers: &#x2022; straight or complex nitrogenous, phosphatic or potassic fertilisers &#x2022; urea, crude natural phosphates and crude natural potassium salts - manufacture of associated nitrogen products: &#x2022; nitric and sulphonitric acids, ammonia, ammonium chloride, ammonium carbonate, nitrites and nitrates of potassium</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of potting soil with peat as main constituent - manufacture of potting soil mixtures of natural soil, sand, clays and minerals</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - mining of guano, see 08.91 - manufacture of agrochemical products, such as pesticides, see 20.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/20.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/20.1"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/15.88">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/15.88">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.88</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.88</skos:notation>
     <skos:prefLabel xml:lang="en">Manufacture of homogenized food preparations and dietetic food</skos:prefLabel>
     <skos:definition xml:lang="en">This class includes: &#x2013; manufacture of foods for particular nutritional uses (Council Directive, OJ No L 186, 30. 6. 1989): &#x2022; infant formulae &#x2022; follow-up milk and other follow-up foods &#x2022; baby foods &#x2022; low-energy and energy-reduced foods intended for weight control &#x2022; dietary foods for special medical purposes &#x2022; low-sodium foods, including low-sodium or sodium-free dietary salts &#x2022; gluten-free foods &#x2022; foods intended to meet the expenditure of intense muscular effort, especially for sportsmen &#x2022; foods for persons suffering from carbohydrate metabolism disorders (diabetes)</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of foods for particular nutritional uses (Council Directive, OJ No L 186, 30. 6. 1989): &#x2022; infant formulae &#x2022; follow-up milk and other follow-up foods &#x2022; baby foods &#x2022; low-energy and energy-reduced foods intended for weight control &#x2022; dietary foods for special medical purposes &#x2022; low-sodium foods, including low-sodium or sodium-free dietary salts &#x2022; gluten-free foods &#x2022; foods intended to meet the expenditure of intense muscular effort, especially for sportsmen &#x2022; foods for persons suffering from carbohydrate metabolism disorders (diabetes)</xkos:coreContentNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/15.8"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/15.8"/>
   </rdf:Description>
 </rdf:RDF>

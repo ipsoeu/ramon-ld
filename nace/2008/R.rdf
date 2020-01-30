@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/R">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/R">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</skos:notation>
     <skos:prefLabel xml:lang="en">ARTS, ENTERTAINMENT AND RECREATION</skos:prefLabel>
     <skos:definition xml:lang="all">This section includes a wide range of activities to meet varied cultural, entertainment and recreational interests of the general public, including live performances, operation of museum sites, gambling, sports and recreation activities.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This section includes a wide range of activities to meet varied cultural, entertainment and recreational interests of the general public, including live performances, operation of museum sites, gambling, sports and recreation activities.</xkos:coreContentNote>
-    <skos:topConceptOf rdf:resource="http://localhost/ramon-ld/nace/2008"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/90"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/91"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/92"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/93"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/94"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/95"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/96"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/97"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/98"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/99"/>
+    <skos:topConceptOf rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/90"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/91"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/92"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/93"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/94"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/95"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/96"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/97"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/98"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/99"/>
   </rdf:Description>
 </rdf:RDF>

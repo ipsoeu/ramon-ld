@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/55.10">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/55.10">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55.10</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes the provision of accommodation, typically on a daily or weekly basis, principally for short stays by visitors. This includes the provision of furnished accommodation in guest rooms and suites. Services include daily cleaning and bed-making. A range of additional services may be provided such as food and beverage services, parking, laundry services, swimming pools and exercise rooms, recreational facilities as well as conference and convention facilities. This class includes accommodation provided by: - hotels - resort hotels - suite/apartment hotels - motels</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes the provision of accommodation, typically on a daily or weekly basis, principally for short stays by visitors. This includes the provision of furnished accommodation in guest rooms and suites. Services include daily cleaning and bed-making. A range of additional services may be provided such as food and beverage services, parking, laundry services, swimming pools and exercise rooms, recreational facilities as well as conference and convention facilities. This class includes accommodation provided by: - hotels - resort hotels - suite/apartment hotels - motels</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - provision of homes and furnished or unfurnished flats or apartments for more permanent use, typically on a monthly or annual basis, see division 68</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/55.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/55.1"/>
   </rdf:Description>
 </rdf:RDF>

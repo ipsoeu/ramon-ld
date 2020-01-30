@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/71.11.41">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/71.11.41">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.11.41</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.11.41</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes landscape architecture services for: - residential building projects: &#x2022; single-family residential projects &#x2022; multi-family residential projects &#x2022; residential subdivision projects - non-residential building projects: &#x2022; corporate building projects &#x2022; hotels, convention centres, stadiums and arenas &#x2022; educational building projects &#x2022; health care, penal institutions &#x2022; other non-residential building projects - recreational and open-space projects: &#x2022; city centres and public squares &#x2022; non-building recreational facilities, parks and natural areas &#x2022; transportation corridors &#x2022; resorts &#x2022; other recreational and open space projects</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes landscape architecture services for: - residential building projects: &#x2022; single-family residential projects &#x2022; multi-family residential projects &#x2022; residential subdivision projects - non-residential building projects: &#x2022; corporate building projects &#x2022; hotels, convention centres, stadiums and arenas &#x2022; educational building projects &#x2022; health care, penal institutions &#x2022; other non-residential building projects - recreational and open-space projects: &#x2022; city centres and public squares &#x2022; non-building recreational facilities, parks and natural areas &#x2022; transportation corridors &#x2022; resorts &#x2022; other recreational and open space projects</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This subcategory also includes landscape architecture services related to: - preparing and modifying terrain such as land clearing and grading plans, drainage designs, erosion and sediment control designs, retaining wall designs, outdoor sprinkler system plans - facilitating access to a site such as lighting plans, signage plans, trail and path plans, accessibility designs - structures with specialised uses</xkos:additionalContentNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/71.11.4"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/71.11.4"/>
   </rdf:Description>
 </rdf:RDF>

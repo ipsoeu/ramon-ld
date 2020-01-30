@@ -2,7 +2,7 @@
 
 <!--  
 
-  Copyright 2017-2019 EUROPEAN UNION
+  Copyright 2017-2020 EUROPEAN UNION
   Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
   the European Commission - subsequent versions of the EUPL (the "Licence");
   You may not use this work except in compliance with the Licence.
@@ -16,7 +16,7 @@
   See the Licence for the specific language governing permissions and
   limitations under the Licence.
  
-  Authors: European Commission - Joint Research Centre
+  Authors: European Commission, Joint Research Centre (JRC)
            Andrea Perego <andrea.perego@ec.europa.eu>
  
   This work was supported by the EU Interoperability Solutions for

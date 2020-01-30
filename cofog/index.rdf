@@ -5,17 +5,8 @@
     <dct:identifier>cofog</dct:identifier>
     <dct:alternative>COFOG</dct:alternative>
     <dct:title xml:lang="en">Classification of the functions of government</dct:title>
+    <dct:description xml:lang="en">Classification of the functions of government</dct:description>
     <dcat:landingPage rdf:resource="https://ipsoeu.github.io/ramon-ld/cofog"/>
-    <dcat:distribution>
-      <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-        <dct:title xml:lang="en">RDF/XML representation of COFOG</dct:title>
-        <dct:description xml:lang="en">RDF/XML representation of the Classification of the functions of government (COFOG).</dct:description>
-        <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-        <dcat:downloadURL rdf:resource="https://ipsoeu.github.io/ramon-ld/cofog/index.rdf"/>
-      </rdf:Description>
-    </dcat:distribution>
     <dct:hasVersion rdf:resource="https://ipsoeu.github.io/ramon-ld/cofog/1999"/>
   </rdf:Description>
 </rdf:RDF>

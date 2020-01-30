@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/70.22.17">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/70.22.17">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.22.17</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.22.17</skos:notation>
     <skos:prefLabel xml:lang="en">Business process management services</skos:prefLabel>
     <skos:definition xml:lang="all">This subcategory includes the provision of a bundled service package that combines information technology-intensive services with labour (manual or professional depending on the solution), machinery, and facilities to support, host and manage a business process for a client: - financial business process such as financial transaction processing, credit card processing, payment services, lending services - human resource business process such as benefits administration, payroll processing, personnel administration - supply chain management business process such as inventory management, procurement services, logistics services, production scheduling and order processing - customer relations management business process such as help desk, call centre, customer service - vertical market business process, conducted by specific industries such as electric, chemical, petroleum - other business processes for a client</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes the provision of a bundled service package that combines information technology-intensive services with labour (manual or professional depending on the solution), machinery, and facilities to support, host and manage a business process for a client: - financial business process such as financial transaction processing, credit card processing, payment services, lending services - human resource business process such as benefits administration, payroll processing, personnel administration - supply chain management business process such as inventory management, procurement services, logistics services, production scheduling and order processing - customer relations management business process such as help desk, call centre, customer service - vertical market business process, conducted by specific industries such as electric, chemical, petroleum - other business processes for a client</xkos:coreContentNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/70.22.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/70.22.1"/>
   </rdf:Description>
 </rdf:RDF>

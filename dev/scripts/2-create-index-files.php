@@ -44,6 +44,7 @@
   $output .= '    <dct:title xml:lang="en">' . TOOL_NAME . '</dct:title>' . "\n";
   $output .= '    <dct:description xml:lang="en">' . ABOUT_TEXT . '</dct:description>' . "\n";
   $output .= '    <dcat:landingPage rdf:resource="' . $base_uri . '"/>' . "\n";
+/*
   foreach ($formats as $k => $v) {
     if ($k != "html") {
       $output .= '    <dcat:distribution>' . "\n";
@@ -58,6 +59,7 @@
       $output .= '    </dcat:distribution>' . "\n";
     }
   }
+*/
   foreach ($dataset as $k => $v) {
     $output .= '    <dcat:dataset rdf:resource="' . $base_uri . $k . '"/>' . "\n";
   }
@@ -76,7 +78,9 @@
     $output .= '    <dct:identifier>' . $k . '</dct:identifier>' . "\n";
     $output .= '    <dct:alternative>' . strtoupper($k) . '</dct:alternative>' . "\n";
     $output .= '    <dct:title xml:lang="en">' . $v["name"] . '</dct:title>' . "\n";
+    $output .= '    <dct:description xml:lang="en">' . $v["name"] . '</dct:description>' . "\n";
     $output .= '    <dcat:landingPage rdf:resource="' . $base_uri . $k . '"/>' . "\n";
+/*
     foreach ($formats as $fk => $fv) {
       if ($fk != "html") {
         $output .= '    <dcat:distribution>' . "\n";
@@ -91,6 +95,7 @@
         $output .= '    </dcat:distribution>' . "\n";
       }
     }
+*/    
     foreach (glob("../../" . $k . "/*.rdf") as $vv) {
       if (basename($vv) != "index.rdf") {
         $output .= '    <dct:hasVersion rdf:resource="' . $base_uri . $k . '/' . basename($vv, ".rdf") . '"/>' . "\n";

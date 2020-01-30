@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/28.23">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/28.23">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.23</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.23</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - manufacture of calculating machines - manufacture of adding machines, cash registers - manufacture of calculators, electronic or not - manufacture of postage meters, mail handling machines (envelope stuffing, sealing and addressing machinery; opening, sorting, scanning), collating machinery - manufacture of typewriters - manufacture of stenography machines - manufacture of office-type binding equipment (i.e. plastic or tape binding) - manufacture of cheque writing machines - manufacture of coin counting and coin wrapping machinery - manufacture of pencil sharpeners - manufacture of staplers and staple removers - manufacture of voting machines - manufacture of tape dispensers - manufacture of hole punches - manufacture of cash registers, mechanically operated - manufacture of photocopy machines - manufacture of toner cartridges - manufacture of blackboards; white boards and marker boards - manufacture of dictating machines</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of calculating machines - manufacture of adding machines, cash registers - manufacture of calculators, electronic or not - manufacture of postage meters, mail handling machines (envelope stuffing, sealing and addressing machinery; opening, sorting, scanning), collating machinery - manufacture of typewriters - manufacture of stenography machines - manufacture of office-type binding equipment (i.e. plastic or tape binding) - manufacture of cheque writing machines - manufacture of coin counting and coin wrapping machinery - manufacture of pencil sharpeners - manufacture of staplers and staple removers - manufacture of voting machines - manufacture of tape dispensers - manufacture of hole punches - manufacture of cash registers, mechanically operated - manufacture of photocopy machines - manufacture of toner cartridges - manufacture of blackboards; white boards and marker boards - manufacture of dictating machines</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of computers and peripheral equipment, see 26.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/28.2"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/28.2"/>
   </rdf:Description>
 </rdf:RDF>

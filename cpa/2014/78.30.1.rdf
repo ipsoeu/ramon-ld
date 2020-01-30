@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/78.30.1">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.1">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78.30.1</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78.30.1</skos:notation>
     <skos:prefLabel xml:lang="en">Other human resources provision services</skos:prefLabel>
     <skos:definition xml:lang="all">This category includes: - services for the supply of personnel for extended work assignments Under the terms of this arrangement, the client may recruit the person or persons hired by the staffing firm and assigned to their place of work, or transfer a portion of their existing workforce to the staffing firm. Long-term employees are placed on the payroll of the staffing firm, which is legally responsible for their actions, but when working they are supervised by the client. This service includes labour leasing, staff leasing, employee leasing, extended employee staffing and payrolling.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This category includes: - services for the supply of personnel for extended work assignments Under the terms of this arrangement, the client may recruit the person or persons hired by the staffing firm and assigned to their place of work, or transfer a portion of their existing workforce to the staffing firm. Long-term employees are placed on the payroll of the staffing firm, which is legally responsible for their actions, but when working they are supervised by the client. This service includes labour leasing, staff leasing, employee leasing, extended employee staffing and payrolling.</xkos:coreContentNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.11"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.12"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.13"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.14"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.15"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.16"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/cpa/2014/78.30.19"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.11"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.12"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.13"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.14"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.15"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.16"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/78.30.19"/>
   </rdf:Description>
 </rdf:RDF>

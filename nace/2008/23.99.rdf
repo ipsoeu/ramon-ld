@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/23.99">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/23.99">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.99</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23.99</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - manufacture of friction material and unmounted articles thereof with a base of mineral substances or of cellulose - manufacture of mineral insulating materials: &#x2022; slag wool, rock wool and similar mineral wools; exfoliated vermiculite, expanded clays and similar heat-insulating, sound-insulating or sound-absorbing materials - manufacture of articles of diverse mineral substances: &#x2022; worked mica and articles of mica, of peat, of graphite (other than electrical articles) etc. - manufacture of articles of asphalt or similar material, e.g. asphalt-based adhesives, coal tar pitch etc. - manufacture of carbon and graphite fibres and products (except electrodes and electrical applications) - manufacture of artificial corundum</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of friction material and unmounted articles thereof with a base of mineral substances or of cellulose - manufacture of mineral insulating materials: &#x2022; slag wool, rock wool and similar mineral wools; exfoliated vermiculite, expanded clays and similar heat-insulating, sound-insulating or sound-absorbing materials - manufacture of articles of diverse mineral substances: &#x2022; worked mica and articles of mica, of peat, of graphite (other than electrical articles) etc. - manufacture of articles of asphalt or similar material, e.g. asphalt-based adhesives, coal tar pitch etc. - manufacture of carbon and graphite fibres and products (except electrodes and electrical applications) - manufacture of artificial corundum</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of glass wool and non-woven glass wool products, see 23.14 - manufacture of graphite electrodes, see 27.90 - manufacture of carbon or graphite gaskets, see 28.29</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/23.9"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/23.9"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/26.80">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/26.80">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.80</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.80</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes the manufacture of magnetic and optical recording media. This class includes: - manufacture of blank magnetic audio and video tapes - manufacture of blank magnetic audio and video cassettes - manufacture of blank diskettes - manufacture of blank optical discs - manufacture of hard drive media</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes the manufacture of magnetic and optical recording media. This class includes: - manufacture of blank magnetic audio and video tapes - manufacture of blank magnetic audio and video cassettes - manufacture of blank diskettes - manufacture of blank optical discs - manufacture of hard drive media</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - reproduction of recorded media (computer media, sound, video, etc.), see 18.2</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/26.8"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/26.8"/>
   </rdf:Description>
 </rdf:RDF>

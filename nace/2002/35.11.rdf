@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/35.11">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/35.11">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.11</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35.11</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; building of commercial vessels: passenger vessels, ferry-boats, cargo ships, tankers, etc. &#x2013; building of warships &#x2013; building of fishing boats</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; construction of drilling platforms, floating or submersible &#x2013; construction of floating structures: &#x2022; floating docks, pontoons, coffer-dams, floating landing stages, buoys, floating tanks, barges, lighters, etc. &#x2013; maintenance, repair or alteration of ships</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of ships' propellers, see 28.75 &#x2013; manufacture of marine engines, see 29.11 &#x2013; manufacture of navigational instruments, see 33.20 &#x2013; manufacture of amphibious motor vehicles, see 34.10 &#x2013; manufacture of inflatable boats or rafts, see 35.12</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/35.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/35.1"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/61.10">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/61.10">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61.10</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- transport of passengers or freight over water, whether scheduled or not - operation of excursion, cruise or sightseeing boats - operation of ferries, water taxis, etc. - transport by towing or pushing of barges, oil rigs, etc. - rental of ships and boats with crew</skos:definition>
     <xkos:coreContentNote xml:lang="en">- transport of passengers or freight over water, whether scheduled or not - operation of excursion, cruise or sightseeing boats - operation of ferries, water taxis, etc. - transport by towing or pushing of barges, oil rigs, etc. - rental of ships and boats with crew</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- restaurant and bar activities on board ships, see 55.3, 55.4 - cargo handling, storage of freight, harbour operation and other auxiliary activities such as docking, pilotage, lighterage, vessel salvage, see 63</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/61.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/61.1"/>
   </rdf:Description>
 </rdf:RDF>

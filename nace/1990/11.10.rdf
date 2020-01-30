@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/11.10">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/11.10">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.10</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">- extraction of crude petroleum - production of crude gaseous hydrocarbon (natural gas) - extraction of condensates - draining and separation of liquid hydrocarbon fractions - liquefaction and regasification of natural gas for transportation - gas desulphurization</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- extraction of bituminous shale and sand - production of crude petroleum from bituminous shale and sand</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- service activities incidental to oil and gas extraction, see 11.20 - manufacture of refined petroleum products, see 23.20 - recovery of liquefied petroleum gases in the refining of petroleum, see 23.20 - operation of pipelines, see 60.30 - oil and gas exploration, see 74.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/11.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/11.1"/>
   </rdf:Description>
 </rdf:RDF>

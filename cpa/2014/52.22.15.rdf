@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/52.22.15">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/52.22.15">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.22.15</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52.22.15</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - vessel salvage services, provided on sea and coastal waters - towing services for vessels on sea and coastal waters Such services consist of recovering distressed and sunken vessels and their cargoes, including the raising of sunken vessels, the righting of capsized vessels and the refloating of stranded vessels.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - vessel salvage services, provided on sea and coastal waters - towing services for vessels on sea and coastal waters Such services consist of recovering distressed and sunken vessels and their cargoes, including the raising of sunken vessels, the righting of capsized vessels and the refloating of stranded vessels.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - towing services supplied to vessels on coastal waters or on open sea, see 50.20.22 - lifeboat services, marine fireboat services and other marine search and rescue services: &#x2022; police services, see 84.24.11 &#x2022; other public order and safety affairs related services, see 84.24.19 &#x2022; marine fireboat services, see 84.25.11</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/52.22.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/52.22.1"/>
   </rdf:Description>
 </rdf:RDF>

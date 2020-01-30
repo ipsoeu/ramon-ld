@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/90.00">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/90.00">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90.00</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90.00</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">- treatment of solid waste: &#x2022; collection of garbage, trash, rubbish and waste &#x2022; waste transportation: &#x2022; removal of building debris &#x2022; waste disposal by incineration or by other means: &#x2022; waste reduction &#x2022; dumping of refuse on land or in water, burial or ploughing-under of refuse &#x2022; treatment and destruction of toxic waste, including the cleaning of polluted soil - treatment of liquid waste: &#x2022; sewage removal, whether via drains, sewers or by other means, of human waste products and their treatment and disposal &#x2022; disposal of swage by dilution, screening and filtering, sedimentation, chemical precipitation, activated sludge treatment and other processes &#x2022; maintenance of sewers and drains &#x2022; emptying and cleaning of cesspools and septic tanks, servicing of chemical toilets &#x2022; treatment of waste water from swimming pools and from industry</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- collection of refuse in litter-bins in public places - outdoor sweeping and watering of streets, paths, car parks - snow and ice cleaning on highways, airport runways, including spreading of salt or sand, etc.</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- pest control in connection with agriculture, see 01.41 - recycling of refuse or waste, see 37 - collection, purification and distribution of water, see 41.00 - construction and repair of sewage systems, see 45.21 - disinfecting and exterminating activities in buildings, see 74.70</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/90.0"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/90.0"/>
   </rdf:Description>
 </rdf:RDF>

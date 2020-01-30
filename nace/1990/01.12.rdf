@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/01.12">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/01.12">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.12</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.12</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- growing of vegetables: tomatoes, melons, onions, cabbages, lettuce, cucumbers, carrots, beans, cress, sweet corn, courgettes, egg-plants, leeks - growing of seasoning herbs and vegetables: capers, 'peppers', fennel, parsley, chervil, tarragon, sweet marjoram - growing of mushrooms, gathering of forest mushrooms or truffles - growing of flowers - production of seeds for flowers, fruit or vegetables - growing of plants for planting or ornamental purposes, including turf for transplanting</skos:definition>
     <xkos:coreContentNote xml:lang="en">- growing of vegetables: tomatoes, melons, onions, cabbages, lettuce, cucumbers, carrots, beans, cress, sweet corn, courgettes, egg-plants, leeks - growing of seasoning herbs and vegetables: capers, 'peppers', fennel, parsley, chervil, tarragon, sweet marjoram - growing of mushrooms, gathering of forest mushrooms or truffles - growing of flowers - production of seeds for flowers, fruit or vegetables - growing of plants for planting or ornamental purposes, including turf for transplanting</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- growing of potatoes, see 01.11 - growing of sugar beets, see 01.11 - growing of oilseeds and oleaginous fruit, see 01.11 - growing of roots and tubers with a high starch or inulin content, see 01.11 - growing of cotton or other vegetable textile materials, see 01.11 - growing of spice crops, see 01.13 - growing of olives, see 01.13 - operation of forest tree nurseries, see 02.01 - growing of Christmas trees, see 02.01</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/01.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/01.1"/>
   </rdf:Description>
 </rdf:RDF>

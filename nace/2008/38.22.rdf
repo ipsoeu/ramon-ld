@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/38.22">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/38.22">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.22</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38.22</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes the disposal and treatment prior to disposal of solid or non-solid hazardous waste, including waste that if explosive, oxidising, flammable, toxic, irritant, carcinogenic, corrosive, infectious and other substances and preparations harmful for human health and environment. This class includes: - operation of facilities for treatment of hazardous waste - treatment and disposal of toxic live or dead animals and other contaminated waste - incineration of hazardous waste - disposal of used goods such as refrigerators to eliminate harmful waste - treatment, disposal and storage of radioactive nuclear waste including: &#x2022; treatment and disposal of transition radioactive waste, i.e. decaying within the period of transport, from hospitals &#x2022; encapsulation, preparation and other treatment of nuclear waste for storage</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes the disposal and treatment prior to disposal of solid or non-solid hazardous waste, including waste that if explosive, oxidising, flammable, toxic, irritant, carcinogenic, corrosive, infectious and other substances and preparations harmful for human health and environment. This class includes: - operation of facilities for treatment of hazardous waste - treatment and disposal of toxic live or dead animals and other contaminated waste - incineration of hazardous waste - disposal of used goods such as refrigerators to eliminate harmful waste - treatment, disposal and storage of radioactive nuclear waste including: &#x2022; treatment and disposal of transition radioactive waste, i.e. decaying within the period of transport, from hospitals &#x2022; encapsulation, preparation and other treatment of nuclear waste for storage</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - reprocessing of nuclear fuels, see 20.13 - incineration of non-hazardous waste, see 38.21 - decontamination, clean up of land, water; toxic material abatement, see 39.00</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/38.2"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/38.2"/>
   </rdf:Description>
 </rdf:RDF>

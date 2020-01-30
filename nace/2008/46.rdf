@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/46">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/46">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</skos:notation>
@@ -9,14 +9,14 @@
     <skos:definition xml:lang="all">This division includes wholesale trade on own account or on a fee or contract basis (commission trade) related to domestic wholesale trade as well as international wholesale trade (import/export).</skos:definition>
     <xkos:coreContentNote xml:lang="all">This division includes wholesale trade on own account or on a fee or contract basis (commission trade) related to domestic wholesale trade as well as international wholesale trade (import/export).</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This division excludes: - wholesale of motor vehicles, caravans and motorcycles, see 45.1, 45.4 - wholesale of motor vehicle accessories, see 45.31, 45.40 - rental and leasing of goods, see division 77 - packing of solid goods and bottling of liquid or gaseous goods, including blending and filtering for third parties, see 82.92</xkos:exclusionNote>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.1"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.2"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.3"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.4"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.5"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.6"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.7"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/46.9"/>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/G"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.1"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.2"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.3"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.4"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.5"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.6"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.7"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.9"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/G"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/70.22.20">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/70.22.20">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.22.20</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.22.20</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - co-ordination and supervision services for resources in preparing, running and completing a project on behalf of the client - project management services, which can involve budgeting, accounting and cost control, procurement, planning of time scales and other operating conditions, co-ordination of sub-contractors' work, inspection and quality control etc. - project management services that include management and office management services, with or without the provision of their own staff</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - co-ordination and supervision services for resources in preparing, running and completing a project on behalf of the client - project management services, which can involve budgeting, accounting and cost control, procurement, planning of time scales and other operating conditions, co-ordination of sub-contractors' work, inspection and quality control etc. - project management services that include management and office management services, with or without the provision of their own staff</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - construction project management services, see 71.12.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/70.22.2"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/70.22.2"/>
   </rdf:Description>
 </rdf:RDF>

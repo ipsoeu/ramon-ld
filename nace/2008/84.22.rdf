@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/84.22">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/84.22">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.22</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.22</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - administration, supervision and operation of military defence affairs and land, sea, air and space defence forces such as: &#x2022; combat forces of army, navy and air force &#x2022; engineering, transport, communications, intelligence, material, personnel and other non-combat forces and commands &#x2022; reserve and auxiliary forces of the defence establishment &#x2022; military logistics (provision of equipment, structures, supplies etc.) &#x2022; health activities for military personnel in the field - administration, operation and support of civil defence forces - support for the working out of contingency plans and the carrying out of exercises in which civilian institutions and populations are involved - administration of defence-related research and development policies and related funds</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - administration, supervision and operation of military defence affairs and land, sea, air and space defence forces such as: &#x2022; combat forces of army, navy and air force &#x2022; engineering, transport, communications, intelligence, material, personnel and other non-combat forces and commands &#x2022; reserve and auxiliary forces of the defence establishment &#x2022; military logistics (provision of equipment, structures, supplies etc.) &#x2022; health activities for military personnel in the field - administration, operation and support of civil defence forces - support for the working out of contingency plans and the carrying out of exercises in which civilian institutions and populations are involved - administration of defence-related research and development policies and related funds</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - research and experimental development activities, see division 72 - provision of military aid to foreign countries, see 84.21 - activities of military tribunals, see 84.23 - provision of supplies for domestic emergency use in case of peacetime disasters, see 84.24 - educational activities of military schools, colleges and academies, see 85.4 - activities of military hospitals, see 86.10</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/84.2"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/84.2"/>
   </rdf:Description>
 </rdf:RDF>

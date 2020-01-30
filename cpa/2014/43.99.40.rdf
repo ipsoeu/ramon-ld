@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/43.99.40">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/43.99.40">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43.99.40</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43.99.40</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - casting of concrete in form and other works generally making use of concrete, (general foundations, base courses, raft foundations, stanchions, floors etc.) - works involving the construction of form and reinforcement - consolidation of foundations - erection works of reinforced concrete frame requiring specialised skills or equipment because of its size or the method used - construction of domes and thin shells in concrete - special trade construction works involving steel bending and welding for reinforced concreting on construction projects</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - casting of concrete in form and other works generally making use of concrete, (general foundations, base courses, raft foundations, stanchions, floors etc.) - works involving the construction of form and reinforcement - consolidation of foundations - erection works of reinforced concrete frame requiring specialised skills or equipment because of its size or the method used - construction of domes and thin shells in concrete - special trade construction works involving steel bending and welding for reinforced concreting on construction projects</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - prefabrication of concrete members for construction, see 23.61.12 - ready-mixed concrete, see 23.63.10 - construction works involving the paving of streets, highways and public sidewalks, see 42.11.20 - construction works for bridges and elevated highways, see 42.13.20 - construction works for tunnels, see 42.13.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/43.99.4"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/43.99.4"/>
   </rdf:Description>
 </rdf:RDF>

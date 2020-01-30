@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/93.19">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/93.19">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.19</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93.19</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - activities of producers or promoters of sports events, with or without facilities - activities of individual own-account sportsmen and athletes, referees, judges, timekeepers etc. - activities of sports leagues and regulating bodies - activities related to promotion of sporting events - activities of racing stables, kennels and garages - operation of sport fishing and hunting preserves - activities of mountain guides - support activities for sport or recreational hunting and fishing</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - activities of producers or promoters of sports events, with or without facilities - activities of individual own-account sportsmen and athletes, referees, judges, timekeepers etc. - activities of sports leagues and regulating bodies - activities related to promotion of sporting events - activities of racing stables, kennels and garages - operation of sport fishing and hunting preserves - activities of mountain guides - support activities for sport or recreational hunting and fishing</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - rental of sports equipment, see 77.21 - activities of sport and game schools, see 85.51 - activities of sports instructors, teachers, coaches, see 85.51 - organisation and operation of outdoor or indoor sports events for professionals or amateurs by sports clubs with/without own facilities, see 93.11, 93.12 - park and beach activities, see 93.29</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/93.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/93.1"/>
   </rdf:Description>
 </rdf:RDF>

@@ -12,7 +12,7 @@
   define("NACE_TO_SKOS","../xslt/nace-to-skos.xsl");
   define("SKOS_TO_HTML","../xslt/skos2html.xsl");
 
-  $abs_path = parse_url(BASE_URI, PHP_URL_PATH);
+//  $abs_path = parse_url(BASE_URI, PHP_URL_PATH);
 
   $formats["html"]["code"] = "format_html";
   $formats["html"]["label"] = "HTML";
@@ -54,6 +54,20 @@
     $formats[$k]["description"] = $formats[$k]["label"] . " representation";
   }
 
+  $claset  = "cofog";
+  $version = "1999";
+  $claset  = "cpa";
+  $version = "2014";
+  $claset  = "nace";
+  $version = "1990";
+  $claset  = "nace";
+  $version = "2002";
+  $claset  = "nace";
+  $version = "2008";
+  $claset  = "nuts";
+  $version = "2010";
+  $claset  = "nuts";
+  $version = "2013";
   $claset  = "nuts";
   $version = "2016";
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/10.51">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/10.51">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.51</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.51</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - manufacture of fresh liquid milk, pasteurised, sterilised, homogenised and/or ultra heat treated - manufacture of milk-based drinks - manufacture of cream from fresh liquid milk, pasteurised, sterilised, homogenised - manufacture of dried or concentrated milk whether or not sweetened - manufacture of milk or cream in solid form - manufacture of butter - manufacture of yoghurt - manufacture of cheese and curd - manufacture of whey - manufacture of casein or lactose</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of fresh liquid milk, pasteurised, sterilised, homogenised and/or ultra heat treated - manufacture of milk-based drinks - manufacture of cream from fresh liquid milk, pasteurised, sterilised, homogenised - manufacture of dried or concentrated milk whether or not sweetened - manufacture of milk or cream in solid form - manufacture of butter - manufacture of yoghurt - manufacture of cheese and curd - manufacture of whey - manufacture of casein or lactose</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - production of raw milk (cattle), see 01.41 - production of raw milk (sheep, goats, horses, asses, camels, etc.), see 01.43, 01.44, 01.45 - manufacture of non-dairy milk and cheese substitutes, see 10.89</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/10.5"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/10.5"/>
   </rdf:Description>
 </rdf:RDF>

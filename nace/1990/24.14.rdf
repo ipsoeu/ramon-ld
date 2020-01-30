@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/24.14">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/24.14">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.14</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24.14</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- manufacture of other organic basic chemicals: &#x2022; acyclic hydrocarbons, saturated and unsaturated &#x2022; cyclic hydrocarbons, saturated and unsaturated &#x2022; acyclic and cyclic alcohols, including synthetic ethyl alcohol &#x2022; mono- and polycarboxylic acids, including acetic acid &#x2022; other oxygen-function compounds, including aldehydes, ketones, quinones and dual or poly oxygen-function compounds &#x2022; nitrogen-function organic compounds, including amines &#x2022; other organic compounds, including wood distillation products, etc. - manufacture of charcoal - production of pitch and pitch coke - manufacture of synthetic aromatic products - distillation of coal tar</skos:definition>
     <xkos:coreContentNote xml:lang="en">- manufacture of other organic basic chemicals: &#x2022; acyclic hydrocarbons, saturated and unsaturated &#x2022; cyclic hydrocarbons, saturated and unsaturated &#x2022; acyclic and cyclic alcohols, including synthetic ethyl alcohol &#x2022; mono- and polycarboxylic acids, including acetic acid &#x2022; other oxygen-function compounds, including aldehydes, ketones, quinones and dual or poly oxygen-function compounds &#x2022; nitrogen-function organic compounds, including amines &#x2022; other organic compounds, including wood distillation products, etc. - manufacture of charcoal - production of pitch and pitch coke - manufacture of synthetic aromatic products - distillation of coal tar</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- manufacture of ethyl alcohol from fermented materials, see 15.92 - manufacture of plastics in primary forms, see 24.16 - manufacture of synthetic rubber in primary forms, see 24.17 - manufacture of salicylic and O-acetylsalicylic acids, see 24.41 - manufacture of crude glycerol, see 24.51 - manufacture of essential oils, see 24.63</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/24.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/24.1"/>
   </rdf:Description>
 </rdf:RDF>

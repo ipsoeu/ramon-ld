@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/37.10">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/37.10">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37.10</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">This class includes: &#x2013; processing of metal waste and scrap and of metal articles into secondary raw material. Examples for mechanical or chemical transformation processes are: &#x2022; mechanical crushing of metal waste such as used cars, washing machines, bikes, etc. with subsequent sorting and separation &#x2022; mechanical reduction of large iron pieces such as railway wagons &#x2022; shredding of metal waste, end of life vehicles, etc. &#x2022; other methods of mechanical treatment such as cutting, pressing to reduce the volume</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; processing of metal waste and scrap and of metal articles into secondary raw material. Examples for mechanical or chemical transformation processes are: &#x2022; mechanical crushing of metal waste such as used cars, washing machines, bikes, etc. with subsequent sorting and separation &#x2022; mechanical reduction of large iron pieces such as railway wagons &#x2022; shredding of metal waste, end of life vehicles, etc. &#x2022; other methods of mechanical treatment such as cutting, pressing to reduce the volume</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of new final metals or new final metal products from (whether or not self-manufactured) secondary metal raw materials, see 27 or 28 &#x2013; car dismantling sites, demolition of machinery, computers in order to obtain reusable parts etc., including trade in second-hand spare parts, see 50, 51, 52 &#x2013; disposal of used goods such as refrigerators to eliminate harmful waste, see 90</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/37.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/37.1"/>
   </rdf:Description>
 </rdf:RDF>

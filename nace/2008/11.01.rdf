@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/11.01">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/11.01">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.01</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.01</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - manufacture of distilled, potable, alcoholic beverages: whisky, brandy, gin, liqueurs etc. - manufacture of drinks mixed with distilled alcoholic beverages - blending of distilled spirits - production of neutral spirits</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of distilled, potable, alcoholic beverages: whisky, brandy, gin, liqueurs etc. - manufacture of drinks mixed with distilled alcoholic beverages - blending of distilled spirits - production of neutral spirits</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of non-distilled alcoholic beverages, see 11.02-11.06 - manufacture of synthetic ethyl alcohol, see 20.14 - manufacture of ethyl alcohol from fermented materials, see 20.14 - merely bottling and labelling, see 46.34 (if performed as part of wholesale) and 82.92 (if performed on a fee or contract basis)</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/11.0"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/11.0"/>
   </rdf:Description>
 </rdf:RDF>

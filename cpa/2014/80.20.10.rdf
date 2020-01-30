@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/80.20.10">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/80.20.10">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80.20.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80.20.10</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - services consisting of monitoring and maintaining security systems devices, such as burglar and fire alarms, by receiving alarm signals, confirming or checking that all systems are properly functioning, and dispatching police officers, fire department or other designated parties</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This subcategory also includes: - remote monitoring services</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - installation services of security systems, such as burglar and fire alarms, without later monitoring, see 43.21.10 - selling security systems, mechanical or electronic locking devices, safes and security vaults, without monitoring, installation or maintenance services, see 47.00.59 - security consulting as a stand-alone service, see 74.90.15 - providing key duplication services, see 95.29.19</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/80.20.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/80.20.1"/>
   </rdf:Description>
 </rdf:RDF>

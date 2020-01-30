@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/47">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/47">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47</skos:notation>
@@ -10,15 +10,15 @@
     <xkos:coreContentNote xml:lang="all">This division includes the resale (sale without transformation) of new and used goods mainly to the general public for personal or household consumption or utilisation, by shops, department stores, stalls, mail-order houses, door-to-door sales persons, hawkers, consumer cooperatives etc. Retail trade is classified first by type of sale outlet (retail trade in stores: groups 47.1 to 47.7; retail trade not in stores: groups 47.8 and 47.9). Retail trade in stores includes the retail sale of used goods (class 47.79). For retail sale in stores, there exists a further distinction between specialised retail sale (groups 47.2 to 47.7) and non-specialised retail sale (group 47.1). The above groups are further subdivided by the range of products sold. Sale not via stores is subdivided according to the forms of trade, such as retail sale via stalls and markets (group 47.8) and other non-store retail sale, e.g. mail order, door-to-door, by vending machines etc. (group 47.9). The goods sold in this division are limited to goods usually referred to as consumer goods or retail goods. Therefore goods not normally entering the retail trade, such as cereal grains, ores, industrial machinery etc. are excluded.</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This division also includes units engaged primarily in selling to the general public, from displayed merchandise, products such as personal computers, stationery, paint or timber, although these products may not be for personal or household use. Handling that is customary in trade does not affect the basic character of the merchandise and may include, for example, sorting, separating, mixing and packaging. This division also includes the retail sale by commission agents and activities of retail auctioning houses.</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This division excludes: - sale of farmers' products by farmers, see division 01 - manufacture and sale of goods, which is generally classified as manufacturing in divisions 10-32 - sale of motor vehicles, motorcycles and their parts, see division 45 - trade in cereal grains, ores, crude petroleum, industrial chemicals, iron and steel and industrial machinery and equipment, see division 46 - sale of food and drinks for consumption on the premises and sale of takeaway food, see division 56 - rental of personal and household goods to the general public, see group 77.2</xkos:exclusionNote>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.1"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.2"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.3"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.4"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.5"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.6"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.7"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.8"/>
-    <skos:narrower rdf:resource="http://localhost/ramon-ld/nace/2008/47.9"/>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/G"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.1"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.2"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.3"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.4"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.5"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.6"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.7"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.8"/>
+    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/47.9"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/G"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/cpa/2014/68.32.13">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/68.32.13">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68.32.13</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68.32.13</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - management services concerning industrial and commercial properties, multiple-use buildings that are primarily non-residential etc. - management services concerning agricultural, forestry and similar properties</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - management services concerning industrial and commercial properties, multiple-use buildings that are primarily non-residential etc. - management services concerning agricultural, forestry and similar properties</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - facilities support services (combination of services such as general interior cleaning, maintenance and making minor repairs, trash disposal, guard and security), see 81.10.10 - management of facilities, such as military bases, prisons, and other facilities (except computer facilities management), see 81.10.10 - sports and recreational sports facility operation services, see 93.11.10 - recreation and amusement facility operation services, see 93.29.1</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/cpa/2014/68.32.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/68.32.1"/>
   </rdf:Description>
 </rdf:RDF>

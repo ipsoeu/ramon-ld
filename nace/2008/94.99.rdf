@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/94.99">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/94.99">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94.99</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94.99</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - activities of organisations (not directly affiliated to a political party) furthering a public cause or issue by means of public education, political influence, fund-raising etc.: &#x2022; citizens initiative or protest movements &#x2022; environmental and ecological movements &#x2022; organisations supporting community and educational facilities n.e.c. &#x2022; organisations for the protection and betterment of special groups, e.g. ethnic and minority groups &#x2022; associations for patriotic purposes, including war veterans' associations - consumer associations - automobile associations - associations for the purpose of social acquaintanceship such as rotary clubs, lodges etc. - associations of youth, young persons' associations, student associations, clubs and fraternities etc. - associations for the pursuit of a cultural or recreational activity or hobby (other than sports or games), e.g. poetry, literature and book clubs, historical clubs, gardening clubs, film and photo clubs, music and art clubs, craft and collectors' clubs, social clubs, carnival clubs etc.</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - grant giving activities by membership organisations or others</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - charitable activities like fund-raising aimed at social work, see 88.99 - activities of professional artistic groups or organisations, see 90.0 - activities of sports clubs, see 93.12 - activities of professional associations, see 94.12</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/94.9"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/94.9"/>
   </rdf:Description>
 </rdf:RDF>

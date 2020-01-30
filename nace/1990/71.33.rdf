@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/1990/71.33">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/71.33">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.33</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.33</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- renting and operational leasing of office machinery and equipment, including computers, without operator: &#x2022; computing machinery and equipment &#x2022; duplicating machines, typewriters and word-processing machines &#x2022; accounting machinery and equipment</skos:definition>
     <xkos:coreContentNote xml:lang="en">- renting and operational leasing of office machinery and equipment, including computers, without operator: &#x2022; computing machinery and equipment &#x2022; duplicating machines, typewriters and word-processing machines &#x2022; accounting machinery and equipment</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- financial leasing, see 65.21</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/1990/71.3"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/71.3"/>
   </rdf:Description>
 </rdf:RDF>

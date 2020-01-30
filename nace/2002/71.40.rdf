@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/71.40">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/71.40">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.40</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.40</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">This class includes: &#x2013; the renting of other goods, to households or industries: &#x2022; textiles, wearing apparel and footwear &#x2022; furniture, pottery and glass, kitchen and tableware, electrical appliances and housewares &#x2022; pleasure boats &#x2022; bicycles &#x2022; sports equipment &#x2022; jewellery, musical instruments, scenery and costumes &#x2022; books, journals and magazines &#x2022; video tapes, DVDs, records and CDs, etc. &#x2022; do-it-yourself machinery and equipment, hand tools &#x2022; flowers and plants</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; the renting of other goods, to households or industries: &#x2022; textiles, wearing apparel and footwear &#x2022; furniture, pottery and glass, kitchen and tableware, electrical appliances and housewares &#x2022; pleasure boats &#x2022; bicycles &#x2022; sports equipment &#x2022; jewellery, musical instruments, scenery and costumes &#x2022; books, journals and magazines &#x2022; video tapes, DVDs, records and CDs, etc. &#x2022; do-it-yourself machinery and equipment, hand tools &#x2022; flowers and plants</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; renting of passenger cars and small vans, motorcycles, caravans and trailers, see 71.1, 71.2 &#x2013; renting of books, journals, magazines, records, video tapes and DVDs by libraries, see 92.51 &#x2013; renting of linens, work uniforms, and related items by laundries, see 93.01</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/71.4"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/71.4"/>
   </rdf:Description>
 </rdf:RDF>

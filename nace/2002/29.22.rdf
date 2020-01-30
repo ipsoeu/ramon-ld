@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2002/29.22">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/29.22">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.22</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.22</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of hand-operated or power-driven lifting, handling, loading or unloading machinery: &#x2022; pulley tackle and hoists, winches, capstans and jacks &#x2022; derricks, cranes, mobile lifting frames, straddle carriers, etc. &#x2022; works trucks, whether or not fitted with lifting or handling equipment, whether or not self-propelled, of the type used in factories &#x2022; mechanical manipulators and industrial robots specifically designed for lifting, handling, loading or unloading &#x2013; manufacture of conveyors, teleferics, etc. &#x2013; manufacture of lifts, escalators and moving walkways</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; maintenance of lifts and escalators</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of continuous-action elevators and conveyors for underground use, see 29.52 &#x2013; manufacture of mechanical shovels, excavators and shovel loaders, see 29.52 &#x2013; manufacture of industrial robots for multiple uses, see 29.56 &#x2013; manufacture of floating cranes, railway cranes, crane-lorries, see 34.10, 35.11, 35.20 &#x2013; installation of lifts and elevators, see 45.31</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2002/29.2"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/29.2"/>
   </rdf:Description>
 </rdf:RDF>

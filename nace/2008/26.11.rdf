@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="http://localhost/ramon-ld/nace/2008/26.11">
-    <skos:inScheme rdf:resource="http://localhost/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/26.11">
+    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.11</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.11</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes the manufacture of semi-conductors and other components for electronic applications. This class includes: - manufacture of capacitors, electronic - manufacture of resistors, electronic - manufacture of microprocessors - manufacture of electron tubes - manufacture of electronic connectors - manufacture of bare printed circuit boards - manufacture of integrated circuits (analog, digital or hybrid) - manufacture of diodes, transistors and related discrete devices - manufacture of inductors (e.g. chokes, coils, transformers), electronic component type - manufacture of electronic crystals and crystal assemblies - manufacture of solenoids, switches and transducers for electronic applications - manufacture of dice or wafers, semi-conductor, finished or semi-finished - manufacture of display components (plasma, polymer, LCD) - manufacture of light emitting diodes (LED)</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of printer cables, monitor cables, USB cables, connectors etc.</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - printing of smart cards, see 18.12 - manufacture of computer and television displays, see 26.20, 26.40 - manufacture of modems (carrier equipment), see 26.30 - manufacture of X-ray tubes and similar irradiation devices, see 26.60 - manufacture of optical equipment and instruments, see 26.70 - manufacture of similar devices for electrical applications, see division 27 - manufacture of fluorescent ballasts, see 27.11 - manufacture of electrical relays, see 27.12 - manufacture of electrical wiring devices, see 27.33 - manufacture of complete equipment is classified elsewhere based on complete equipment classification</xkos:exclusionNote>
-    <skos:broader rdf:resource="http://localhost/ramon-ld/nace/2008/26.1"/>
+    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/26.1"/>
   </rdf:Description>
 </rdf:RDF>
