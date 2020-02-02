@@ -270,6 +270,14 @@ $(document).ready(function() {
               </xsl:for-each>
             </dd>
           </xsl:if>
+          <xsl:if test="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme' or rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/rdfs:isDefinedBy/@rdf:resource">
+            <dt>Is defined by</dt>
+            <dd>
+              <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme' or rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/rdfs:isDefinedBy/@rdf:resource">
+                <p><a href="{.}"><xsl:value-of select="."/></a></p>
+              </xsl:for-each>
+            </dd>
+          </xsl:if>
         </dl>
         <xsl:if test="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Catalog']/dcat:dataset/@rdf:resource">
           <section id="catalog-datasets">

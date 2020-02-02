@@ -16,10 +16,10 @@
   }
 
 
-  $ns["rdf"]  = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#';
   $ns["dcat"] = 'http://www.w3.org/ns/dcat#';
   $ns["dct"]  = 'http://purl.org/dc/terms/';
   $ns["gsp"]  = 'http://www.opengis.net/ont/geosparql#';
+  $ns["rdf"]  = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#';
   $ns["rdfs"] = 'http://www.w3.org/2000/01/rdf-schema#';
   $ns["skos"] = 'http://www.w3.org/2004/02/skos/core#';
   $ns["xkos"] = 'http://rdf-vocabulary.ddialliance.org/xkos#';
@@ -66,7 +66,8 @@
   $output .= '  </rdf:Description>' . "\n";
   $output .= '</rdf:RDF>' . "\n";
 
-  file_put_contents($target_folder . '/index.rdf', $output);
+  file_put_contents($target_folder . '.rdf', $output);
+  file_put_contents($target_folder . 'index.rdf', $output);
 
 //  header('Content-type: application/xml; charset=utf8');
 //  echo $output;
