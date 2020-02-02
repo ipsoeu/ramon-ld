@@ -232,6 +232,12 @@ $(document).ready(function() {
       <xsl:variable name="dataset-version">
         <xsl:value-of select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/owl:versionInfo"/>
       </xsl:variable>
+      <xsl:variable name="dataset-issued">
+        <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/dcterms:issued"/>
+      </xsl:variable>
+      <xsl:variable name="dataset-modified">
+        <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/dcterms:modified"/>
+      </xsl:variable>
       <xsl:variable name="dataset-valid-from">
         <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/wdrs:validfrom"/>
       </xsl:variable>
@@ -245,6 +251,14 @@ $(document).ready(function() {
 	  <xsl:if test="$dataset-version != ''">
             <dt>Version</dt>
 	    <dd><p><xsl:value-of select="$dataset-version"/></p></dd>
+          </xsl:if>
+	  <xsl:if test="$dataset-issued != ''">
+            <dt>Publication date</dt>
+	    <dd><p><time datetime="{$dataset-issued}"><xsl:value-of select="$dataset-issued"/></time></p></dd>
+          </xsl:if>
+	  <xsl:if test="$dataset-modified != ''">
+            <dt>Last modification date</dt>
+	    <dd><p><time datetime="{$dataset-modified}"><xsl:value-of select="$dataset-modified"/></time></p></dd>
           </xsl:if>
 	  <xsl:if test="$dataset-valid-from != ''">
             <dt>Valid from</dt>
