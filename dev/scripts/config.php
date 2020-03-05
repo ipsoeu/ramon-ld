@@ -8,6 +8,10 @@
   define("TOOL_NAME","RAMON as Linked Data");
   define("ABOUT_URL","https://github.com/ipsoeu/ramon-ld");
   define("ABOUT_TEXT","RAMON-LD is an experimental Linked Data implementation of the EUROSTAT RAMON registry.");
+  define("PUBLISHER_NAME","European Commission");
+  define("PUBLISHER_URL","http://publications.europa.eu/resource/authority/corporate-body/COM");
+  define("LICENCE_NAME","CC-BY 4.0");
+  define("LICENCE_URL","http://creativecommons.org/licenses/by/4.0/");
   define("RAMON_TO_RDF","../xslt/ramon-to-rdf.xsl");
   define("NACE_TO_SKOS","../xslt/nace-to-skos.xsl");
   define("SKOS_TO_HTML","../xslt/skos2html.xsl");

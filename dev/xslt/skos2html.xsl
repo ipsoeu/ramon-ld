@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
+<!--  
 
-  # Copyright (c) 2015-2019, Andrea Perego <http://about.me/andrea.perego>
-  # Licence: http://opensource.org/licenses/MIT
+  Copyright 2015-2020 EUROPEAN UNION
+  Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+  the European Commission - subsequent versions of the EUPL (the "Licence");
+  You may not use this work except in compliance with the Licence.
+  You may obtain a copy of the Licence at:
+ 
+  http://ec.europa.eu/idabc/eupl
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the Licence is distributed on an "AS IS" basis,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the Licence for the specific language governing permissions and
+  limitations under the Licence.
+ 
+  Authors: European Commission, Joint Research Centre (JRC)
+           Andrea Perego <andrea.perego@ec.europa.eu>
+ 
+  This work was supported by the EU Interoperability Solutions for
+  European Public Administrations Programme (http://ec.europa.eu/isa)
+  through Action 1.17: Re-usable INSPIRE Reference Platform 
+  (http://ec.europa.eu/isa/actions/01-trusted-information-exchange/1-17action_en.htm).
 
 -->
+
 <xsl:transform
     xmlns:cc      = "http://creativecommons.org/ns#"
     xmlns:dcat    = "http://www.w3.org/ns/dcat#"
@@ -52,8 +72,10 @@
   <xsl:param name="reg-name"/>
   <xsl:param name="toolacronym"/>
   <xsl:param name="toolname"/>
-  <xsl:param name="aboutUrl">https://github.com/ipsoeu/ramon-ld</xsl:param>
+  <xsl:param name="aboutUrl"/>
   <xsl:param name="aboutText"/>
+  <xsl:param name="licenceUrl"/>
+  <xsl:param name="licenceName"/>
   <xsl:param name="wkt"/>
   <xsl:param name="srs"/>
   <xsl:param name="code"/>
@@ -548,11 +570,15 @@ $(document).ready(function() {
       <div>
         <p><xsl:value-of select="$aboutText"/></p>
 	<p>For more information: <a target="_blank" href="{$aboutUrl}"><xsl:value-of select="$toolacronym"/> @ GitHub</a></p>
+	<p id="licence">This data is published under a <a target="_blank" href="{$licenceUrl}"><xsl:value-of select="$licenceName"/></a> licence.</p>
       </div>
     </section>
     <aside>
     </aside>
     <footer>
+<!--	    
+      <p id="licence">This data is published under a <a target="_blank" href="{$licenceUrl}"><xsl:value-of select="$licenceName"/></a> licence.</p>
+-->
     </footer>
    </body>
 </html>

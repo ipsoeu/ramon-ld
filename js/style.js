@@ -13,6 +13,9 @@ $(document).ready(function() {
   $("#dataset-section, #dataset-item-section").addClass("bs-docs-section container clearfix");
   $("#dataset-section > p, #dataset-item-section > p").addClass("bd-callout bd-callout-info");
   $("section dl").addClass("dl-horizontal");
+//  $("footer").addClass("bs-docs-footer");
+  $("footer").addClass("page-footer");
+//  $("footer > #licence").addClass("footer-copyright text-center");
   $("table").addClass("table table-striped table-hover");
 // "Geometry" button        
   $("#geoiri-edit").attr('data-toggle','modal').attr('data-target','#geoiri-section');
@@ -29,6 +32,8 @@ $(document).ready(function() {
 //        $("#info").addClass("nav navbar-nav navbar-left");
   $("#about").attr('data-toggle','modal').attr('data-target','#about-section');
   $("#about a, #about-section h4").addClass("about");
+//  $("#licence").addClass("alert alert-info");
+  $("#licence").addClass("bs-callout bs-callout-info");
 // Sections        
   $('#geometry-wkt-box').addClass('modal-body');
   $('#format-list-section > div, #about-section > div').addClass('modal-body');

@@ -54,6 +54,8 @@ foreach (rglob(ROOT . "*.rdf") as $file) {
   $proc->setParameter('', 'toolname', TOOL_NAME);
   $proc->setParameter('', 'aboutUrl', ABOUT_URL);
   $proc->setParameter('', 'aboutText', ABOUT_TEXT);
+  $proc->setParameter('', 'licenceUrl', LICENCE_URL);
+  $proc->setParameter('', 'licenceName', LICENCE_NAME);
   $proc->setParameter('', 'uri', $uri);
   $proc->setParameter('', 'base_uri', $base_uri);
   $proc->setParameter('', 'name', strtoupper($claset));
