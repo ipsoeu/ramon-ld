@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS22">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS22</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS22</skos:notation>
+    <skos:prefLabel xml:lang="en">&#x420;&#x435;&#x433;&#x438;&#x43E;&#x43D; &#x408;&#x443;&#x436;&#x43D;&#x435; &#x438; &#x418;&#x441;&#x442;&#x43E;&#x447;&#x43D;&#x435; &#x421;&#x440;&#x431;&#x438;&#x458;&#x435; (Region Ju&#x17E;ne i Isto&#x10D;ne Srbije)</skos:prefLabel>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS2"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS221"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS222"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS223"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS224"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS225"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS226"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS227"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS228"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS229"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS12">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS12</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS12</skos:notation>
+    <skos:prefLabel xml:lang="en">&#x420;&#x435;&#x433;&#x438;&#x43E;&#x43D; &#x412;&#x43E;&#x458;&#x432;&#x43E;&#x434;&#x438;&#x43D;&#x435; (Region Vojvodine)</skos:prefLabel>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS121"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS122"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS123"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS124"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS125"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS126"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/RS127"/>
+  </rdf:Description>
+</rdf:RDF>

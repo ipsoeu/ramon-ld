@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/HU331">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HU331</dct:identifier>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HU331</skos:notation>
+    <skos:prefLabel xml:lang="en">B&#xE1;cs-Kiskun</skos:prefLabel>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2021/HU33"/>
+  </rdf:Description>
+</rdf:RDF>
