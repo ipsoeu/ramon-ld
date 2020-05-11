@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/71.11.24">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/71.11.24">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.11.24</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71.11.24</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - expert witness services in the field of architecture consisting in the provision of testimony before a court or administrative body, by a witness who, by virtue of experience, training, skill or knowledge of architecture, is recognised as being qualified to render an informed opinion on matters relating to that field or subject - the provision of advice, studies and reports on architectural matters</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - expert witness services in the field of architecture consisting in the provision of testimony before a court or administrative body, by a witness who, by virtue of experience, training, skill or knowledge of architecture, is recognised as being qualified to render an informed opinion on matters relating to that field or subject - the provision of advice, studies and reports on architectural matters</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - the provision of advice, studies and reports on architectural matters done in a bundle with other architectural services for a specific project, see according to the type of project in 71.11.21, 71.11.22, 71.11.23</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/71.11.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/71.11.2"/>
   </rdf:Description>
 </rdf:RDF>

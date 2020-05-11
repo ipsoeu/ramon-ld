@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/19.20">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/19.20">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.20</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19.20</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes the manufacture of liquid or gaseous fuels or other products from crude petroleum, bituminous minerals or their fractionation products. Petroleum refining involves one or more of the following activities: fractionation; straight distillation of crude oil; and cracking. This class includes: - production of motor fuel: gasoline, kerosene etc. - production of fuel: light, medium and heavy fuel oil, refinery gases such as ethane, propane, butane etc. - manufacture of oil-based lubricating oils or greases, including from waste oil - manufacture of products for the petrochemical industry and for the manufacture of road coverings - manufacture of various products: white spirit, vaseline, paraffin wax, petroleum jelly etc. - manufacture of petroleum briquettes - blending of biofuels, i.e. blending of alcohols with petroleum (e.g. gasohol)</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes the manufacture of liquid or gaseous fuels or other products from crude petroleum, bituminous minerals or their fractionation products. Petroleum refining involves one or more of the following activities: fractionation; straight distillation of crude oil; and cracking. This class includes: - production of motor fuel: gasoline, kerosene etc. - production of fuel: light, medium and heavy fuel oil, refinery gases such as ethane, propane, butane etc. - manufacture of oil-based lubricating oils or greases, including from waste oil - manufacture of products for the petrochemical industry and for the manufacture of road coverings - manufacture of various products: white spirit, vaseline, paraffin wax, petroleum jelly etc. - manufacture of petroleum briquettes - blending of biofuels, i.e. blending of alcohols with petroleum (e.g. gasohol)</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of peat briquettes - manufacture of hard-coal and lignite fuel briquettes</xkos:additionalContentNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/19.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/19.2"/>
   </rdf:Description>
 </rdf:RDF>

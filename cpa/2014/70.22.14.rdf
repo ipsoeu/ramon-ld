@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/70.22.14">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/70.22.14">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.22.14</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70.22.14</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - advisory, guidance and operational assistance services concerning the human resources strategies, policies, practices and procedures of an organisation. Human resources consulting assignments may deal with one or more of the following: &#x2022; recruitment, compensation, benefits, performance measurement and appraisal &#x2022; organisational development (improving functioning within and between groups) &#x2022; employee training and development needs &#x2022; outplacement procedures and plans for assistance to employees &#x2022; succession planning &#x2022; compliance with government regulations in areas such as health, safety, workers' compensation and employment equity &#x2022; labour-management relations &#x2022; human resources audits</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - advisory, guidance and operational assistance services concerning the human resources strategies, policies, practices and procedures of an organisation. Human resources consulting assignments may deal with one or more of the following: &#x2022; recruitment, compensation, benefits, performance measurement and appraisal &#x2022; organisational development (improving functioning within and between groups) &#x2022; employee training and development needs &#x2022; outplacement procedures and plans for assistance to employees &#x2022; succession planning &#x2022; compliance with government regulations in areas such as health, safety, workers' compensation and employment equity &#x2022; labour-management relations &#x2022; human resources audits</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - executive placement or search consulting services, see 78.10.1 - educational consulting services, see 85.60.10</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/70.22.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/70.22.1"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/13.99">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/13.99">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.99</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.99</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - manufacture of felt - manufacture of tulles and other net fabrics, and of lace and embroidery, in the piece, in strips or in motifs - manufacture of pressure sensitive cloth-tape - manufacture of shoe-lace, of textiles - manufacture of powder puffs and mitts</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of felt - manufacture of tulles and other net fabrics, and of lace and embroidery, in the piece, in strips or in motifs - manufacture of pressure sensitive cloth-tape - manufacture of shoe-lace, of textiles - manufacture of powder puffs and mitts</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of needle-loom felt floor coverings, see 13.93 - manufacture of textile wadding and articles of wadding: sanitary towels, tampons etc., see 17.22</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/13.9"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/13.9"/>
   </rdf:Description>
 </rdf:RDF>

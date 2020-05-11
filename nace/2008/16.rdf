@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/16">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/16">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</skos:notation>
@@ -9,8 +9,8 @@
     <skos:definition xml:lang="all">This division includes the manufacture of wood products, such as lumber, plywood, veneers, wood containers, wood flooring, wood trusses, and prefabricated wood buildings. The production processes include sawing, planing, shaping, laminating, and assembling of wood products starting from logs that are cut into bolts, or lumber that may then be cut further, or shaped by lathes or other shaping tools. The lumber or other transformed wood shapes may also be subsequently planed or smoothed, and assembled into finished products, such as wood containers. With the exception of sawmilling, this division is subdivided mainly based on the specific products manufactured.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This division includes the manufacture of wood products, such as lumber, plywood, veneers, wood containers, wood flooring, wood trusses, and prefabricated wood buildings. The production processes include sawing, planing, shaping, laminating, and assembling of wood products starting from logs that are cut into bolts, or lumber that may then be cut further, or shaped by lathes or other shaping tools. The lumber or other transformed wood shapes may also be subsequently planed or smoothed, and assembled into finished products, such as wood containers. With the exception of sawmilling, this division is subdivided mainly based on the specific products manufactured.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This division does not include the manufacture of furniture (31.0), or the installation of wooden fittings and the like (43.32, 43.33, 43.39).</xkos:exclusionNote>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/16.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/16.2"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/C"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/16.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/16.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/C"/>
   </rdf:Description>
 </rdf:RDF>

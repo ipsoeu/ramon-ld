@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/36.50">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/36.50">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.50</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.50</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- manufacture of dolls and doll garments and accessories - manufacture of toy animals - manufacture of wheeled toys designed to be ridden, including tricycles - manufacture of toy musical instruments - manufacture of articles for funfair, table or parlour games - manufacture of playing cards - manufacture of pin-tables, coin-operated games, billiards, special tables for casino games, automatic bowling alley equipment, etc. - manufacture of electronic games: video games, chess, etc. - manufacture of reduced-size ('scale') models and similar recreational models, electrical trains, construction sets, etc. - manufacture of puzzles, etc.</skos:definition>
     <xkos:coreContentNote xml:lang="en">- manufacture of dolls and doll garments and accessories - manufacture of toy animals - manufacture of wheeled toys designed to be ridden, including tricycles - manufacture of toy musical instruments - manufacture of articles for funfair, table or parlour games - manufacture of playing cards - manufacture of pin-tables, coin-operated games, billiards, special tables for casino games, automatic bowling alley equipment, etc. - manufacture of electronic games: video games, chess, etc. - manufacture of reduced-size ('scale') models and similar recreational models, electrical trains, construction sets, etc. - manufacture of puzzles, etc.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- manufacture of bicycles, see 35.42 - manufacture of festive, carnival or other entertainment articles, see 36.63</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/36.5"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/36.5"/>
   </rdf:Description>
 </rdf:RDF>

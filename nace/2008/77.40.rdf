@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/77.40">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/77.40">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77.40</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77.40</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes the activities of allowing others to use intellectual property products and similar products for which a royalty payment or licensing fee is paid to the owner of the product (i.e. the asset holder). The leasing of these products can take various forms, such as permission for reproduction, use in subsequent processes or products, operating businesses under a franchise etc. The current owners may or may not have created these products. This class includes: - leasing of intellectual property products (except copyrighted works, such as books or software) - receiving royalties or licensing fees for the use of: &#x2022; patented entities &#x2022; trademarks or service marks &#x2022; brand names &#x2022; mineral exploration and evaluation &#x2022; franchise agreements</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes the activities of allowing others to use intellectual property products and similar products for which a royalty payment or licensing fee is paid to the owner of the product (i.e. the asset holder). The leasing of these products can take various forms, such as permission for reproduction, use in subsequent processes or products, operating businesses under a franchise etc. The current owners may or may not have created these products. This class includes: - leasing of intellectual property products (except copyrighted works, such as books or software) - receiving royalties or licensing fees for the use of: &#x2022; patented entities &#x2022; trademarks or service marks &#x2022; brand names &#x2022; mineral exploration and evaluation &#x2022; franchise agreements</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - acquisition of rights and publishing, see divisions 58 and 59 - producing, reproducing and distributing copyrighted works (books, software, film), see divisions 58, 59 - leasing of real estate, see 68.20 - leasing of tangible products (assets), see groups 77.1, 77.2, 77.3</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/77.4"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/77.4"/>
   </rdf:Description>
 </rdf:RDF>

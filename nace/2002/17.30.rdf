@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/17.30">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/17.30">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.30</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17.30</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; bleaching, dyeing and printing (including thermoprinting) of not self-produced textile fibres, yarns, fabrics and textile articles, including wearing apparel &#x2013; dressing, drying, steaming, shrinking, mending, sanforizing, mercerizing of not self-produced textiles and textile articles, including wearing apparel</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes &#x2013; finishing of leather wearing apparel &#x2013; bleaching of jeans &#x2013; pleating and similar work on textiles</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; finishing of textile articles made from self-produced materials, see 17.1, 17.2, 17.5 &#x2013; while-you-wait printing on textile articles, see 52.74</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/17.3"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/17.3"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/58">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/58">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</skos:notation>
@@ -9,8 +9,8 @@
     <skos:definition xml:lang="all">This division includes the publishing of books, brochures, leaflets, dictionaries, encyclopaedias, atlases, maps and charts; publishing of newspapers, journals and periodicals; directory and mailing list and other publishing, as well as software publishing. Publishing includes the acquisition of copyrights to content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.), except publishing of motion pictures, are included in this division.</skos:definition>
     <xkos:coreContentNote xml:lang="all">This division includes the publishing of books, brochures, leaflets, dictionaries, encyclopaedias, atlases, maps and charts; publishing of newspapers, journals and periodicals; directory and mailing list and other publishing, as well as software publishing. Publishing includes the acquisition of copyrights to content (information products) and making this content available to the general public by engaging in (or arranging for) the reproduction and distribution of this content in various forms. All the feasible forms of publishing (in print, electronic or audio form, on the Internet, as multimedia products such as CD-ROM reference books etc.), except publishing of motion pictures, are included in this division.</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This division excludes the publishing of motion pictures, video tapes and movies on DVD or similar media (division 59) and the production of master copies for records or audio material (division 59). Also excluded is printing (see 18.11, 18.12) and the mass reproduction of recorded media (see 18.20).</xkos:exclusionNote>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/58.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/58.2"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/J"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/58.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/58.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/J"/>
   </rdf:Description>
 </rdf:RDF>

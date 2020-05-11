@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/29.10">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/29.10">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.10</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of passenger cars - manufacture of commercial vehicles: &#x2022; vans, lorries, over-the-road tractors for semi-trailers etc. - manufacture of buses, trolley-buses and coaches - manufacture of motor vehicle engines - manufacture of chassis for motor vehicles - manufacture of other motor vehicles: &#x2022; snowmobiles, golf carts, amphibious vehicles &#x2022; fire engines, street sweepers, travelling libraries, armoured cars etc. &#x2022; concrete-mixer lorries - ATVs, go-carts and similar including race cars</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - factory rebuilding of motor vehicle engines</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of electric motors (except starting motors), see 27.11 - manufacture of lighting equipment for motor vehicles, see 27.40 - manufacture of pistons, piston rings and carburettors, see 28.11 - manufacture of agricultural tractors, see 28.30 - manufacture of tractors used in construction or mining, see 28.92 - manufacture of off-road dumping trucks, see 28.92 - manufacture of bodies for motor vehicles, see 29.20 - manufacture of electrical parts for motor vehicles, see 29.31 - manufacture of parts and accessories for motor vehicles, see 29.32 - manufacture of tanks and other military fighting vehicles, see 30.40 - maintenance and repair of motor vehicles, see 45.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/29.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/29.1"/>
   </rdf:Description>
 </rdf:RDF>

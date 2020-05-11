@@ -91,7 +91,7 @@
   <xsl:param name="resource-type">
     <xsl:choose>
       <xsl:when test="rdf:RDF/*[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Catalog']">
-        <xsl:text>dataset</xsl:text>
+        <xsl:text>catalogue</xsl:text>
       </xsl:when>
       <xsl:when test="rdf:RDF/*[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']">
         <xsl:text>dataset</xsl:text>
@@ -157,7 +157,27 @@
         <div><a href="http://maps.google.com/?q={rdf:RDF/rdf:Description/@rdf:about}">View on Google Maps</a></div>
       </xsl:if>
     </xsl:param>
-
+<!--
+    <xsl:if test="$resource-type = 'dataset' or $resource-type = 'catalogue'">
+-->
+      <xsl:variable name="dataset-version">
+        <xsl:value-of select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/owl:versionInfo"/>
+      </xsl:variable>
+      <xsl:variable name="dataset-issued">
+        <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/dcterms:issued"/>
+      </xsl:variable>
+      <xsl:variable name="dataset-modified">
+        <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/dcterms:modified"/>
+      </xsl:variable>
+      <xsl:variable name="dataset-valid-from">
+        <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/wdrs:validfrom"/>
+      </xsl:variable>
+      <xsl:variable name="dataset-valid-until">
+        <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/wdrs:validuntil"/>
+      </xsl:variable>
+<!--
+    </xsl:if>
+-->
 <html xml:lang="{$l}" lang="{$l}">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -231,15 +251,31 @@ $(document).ready(function() {
         };
       </script>
     </xsl:if>
+
+    <xsl:if test="$resource-type = 'dataset'">
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "@id":"<xsl:value-of select="$uri"/>",
+  "name":"<xsl:value-of select="$title"/>",
+  "url":"<xsl:value-of select="$uri"/>",
+  "sameAs":"<xsl:value-of select="$uri"/>",
+  "description":"<xsl:value-of select="$description"/>",
+  "includedInDataCatalog":{"@type":"DataCatalog","name":"<xsl:value-of select="$toolacronym"/>","url":"<xsl:value-of select="$base_uri"/>"}
+};
+</script>
+    </xsl:if>
+
   </head>
   <body>
     <header><h1><xsl:value-of select="$resource-type"/> - <xsl:value-of select="$name"/></h1></header>
     <nav>
-      <p><a href="{$base_uri}" title="{$toolname}"><xsl:value-of select="$toolacronym"/></a></p>
+      <p><a href="{$abs_path}" title="{$toolname}"><xsl:value-of select="$toolacronym"/></a></p>
       <ul id="actions">
-        <li id="classification-name"><a href="{$base_uri}{$code}" title=""><xsl:value-of select="$name"/></a></li>
+        <li id="classification-name"><a href="{$abs_path}{$code}" title=""><xsl:value-of select="$name"/></a></li>
 	<xsl:if test="$version != ''">
-          <li id="classification-version"><a href="{$base_uri}{$code}/{$version}" title=""><xsl:value-of select="$version"/></a></li>
+          <li id="classification-version"><a href="{$abs_path}{$code}/{$version}" title=""><xsl:value-of select="$version"/></a></li>
         </xsl:if>
 	<xsl:if test="rdf:RDF/*/locn:geometry/@rdf:resource">
           <li id="geoiri-edit"><a href="#" title="Geometry of {$title} (as WKT)">Geometry</a></li>
@@ -250,7 +286,8 @@ $(document).ready(function() {
         <li id="about"><a href="#">About</a></li>
       </ul>
     </nav>
-    <xsl:if test="$resource-type = 'dataset'">
+    <xsl:if test="$resource-type = 'dataset' or $resource-type = 'catalogue'">
+<!--	    
       <xsl:variable name="dataset-version">
         <xsl:value-of select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/owl:versionInfo"/>
       </xsl:variable>
@@ -266,6 +303,7 @@ $(document).ready(function() {
       <xsl:variable name="dataset-valid-until">
         <xsl:value-of select="/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/wdrs:validuntil"/>
       </xsl:variable>
+-->
       <section id="dataset-section">
         <h2><xsl:value-of select="$title"/></h2>
         <p><xsl:value-of select="$description"/></p>
@@ -294,7 +332,9 @@ $(document).ready(function() {
             <dt>Is version of</dt>
             <dd>
               <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme' or rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:isVersionOf/@rdf:resource">
-		<p><a title="{.}" href="{.}"><xsl:value-of select="$name"/></a></p>
+                <xsl:variable name="is-version-of-uri" select="."/>
+                <xsl:variable name="rel-is-version-of-uri" select="concat($abs_path,substring-after($is-version-of-uri,$base_uri))"/>
+		<p><a title="{$is-version-of-uri}" href="{$rel-is-version-of-uri}"><xsl:value-of select="$name"/></a></p>
               </xsl:for-each>
             </dd>
           </xsl:if>
@@ -335,12 +375,14 @@ $(document).ready(function() {
             </thead>
             <tbody>
               <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Catalog']/dcat:dataset/@rdf:resource">
+                <xsl:variable name="dataset-uri" select="."/>
+                <xsl:variable name="rel-dataset-uri" select="concat($abs_path,substring-after($dataset-uri,$base_uri))"/>
                 <tr>
 <!--		
                   <td><a title="{.}" href="{.}"><xsl:value-of select="substring-after(.,$base_uri)"/></a></td>
 -->
-		  <td><a title="{.}" href="{.}"><xsl:value-of select="document(concat($root,substring-after(.,$base_uri),'/index.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:alternative"/></a></td>
-		  <td><xsl:value-of select="document(concat($root,substring-after(.,$base_uri),'/index.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:title"/></td>
+		  <td><a title="{$dataset-uri}" href="{$rel-dataset-uri}"><xsl:value-of select="document(concat($root,substring-after($dataset-uri,$base_uri),'/index.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:alternative"/></a></td>
+		  <td><xsl:value-of select="document(concat($root,substring-after($dataset-uri,$base_uri),'/index.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:title"/></td>
                 </tr>
               </xsl:for-each>
             </tbody>
@@ -359,12 +401,14 @@ $(document).ready(function() {
             </thead>
             <tbody>
               <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme' or rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:hasVersion/@rdf:resource">
+                <xsl:variable name="dataset-version-uri" select="."/>
+                <xsl:variable name="rel-dataset-version-uri" select="concat($abs_path,substring-after($dataset-version-uri,$base_uri))"/>
                 <tr>
-		  <td><a title="{.}" href="{.}"><xsl:value-of select="substring-after(.,concat($base_uri,$code,'/'))"/></a></td>
+		  <td><a title="{$dataset-version-uri}" href="{$rel-dataset-version-uri}"><xsl:value-of select="substring-after($dataset-version-uri,concat($base_uri,$code,'/'))"/></a></td>
 <!--
                   <td><a title="{.}" href="{.}"><xsl:value-of select="document(concat($root,substring-after(.,$base_uri),'.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:identifier"/></a></td>
 -->
-		  <td><xsl:value-of select="document(concat($root,substring-after(.,$base_uri),'.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:title"/></td>
+		  <td><xsl:value-of select="document(concat($root,substring-after($dataset-version-uri,$base_uri),'.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:title"/></td>
                 </tr>
               </xsl:for-each>
             </tbody>
@@ -383,12 +427,14 @@ $(document).ready(function() {
             </thead>
             <tbody>
               <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme' or rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:hasPart/@rdf:resource">
+                <xsl:variable name="subdataset-uri" select="."/>
+                <xsl:variable name="rel-subdataset-uri" select="concat($abs_path,substring-after($subdataset-uri,$base_uri))"/>
                 <tr>
-		  <td><a title="{.}" href="{.}"><xsl:value-of select="."/></a></td>
+		  <td><a title="{$subdataset-uri}" href="{$rel-subdataset-uri}"><xsl:value-of select="$subdataset-uri"/></a></td>
 <!--
 		  <td><a title="{.}" href="{.}"><xsl:value-of select="document(concat($root,substring-after(.,$base_uri),'.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:identifier"/></a></td>
 -->
-		  <td><xsl:value-of select="document(concat($root,substring-after(.,$base_uri),'.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:title"/></td>
+		  <td><xsl:value-of select="document(concat($root,substring-after($subdataset-uri,$base_uri),'.rdf'))/rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/ns/dcat#Dataset']/dcterms:title"/></td>
                 </tr>
               </xsl:for-each>
             </tbody>
@@ -411,6 +457,7 @@ $(document).ready(function() {
 	    <tbody>
               <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#ConceptScheme']/skos:hasTopConcept/@rdf:resource">
                 <xsl:variable name="top-concept-uri" select="."/>
+                <xsl:variable name="rel-top-concept-uri" select="concat($abs_path,substring-after($top-concept-uri,$base_uri))"/>
 <!--		    
                 <tr>
                   <td><a href="{.}"><xsl:value-of select="."/></a></td>
@@ -419,7 +466,7 @@ $(document).ready(function() {
 	      <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#Concept']">
 -->
                 <tr>
-                  <td><a href="{$top-concept-uri}" title="{$top-concept-uri}"><xsl:value-of select="/*//*[@rdf:about = $top-concept-uri]/dcterms:identifier"/></a></td>
+                  <td><a href="{$rel-top-concept-uri}" title="{$top-concept-uri}"><xsl:value-of select="/*//*[@rdf:about = $top-concept-uri]/dcterms:identifier"/></a></td>
                   <td><xsl:value-of select="/*//*[@rdf:about = $top-concept-uri]/skos:prefLabel"/></td>
                 </tr>
               </xsl:for-each>
@@ -443,18 +490,21 @@ $(document).ready(function() {
             </thead>
 	    <tbody>
 	      <xsl:for-each select="rdf:RDF/rdf:Description[rdf:type/@rdf:resource = 'http://www.w3.org/2004/02/skos/core#Concept']">
+                <xsl:variable name="concept-uri" select="@rdf:about"/>
+                <xsl:variable name="rel-concept-uri" select="concat($abs_path,substring-after($concept-uri,$base_uri))"/>
                 <tr>
-                  <td><a href="{@rdf:about}" title="{@rdf:about}"><xsl:value-of select="dcterms:identifier"/></a></td>
+                  <td><a href="{$rel-concept-uri}" title="{$concept-uri}"><xsl:value-of select="dcterms:identifier"/></a></td>
                   <td><xsl:value-of select="skos:prefLabel"/></td>
 		  <td>
 		    <xsl:for-each select="skos:broader">
                       <xsl:variable name="broader_uri" select="@rdf:resource"/>
+                      <xsl:variable name="rel-broader_uri" select="concat($abs_path,substring-after($broader_uri,$base_uri))"/>
 <!--		    
 		      <xsl:variable name="broader_id" select="/*//*[@rdf:about = $broader_uri]/dcterms:identifier"/>
 		      <xsl:variable name="broader_name" select="/*//*[@rdf:about = $broader_uri]/skos:prefLabel"/>
 	              <a href="{$broader_uri}" title="{$broader_uri}"><xsl:value-of select="concat($broader_id,' - ',$broader_name)"/></a>
 -->
-		      <a href="{$broader_uri}" title="{$broader_uri}"><xsl:value-of select="substring-after($broader_uri,concat($base_uri,$code,'/',$version,'/'))"/></a>
+		      <a href="{$rel-broader_uri}" title="{$broader_uri}"><xsl:value-of select="substring-after($broader_uri,concat($base_uri,$code,'/',$version,'/'))"/></a>
 		    </xsl:for-each>
 		  </td>
                 </tr>
@@ -485,14 +535,18 @@ $(document).ready(function() {
           <dt>In scheme</dt>
           <dd>
             <xsl:for-each select="rdf:RDF/*/skos:inScheme">
-              <p><a title="{@rdf:resource}" href="{@rdf:resource}"><xsl:value-of select="concat($name,' / ',$version)"/></a></p>
+              <xsl:variable name="concept-scheme-uri" select="@rdf:resource"/>
+              <xsl:variable name="rel-concept-scheme-uri" select="concat($abs_path,substring-after($concept-scheme-uri,$base_uri))"/>
+              <p><a title="{$concept-scheme-uri}" href="{$rel-concept-scheme-uri}"><xsl:value-of select="concat($name,' / ',$version)"/></a></p>
             </xsl:for-each>
           </dd>
           <xsl:if test="rdf:RDF/*/skos:broader">
             <dt>Broader</dt>
             <dd>
               <xsl:for-each select="rdf:RDF/*/skos:broader">
-                <p><a href="{@rdf:resource}"><xsl:value-of select="substring-after(@rdf:resource,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
+                <xsl:variable name="concept-broader-uri" select="@rdf:resource"/>
+                <xsl:variable name="rel-concept-broader-uri" select="concat($abs_path,substring-after($concept-broader-uri,$base_uri))"/>
+		<p><a title="{$concept-broader-uri}" href="{$rel-concept-broader-uri}"><xsl:value-of select="substring-after($concept-broader-uri,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
               </xsl:for-each>
             </dd>
           </xsl:if>
@@ -500,7 +554,9 @@ $(document).ready(function() {
             <dt>Narrower</dt>
             <dd>
               <xsl:for-each select="rdf:RDF/*/skos:narrower">
-                <p><a href="{@rdf:resource}"><xsl:value-of select="substring-after(@rdf:resource,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
+                <xsl:variable name="concept-narrower-uri" select="@rdf:resource"/>
+                <xsl:variable name="rel-concept-narrower-uri" select="concat($abs_path,substring-after($concept-narrower-uri,$base_uri))"/>
+		<p><a title="{$concept-narrower-uri}" href="{$rel-concept-narrower-uri}"><xsl:value-of select="substring-after($concept-narrower-uri,concat($base_uri,$code,'/',$version,'/'))"/></a></p>
               </xsl:for-each>
             </dd>
           </xsl:if>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/01.13">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/01.13">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.13</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.13</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- production of fruit: apples, pears, citrus fruit, apricots, strawberries, berries, cherries, peaches, bananas, avocados, dates, etc. - production of wine grapes and table grapes - production of wine from self-produced grapes - production of edible nuts, including coconuts - growing of beverage crops such as coffee, cocoa, tea, mate - growing of spice crops: bay, basil, anise, coriander, cumin, cinnamon, cloves, nutmeg, ginger, etc. - growing of olives for oil production and for direct consumption - production of olive oil from self-produced olives</skos:definition>
     <xkos:coreContentNote xml:lang="en">- production of fruit: apples, pears, citrus fruit, apricots, strawberries, berries, cherries, peaches, bananas, avocados, dates, etc. - production of wine grapes and table grapes - production of wine from self-produced grapes - production of edible nuts, including coconuts - growing of beverage crops such as coffee, cocoa, tea, mate - growing of spice crops: bay, basil, anise, coriander, cumin, cinnamon, cloves, nutmeg, ginger, etc. - growing of olives for oil production and for direct consumption - production of olive oil from self-produced olives</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- growing of peanuts, see 01.11 - growing of hop cones, see 01.11 - growing of fruit bearing vegetables, e.g. tomatoes, melons, cucumbers, etc., see 01.12 - growing of fresh 'peppers', parsley and tarragon, see 01.12 - production of olive oil other than from self-produced olives, see 15.42 - manufacture of cocoa, see 15.84 - processing of tea leaves and coffee, see 15.86 - production of wines other than from self-produced grapes, see 15.93</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/01.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/01.1"/>
   </rdf:Description>
 </rdf:RDF>

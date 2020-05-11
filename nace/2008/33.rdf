@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/33">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/33">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</skos:notation>
@@ -10,8 +10,8 @@
     <xkos:coreContentNote xml:lang="all">This division includes the specialised repair of goods produced in the manufacturing sector with the aim to restore machinery, equipment and other products to working order. The provision of general or routine maintenance (i.e. servicing) on such products to ensure they work efficiently and to prevent breakdown and unnecessary repairs is included. This division does only include specialised repair and maintenance activities. A substantial amount of repair is also done by manufacturers of machinery, equipment and other goods, in which case the classification of units engaged in these repair and manufacturing activities is done according to the value-added principle which would often assign these combined activities to the manufacture of the good. The same principle is applied for combined trade and repair. The rebuilding or remanufacture of machinery and equipment is considered a manufacturing activity and included in other divisions of this section. Repair and maintenance of goods that are utilised as capital goods as well as consumer goods is typically classified as repair and maintenance of household goods (e.g. office and household furniture repair, see 95.24).</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">Also included in this division is the specialised installation of machinery. However, the installation of equipment that forms an integral part of buildings or similar structures, such as installation of electrical wiring, installation of escalators or installation of air-conditioning systems, is classified as construction.</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This division excludes: - cleaning of industrial machinery, see 81.22 - repair and maintenance of computers and communications equipment, see 95.1 - repair and maintenance of household goods, see 95.2</xkos:exclusionNote>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/33.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/33.2"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/C"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/33.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/33.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/C"/>
   </rdf:Description>
 </rdf:RDF>

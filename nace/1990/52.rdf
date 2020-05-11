@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/52">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52</skos:notation>
@@ -10,13 +10,13 @@
     <xkos:coreContentNote xml:lang="en">- resale (sale without transformation) of new and used goods to the general public for personal or household consumption or utilization, by shops, department stores, stalls, mail-order houses, hawkers and peddlers, consumer cooperatives, etc.</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- repair and installation of personal or household goods whether or not done in combination with retail sale - retail sale by commission agents</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- sale of motor vehicles, motorcycles and their parts and of fuel for these articles, see 50 - trade in cereals, grains, ores, crude petroleum, industrial chemicals, iron and steel and industrial machinery and equipment, see 51 - sale of food and drinks for consumption on the premises and sale of take-away food, see 55.30, 55.40, 55.51 - renting and hiring of personal and household goods to the general public, see 71.40</xkos:exclusionNote>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.2"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.3"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.4"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.5"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.6"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/52.7"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/GA"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.2"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.3"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.4"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.5"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.6"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/52.7"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/GA"/>
   </rdf:Description>
 </rdf:RDF>

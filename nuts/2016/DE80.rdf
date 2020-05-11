@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE80</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE80</skos:notation>
     <skos:prefLabel xml:lang="en">Mecklenburg-Vorpommern</skos:prefLabel>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE8"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE803"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE804"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80J"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80N"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80K"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80L"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80M"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nuts/2016/DE80O"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE8"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE803"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE804"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80J"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80N"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80K"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80L"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80M"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nuts/2016/DE80O"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/84.11">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/84.11">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.11</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.11</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - executive and legislative administration of central, regional and local bodies - administration and supervision of fiscal affairs: &#x2022; operation of taxation schemes &#x2022; duty/tax collection on goods and tax violation investigation &#x2022; customs administration - budget implementation and management of public funds and public debt: &#x2022; raising and receiving of money and control of their disbursement - administration of overall (civil) research and development policy and associated funds - administration and operation of overall economic and social planning and statistical services at the various levels of government</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - executive and legislative administration of central, regional and local bodies - administration and supervision of fiscal affairs: &#x2022; operation of taxation schemes &#x2022; duty/tax collection on goods and tax violation investigation &#x2022; customs administration - budget implementation and management of public funds and public debt: &#x2022; raising and receiving of money and control of their disbursement - administration of overall (civil) research and development policy and associated funds - administration and operation of overall economic and social planning and statistical services at the various levels of government</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - operation of government owned or occupied buildings, see 68.2, 68.3 - administration of research and development policies intended to increase personal well-being and of associated funds, see 84.12 - administration of research and development policies intended to improve economic performance and competitiveness, see 84.13 - administration of defence-related research and development policies and of associated funds, see 84.22 - operation of government archives, see 91.01</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/84.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/84.1"/>
   </rdf:Description>
 </rdf:RDF>

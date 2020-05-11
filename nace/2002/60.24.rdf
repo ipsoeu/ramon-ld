@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/60.24">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/60.24">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.24</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.24</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; freight transport operation by road: &#x2022; logging haulage &#x2022; stock haulage &#x2022; refrigerated haulage &#x2022; heavy haulage &#x2022; bulk haulage, including haulage in tanker trucks including milk collection at farms &#x2022; haulage of automobiles &#x2022; transport of waste and waste materials, already collected by third parties. The responsibility for the (final) treatment of this waste is mostly not part of the services offered by transport firms. This is shown by the fact that the disposer pays separately to the waste management location for the waste treatment. Examples are (bulk) transports of waste from transhipment locations to final treatment locations. Transport of manure, sludge or polluted soil is also classified here.</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; furniture removal &#x2013; renting of trucks with driver &#x2013; freight transport by hand or animal-drawn transport</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; operation of terminal facilities for handling freight, see 63 &#x2013; post and courier activities, see 64.1 &#x2013; waste transport as indissoluble part of waste collection activities carried out by specialized enterprises, see 90</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/60.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/60.2"/>
   </rdf:Description>
 </rdf:RDF>

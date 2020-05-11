@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/41.00.45">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/41.00.45">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.00.45</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41.00.45</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - construction works for buildings and installations of civil and military airports, rail stations, bus stations and harbour terminals, cablecar and chairlift stations - construction works for radio and television broadcast buildings, telephone exchange buildings, telecommunication centres etc. - construction works for garages (overground or underground) and roofed car parks</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This subcategory also includes: - construction works for airplane hangars, signal-box buildings and engine and wagon sheds - construction works for telephone booths - construction works for lighthouse buildings - construction works for air traffic control buildings (towers) - construction works for bicycle sheds</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - construction works for carparks in buildings mainly used for other purposes - construction works for service stations, see 41.00.44 - construction works for reservoirs, silos and warehouses, see 41.00.46 - construction works for railway tracks, see 42.12.20 - construction works for airfield runways, see 42.11.20 - construction works for telecommunication lines and masts, see 42.22.21, 42.22.22 - construction works for hydrocarbon terminals, see 42.99.21</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/41.00.4"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/41.00.4"/>
   </rdf:Description>
 </rdf:RDF>

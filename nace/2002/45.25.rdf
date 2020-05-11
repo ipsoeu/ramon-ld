@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/45.25">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/45.25">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.25</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.25</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">This class includes: &#x2013; construction activities specializing in one aspect common to different kind of structures, requiring specialized skill or equipment: &#x2022; construction of foundations, including pile driving &#x2022; water well drilling and construction, shaft sinking &#x2022; erection of non-self-manufactured steel elements &#x2022; steel bending &#x2022; bricklaying and stone setting &#x2022; scaffolds and work platform erecting and dismantling, including renting of scaffolds and work platforms &#x2022; erection of chimneys and industrial ovens &#x2022; de-humidification of buildings &#x2022; &#x2022; lifting work &#x2022; work with specialist access requirements necessitating climbing skills and the use of related equipment i.e. working at height on tall structures</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; construction activities specializing in one aspect common to different kind of structures, requiring specialized skill or equipment: &#x2022; construction of foundations, including pile driving &#x2022; water well drilling and construction, shaft sinking &#x2022; erection of non-self-manufactured steel elements &#x2022; steel bending &#x2022; bricklaying and stone setting &#x2022; scaffolds and work platform erecting and dismantling, including renting of scaffolds and work platforms &#x2022; erection of chimneys and industrial ovens &#x2022; de-humidification of buildings &#x2022; &#x2022; lifting work &#x2022; work with specialist access requirements necessitating climbing skills and the use of related equipment i.e. working at height on tall structures</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; renting of scaffolds without erection and dismantling, see 71.32</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/45.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/45.2"/>
   </rdf:Description>
 </rdf:RDF>

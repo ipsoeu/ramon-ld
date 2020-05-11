@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/50.20">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/50.20">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50.20</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50.20</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">This class includes: &#x2013; maintenance and repair of motor vehicles: &#x2022; mechanical repairs &#x2022; electrical repairs &#x2022; electronic injection systems repair &#x2022; ordinary servicing &#x2022; bodywork repair &#x2022; repair of motor vehicle parts &#x2022; washing, polishing, etc. &#x2022; spraying and painting &#x2022; repair of screens and windows &#x2022; repair of motor vehicle seats &#x2013; tyre and tube repair, fitting or replacement &#x2013; antirust-treatment &#x2013; towing &#x2013; installation of parts and accessories not as part of the manufacturing process &#x2013; roadside assistance</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; maintenance and repair of motor vehicles: &#x2022; mechanical repairs &#x2022; electrical repairs &#x2022; electronic injection systems repair &#x2022; ordinary servicing &#x2022; bodywork repair &#x2022; repair of motor vehicle parts &#x2022; washing, polishing, etc. &#x2022; spraying and painting &#x2022; repair of screens and windows &#x2022; repair of motor vehicle seats &#x2013; tyre and tube repair, fitting or replacement &#x2013; antirust-treatment &#x2013; towing &#x2013; installation of parts and accessories not as part of the manufacturing process &#x2013; roadside assistance</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; retreading and rebuilding of tyres, see 25.12</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/50.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/50.2"/>
   </rdf:Description>
 </rdf:RDF>

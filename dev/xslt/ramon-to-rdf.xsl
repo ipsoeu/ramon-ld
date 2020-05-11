@@ -202,6 +202,9 @@
       <xsl:when test="$id = 'NUTS_2016'">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/eli/reg/2016/2066/oj"/>
       </xsl:when>
+      <xsl:when test="$id = 'NUTS_2021'">
+        <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/eli/reg_del/2019/1755/oj"/>
+      </xsl:when>
     </xsl:choose>
   </xsl:template>
 
@@ -220,6 +223,9 @@
       <xsl:when test="$id = 'NUTS_2016'">
         <xsl:value-of select="'2016'"/>
       </xsl:when>
+      <xsl:when test="$id = 'NUTS_2021'">
+        <xsl:value-of select="'2021'"/>
+      </xsl:when>
     </xsl:choose>
   </xsl:template>
 
@@ -237,6 +243,9 @@
       </xsl:when>
       <xsl:when test="$id = 'NUTS_2016'">
         <dct:issued rdf:datatype="{$xsd}date">2016-12-19</dct:issued>
+      </xsl:when>
+      <xsl:when test="$id = 'NUTS_2021'">
+        <dct:issued rdf:datatype="{$xsd}date">2019-08-08</dct:issued>
       </xsl:when>
     </xsl:choose>
   </xsl:template>
@@ -261,6 +270,10 @@
       <xsl:when test="$id = 'NUTS_2016'">
         <dct:valid rdf:datatype="{$xsd}date">2018-01-01</dct:valid>
         <wdrs:validfrom rdf:datatype="{$xsd}date">2018-01-01</wdrs:validfrom>
+      </xsl:when>
+      <xsl:when test="$id = 'NUTS_2021'">
+        <dct:valid rdf:datatype="{$xsd}date">2021-01-01</dct:valid>
+        <wdrs:validfrom rdf:datatype="{$xsd}date">2021-01-01</wdrs:validfrom>
       </xsl:when>
     </xsl:choose>
   </xsl:template>

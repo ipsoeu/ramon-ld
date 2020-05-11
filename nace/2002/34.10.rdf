@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/34.10">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/34.10">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34.10</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34.10</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of passenger cars &#x2013; manufacture of commercial vehicles: &#x2022; vans, lorries, over-the-road tractors for semi-trailers, dumpers for off-road use, etc. &#x2013; manufacture of buses, trolley-buses and coaches &#x2013; manufacture of motor vehicle engines &#x2013; manufacture of chassis fitted with engines &#x2013; manufacture of other motor vehicles: &#x2022; snowmobiles, golf carts, amphibious vehicles &#x2022; fire engines, street sweepers, travelling libraries and banks, etc.</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; manufacture of motor cycle engines</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of agricultural and industrial tractors, see 29.31, 29.52 &#x2013; manufacture of electrical parts for motor vehicles, see 31.61 &#x2013; manufacture of bodies for motor vehicles, see 34.20 &#x2013; manufacture of parts and accessories for motor vehicles, see 34.30 &#x2013; maintenance, repair and alteration of motor vehicles, see 50.20</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/34.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/34.1"/>
   </rdf:Description>
 </rdf:RDF>

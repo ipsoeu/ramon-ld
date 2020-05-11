@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/28.49">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/28.49">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.49</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28.49</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - manufacture of machine tools for working wood, bone, stone, hard rubber, hard plastics, cold glass etc., including those using a laser beam, ultrasonic waves, plasma arc, magnetic pulse etc. - manufacture of work holders for machine tools - manufacture of dividing heads and other special attachments for machine tools - manufacture of stationary machines for nailing, stapling, glueing or otherwise assembling wood, cork, bone, hard rubber or plastics etc. - manufacture of stationary rotary or rotary percussion drills, filing machines, riveters, sheet metal cutters etc. - manufacture of presses for the manufacture of particle board and the like - manufacture of electroplating machinery</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - manufacture of parts and accessories for the machine tools listed</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of interchangeable tools for machine tools (drills, punches, dies, taps, milling cutters, turning tools, saw blades, cutting knives etc.), see 25.73 - manufacture of electric hand held soldering irons and soldering guns, see 27.90 - manufacture of power-driven hand tools, see 28.24 - manufacture of machinery used in metal mills or foundries, see 28.91 - manufacture of machinery for mining and quarrying, see 28.92</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/28.4"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/28.4"/>
   </rdf:Description>
 </rdf:RDF>

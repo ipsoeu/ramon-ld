@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/51">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">51</skos:notation>
@@ -10,13 +10,13 @@
     <xkos:coreContentNote xml:lang="en">- resale (sale without transformation) of new and used goods to retailers, to industrial, commercial, institutional or professional users; or to other wholesalers; or acting as agents in buying merchandise for, or selling merchandise to, such persons or companies: &#x2022; activities of wholesale merchants, jobbers, industrial distributors, exporters, importers, cooperative buying associations, merchandise and commodity brokers, commission merchants and agents and assemblers, buyers and cooperative associations engaged in the marketing of farm products</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- the usual manipulations involved in wholesale such as assembling, sorting and grading of goods in large lots, break bulks, repacking and bottling, redistribution in smaller lots, e.g. pharmaceuticals; storage, refrigeration, delivery and installation of goods on own account</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- wholesale of motor vehicles, caravans and motorcycles, see 50.10, 50.40 - wholesale of motor accessories, see 50.30, 50.40 - renting and leasing of goods, see 71</xkos:exclusionNote>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.2"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.3"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.4"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.5"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.6"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/51.7"/>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/GA"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.2"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.3"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.4"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.5"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.6"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/51.7"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/GA"/>
   </rdf:Description>
 </rdf:RDF>

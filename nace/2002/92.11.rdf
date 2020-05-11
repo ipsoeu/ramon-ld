@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/92.11">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/92.11">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92.11</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92.11</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">This class includes: &#x2013; production of theatrical and non-theatrical motion pictures whether on film, DVD or video tape for direct projection in theatres or for broadcasting on television: &#x2022; production in a motion-picture studio, or in special laboratories for animated films or cartoons, of full-length films, documentaries, shorts, etc., for public entertainment, for promotion, education or training &#x2013; supporting activities such as dubbing etc. &#x2013; activities of sound-recording studios</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; production of theatrical and non-theatrical motion pictures whether on film, DVD or video tape for direct projection in theatres or for broadcasting on television: &#x2022; production in a motion-picture studio, or in special laboratories for animated films or cartoons, of full-length films, documentaries, shorts, etc., for public entertainment, for promotion, education or training &#x2013; supporting activities such as dubbing etc. &#x2013; activities of sound-recording studios</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; film duplicating as well as audio and video tape reproduction from master copies, see 22.3 &#x2013; film processing other than for the motion picture industry, see 74.81 &#x2013; agency activities, see 74.87 &#x2013; production of films or tapes normally produced in television studios, see 92.20 &#x2013; activities of own account actors, cartoonists, directors, stage designers, lighting directors, etc., see 92.31</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/92.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/92.1"/>
   </rdf:Description>
 </rdf:RDF>

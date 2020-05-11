@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/66.19.91">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/66.19.91">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66.19.91</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66.19.91</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - financial advisory services - market analysis and intelligence</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - financial advisory services - market analysis and intelligence</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - mergers and acquisitions services, see 66.19.21 - corporate finance and venture capital services, see 66.19.22 - trust and custody services, see 66.19.3 - insurance and pension consultancy services, see 66.29.19 - portfolio management services, see 66.30.11 - advisory services on taxation matters, see 69.20.3 - financial management consulting services (except business tax), see 70.22.12</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/66.19.9"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/66.19.9"/>
   </rdf:Description>
 </rdf:RDF>

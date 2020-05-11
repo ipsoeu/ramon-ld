@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/30.11">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/30.11">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.11</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.11</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes the building of ships, except vessels for sports or recreation, and the construction of floating structures: This class includes: - building of commercial vessels: &#x2022; passenger vessels, ferry boats, cargo ships, tankers, tugs etc. - building of warships - building of fishing boats and fish-processing factory vessels</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - building of hovercraft (except recreation-type hovercraft) - construction of drilling platforms, floating or submersible - construction of floating structures: &#x2022; floating docks, pontoons, coffer-dams, floating landing stages, buoys, floating tanks, barges, lighters, floating cranes, non-recreational inflatable rafts etc. - manufacture of sections for ships and floating structures</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - manufacture of parts of vessels, other than major hull assemblies: &#x2022; manufacture of sails, see 13.92 &#x2022; manufacture of ships' propellers, see 25.99 &#x2022; manufacture of iron or steel anchors, see 25.99 &#x2022; manufacture of marine engines, see 28.11 - manufacture of navigational instruments, see 26.51 - manufacture of lighting equipment for ships, see 27.40 - manufacture of amphibious motor vehicles, see 29.10 - manufacture of inflatable boats or rafts for recreation, see 30.12 - specialised repair and maintenance of ships and floating structures, see 33.15 - ship-breaking, see 38.31 - interior installation of boats, see 43.3</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/30.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/30.1"/>
   </rdf:Description>
 </rdf:RDF>

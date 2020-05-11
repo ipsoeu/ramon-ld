@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/02.40">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/02.40">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes carrying out part of the forestry operation on a fee or contract basis. This class includes: - forestry service activities: &#x2022; forestry inventories &#x2022; forest management consulting services &#x2022; timber evaluation &#x2022; forest fire fighting and protection &#x2022; forest pest control - logging service activities: &#x2022; transport of logs within the forest</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes carrying out part of the forestry operation on a fee or contract basis. This class includes: - forestry service activities: &#x2022; forestry inventories &#x2022; forest management consulting services &#x2022; timber evaluation &#x2022; forest fire fighting and protection &#x2022; forest pest control - logging service activities: &#x2022; transport of logs within the forest</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - operation of forest tree nurseries, see 02.10 - draining of forestry land, see 43.12 - clearing of building sites, see 43.12</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/02.4"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/02.4"/>
   </rdf:Description>
 </rdf:RDF>

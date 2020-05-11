@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/46.69">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/46.69">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.69</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.69</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - wholesale of transport equipment except motor vehicles, motorcycles and bicycles - wholesale of production-line robots - wholesale of wires and switches and other installation equipment for industrial use - wholesale of other electrical material such as electrical motors, transformers - wholesale of other machinery n.e.c. for use in industry (except mining, construction, civil engineering and textile industry), trade and navigation and other services</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - wholesale of measuring instruments and equipment</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - wholesale of motor vehicles, trailers and caravans, see 45.1 - wholesale of motor vehicle parts, see 45.31 - wholesale of motorcycles, see 45.40 - wholesale of bicycles, see 46.49</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/46.6"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/46.6"/>
   </rdf:Description>
 </rdf:RDF>

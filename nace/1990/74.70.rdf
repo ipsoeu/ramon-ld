@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/74.70">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/74.70">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.70</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.70</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">- interior cleaning of buildings of all types, including offices, factories, shops, institutions and other business and professional premises and multiunit residential buildings - window cleaning - chimney cleaning and cleaning of fireplaces, stoves, furnaces, incinerators, boilers, ventilation ducts and exhaust units</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">- disinfecting and exterminating activities for buildings, ships, trains, etc. - cleaning of trains, buses, planes, etc.</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">- agricultural pest control, see 01.41 - steam-cleaning, sand blasting and similar activities for building exteriors, see 45.45 - cleaning of new buildings after construction, see 45.45 - carpet and rug shampooing, drapery and curtain cleaning, see 93.01 - activities of domestics, see 95.00</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/74.7"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/74.7"/>
   </rdf:Description>
 </rdf:RDF>

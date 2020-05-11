@@ -3,7 +3,8 @@
   define("ABS_PATH","/ramon-ld/");
   define("ROOT","../../");
 //  define("BASE_URI","http://localhost/ramon-ld/");
-  define("BASE_URI","https://ipsoeu.github.io/ramon-ld/");
+//  define("BASE_URI","https://ipsoeu.github.io/ramon-ld/");
+  define("BASE_URI","https://w3id.org/ipsoeu/ramon-ld/");
   define("TOOL_ACRONYM","RAMON-LD");
   define("TOOL_NAME","RAMON as Linked Data");
   define("ABOUT_URL","https://github.com/ipsoeu/ramon-ld");
@@ -74,6 +75,8 @@
   $version = "2013";
   $claset  = "nuts";
   $version = "2016";
+  $claset  = "nuts";
+  $version = "2021";
 
   $dataset["cofog"]["id"] = "cofog";
   $dataset["cofog"]["name"] = "Classification of the functions of government";
@@ -89,7 +92,7 @@
 
   $dataset["nuts"]["id"] = "nuts";
   $dataset["nuts"]["name"] = "Nomenclature of Territorial Units for Statistics";
-  $dataset["nuts"]["versions"] = array("2010", "2013", "2016");
+  $dataset["nuts"]["versions"] = array("2010", "2013", "2016", "2021");
 
 
   $xsluri["cofog"]["xml2rdf"] = RAMON_TO_RDF;
@@ -114,6 +117,7 @@
   $xmluri["nuts"]["2010"]["xml"] = '../src/NUTS_33.xml';
   $xmluri["nuts"]["2013"]["xml"] = '../src/NUTS_2013.xml';
   $xmluri["nuts"]["2016"]["xml"] = '../src/NUTS_2016.xml';
+  $xmluri["nuts"]["2021"]["xml"] = '../src/NUTS_2021.xml';
 
   $xmluri["cofog"]["1999"]["rdf"] = '../../cofog/1999.rdf';
 
@@ -126,5 +130,6 @@
   $xmluri["nuts"]["2010"]["rdf"] = '../../nuts/2010.rdf';
   $xmluri["nuts"]["2013"]["rdf"] = '../../nuts/2013.rdf';
   $xmluri["nuts"]["2016"]["rdf"] = '../../nuts/2016.rdf';
+  $xmluri["nuts"]["2021"]["rdf"] = '../../nuts/2021.rdf';
 
 ?>

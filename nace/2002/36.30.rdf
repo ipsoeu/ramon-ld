@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/36.30">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/36.30">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.30</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.30</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of stringed instruments &#x2013; manufacture of keyboard stringed instruments, including automatic pianos &#x2013; manufacture of keyboard pipe organs, including harmoniums and similar keyboard instruments with free metal reeds &#x2013; manufacture of accordions and similar instruments, including mouth organs &#x2013; manufacture of wind instruments &#x2013; manufacture of percussion musical instruments &#x2013; manufacture of musical instruments, the sound of which is produced electronically &#x2013; manufacture of musical boxes, fairground organs, calliopes, etc. &#x2013; manufacture of instrument parts and accessories: &#x2022; metronomes, tuning forks, pitch pipes, cards, discs and rolls for automatic mechanical instruments, etc.</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; manufacture of whistles, call horns and other mouth-blown sound signalling instruments</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; publishing and reproduction of pre-recorded audio and video tapes, CDs and DVDs, see 22.1, 22.3, 92.11 &#x2013; manufacture of microphones, amplifiers, loudspeakers, headphones and similar components, see 32.30 &#x2013; manufacture of record players, tape recorders and the like, see 32.30 &#x2013; manufacture of toy instruments, see 36.50 &#x2013; piano tuning, see 52.74</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/36.3"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/36.3"/>
   </rdf:Description>
 </rdf:RDF>

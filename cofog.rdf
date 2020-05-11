@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#" xmlns:ft="http://publications.europa.eu/resource/authority/file-type/" xmlns:mt="https://www.iana.org/assignments/media-types/">
-  <rdf:Description rdf:about="https://ipsoeu.github.io/ramon-ld/cofog">
+  <rdf:Description rdf:about="https://w3id.org/ipsoeu/ramon-ld/cofog">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:identifier>cofog</dct:identifier>
     <dct:alternative>COFOG</dct:alternative>
     <dct:title xml:lang="en">Classification of the functions of government</dct:title>
     <dct:description xml:lang="en">Classification of the functions of government</dct:description>
-    <dcat:landingPage rdf:resource="https://ipsoeu.github.io/ramon-ld/cofog"/>
-    <dct:hasVersion rdf:resource="https://ipsoeu.github.io/ramon-ld/cofog/1999"/>
+    <dcat:landingPage rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cofog"/>
+    <dct:hasVersion rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cofog/1999"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/36.40">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/36.40">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.40</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36.40</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">- manufacture of articles and equipment for sports, outdoor and indoor games: &#x2022; hard, soft and inflatable balls &#x2022; rackets, bats and clubs &#x2022; skis, bindings and poles &#x2022; sailboards &#x2022; requisites for sport fishing, including landing nets &#x2022; requisites for hunting, mountain climbing, etc. &#x2022; leather sports gloves and sports headgear &#x2022; basins for swimming and paddling pools, etc. &#x2022; ice-skates, roller-skates, etc. &#x2022; bows and crossbows &#x2022; gymnasium or athletic equipment</skos:definition>
     <xkos:coreContentNote xml:lang="en">- manufacture of articles and equipment for sports, outdoor and indoor games: &#x2022; hard, soft and inflatable balls &#x2022; rackets, bats and clubs &#x2022; skis, bindings and poles &#x2022; sailboards &#x2022; requisites for sport fishing, including landing nets &#x2022; requisites for hunting, mountain climbing, etc. &#x2022; leather sports gloves and sports headgear &#x2022; basins for swimming and paddling pools, etc. &#x2022; ice-skates, roller-skates, etc. &#x2022; bows and crossbows &#x2022; gymnasium or athletic equipment</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">- manufacture of boat sails, see 17.40 - manufacture of sport clothing, see 18 - manufacture of saddlery and harness, see 19.20 - manufacture of sports footwear, see 19.30 - manufacture of weapons and ammunition, see 29.60 - manufacture of sports vehicles other than toboggans and the like, see 34.35 - manufacture of boats, see 35.12 - manufacture of billiard tables and bowling equipment, see 36.50 - manufacture of whips and riding crops, see 36.63</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/36.4"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/36.4"/>
   </rdf:Description>
 </rdf:RDF>

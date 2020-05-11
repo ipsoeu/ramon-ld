@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.40">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.40">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.40</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45.40</skos:notation>
     <skos:prefLabel xml:lang="en">Trade, maintenance and repair services of motorcycles and related parts and accessories</skos:prefLabel>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - trade, maintenance and repair services of mopeds and related parts and accessories</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - trade, maintenance and repair services of bicycles and related parts and accessories</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.4"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.40.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.40.2"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.40.3"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.40.4"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/45.40.5"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.4"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.40.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.40.2"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.40.3"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.40.4"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/45.40.5"/>
   </rdf:Description>
 </rdf:RDF>

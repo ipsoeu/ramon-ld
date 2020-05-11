@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/1990/74.14">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/1990/74.14">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.14</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74.14</skos:notation>
     <skos:prefLabel xml:lang="en">Business and management consultancy activities</skos:prefLabel>
     <skos:definition xml:lang="en">- provision of advice, guidance or operational assistance to businesses and the public service: &#x2022; public relations and communication: &#x2022; design of accounting systems, cost-accounting programmes, budgetary control procedures &#x2022; advice and help to businesses and public services in planning, organization, efficiency and control, management information, etc. &#x2022; management consultancy such as by agronomists and agricultural economists to farms, etc. &#x2022; arbitration and conciliation between management and labour</skos:definition>
     <xkos:coreContentNote xml:lang="en">- provision of advice, guidance or operational assistance to businesses and the public service: &#x2022; public relations and communication: &#x2022; design of accounting systems, cost-accounting programmes, budgetary control procedures &#x2022; advice and help to businesses and public services in planning, organization, efficiency and control, management information, etc. &#x2022; management consultancy such as by agronomists and agricultural economists to farms, etc. &#x2022; arbitration and conciliation between management and labour</xkos:coreContentNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/1990/74.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/1990/74.1"/>
   </rdf:Description>
 </rdf:RDF>

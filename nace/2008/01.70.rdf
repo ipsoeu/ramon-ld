@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/01.70">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/01.70">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.70</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01.70</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="all">This class includes: - hunting and trapping on a commercial basis - taking of animals (dead or alive) for food, fur, skin, or for use in research, in zoos or as pets - production of fur skins, reptile or bird skins from hunting or trapping activities</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="all">This class also includes: - land-based catching of sea mammals such as walrus and seal</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - production of fur skins, reptile or bird skins from ranching operations, see group 01.49 - raising of game animals on ranching operations, see 01.4 - catching of whales, see 03.11 - production of hides and skins originating from slaughterhouses, see 10.11 - hunting for sport or recreation and related service activities, see 93.19 - service activities to promote hunting and trapping, see 94.99</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/01.7"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/01.7"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/29.52">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/29.52">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.52</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.52</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="en">This class includes: &#x2013; manufacture of continuous-action elevators and conveyors for underground use &#x2013; manufacture of boring, cutting, sinking and tunnelling machinery &#x2013; manufacture of machinery for treating minerals by screening, sorting, separating, etc. &#x2013; manufacture of concrete and mortar mixers &#x2013; manufacture of earth-moving machinery: &#x2022; bulldozers, angle-dozers, graders, scrapers, levellers, mechanical shovels, shovel loaders, etc. &#x2013; manufacture of pile-drivers and pile-extractors, mortar spreaders, bitumen spreaders, concrete surfacing machinery, etc. &#x2013; manufacture of bulldozer and angle-dozer blades</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; manufacture of continuous-action elevators and conveyors for underground use &#x2013; manufacture of boring, cutting, sinking and tunnelling machinery &#x2013; manufacture of machinery for treating minerals by screening, sorting, separating, etc. &#x2013; manufacture of concrete and mortar mixers &#x2013; manufacture of earth-moving machinery: &#x2022; bulldozers, angle-dozers, graders, scrapers, levellers, mechanical shovels, shovel loaders, etc. &#x2013; manufacture of pile-drivers and pile-extractors, mortar spreaders, bitumen spreaders, concrete surfacing machinery, etc. &#x2013; manufacture of bulldozer and angle-dozer blades</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; manufacture of lifting and handling equipment, see 29.22 &#x2013; manufacture of wheeled tractors, see 29.31, 34.10 &#x2013; manufacture of machine tools for working stone, including machines for splitting or clearing stone, see 29.4 &#x2013; manufacture of concrete-mixer lorries, see 34.10</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/29.5"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/29.5"/>
   </rdf:Description>
 </rdf:RDF>

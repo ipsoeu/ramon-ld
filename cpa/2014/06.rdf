@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/06">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/06">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06</skos:notation>
     <skos:prefLabel xml:lang="en">Crude petroleum and natural gas</skos:prefLabel>
     <xkos:exclusionNote xml:lang="all">This division excludes: - probing, test drillings and exploration works in connection with petroleum and gas extraction, see 09.10.1 - services related to operation of oil and gas fields, on a fee or contract basis, see 09.10.1 - refined petroleum products, see 19.20 - transport via pipeline of crude or refined petroleum and petroleum products, see 49.50.11 - transport via pipeline of natural gas, see 49.50.12 - geophysical surveys and cartographic activities, see 71.12.3</xkos:exclusionNote>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/06.1"/>
-    <skos:narrower rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/06.2"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/06.1"/>
+    <skos:narrower rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/06.2"/>
   </rdf:Description>
 </rdf:RDF>

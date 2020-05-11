@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/85.14">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/85.14">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85.14</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85.14</skos:notation>
@@ -10,6 +10,6 @@
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; activities for human health not performed by hospitals or by practising medical doctors but by paramedical practitioners legally recognized to treat patients This class may include activities of nurses, midwives, physiotherapists or others in the field of optometry, hydrotherapy, medical massage, occupational therapy, speech therapy, chiropody, homeopathy, chiropractice, acupuncture, etc. These activities may be carried out in health clinics such as those attached to firms, schools, homes for the aged, labour organizations and fraternal organizations, in residential health facilities other than hospitals, as well as in own consulting rooms, patients' homes or elsewhere</xkos:coreContentNote>
     <xkos:additionalContentNote xml:lang="en">This class also includes: &#x2013; activities of dental paramedical personnel such as dental therapists, school dental nurses and dental hygienists &#x2013; activities of medical laboratories &#x2013; activities of blood banks, sperm banks, transplant organ banks, etc. &#x2013; ambulance transport of patients by any mode of transport including airplanes</xkos:additionalContentNote>
     <xkos:exclusionNote xml:lang="en">This class excludes: &#x2013; production of artificial teeth, denture and prostatic appliances by dental technicians who do not fit them, see 33.10 &#x2013; testing activities in the field of food hygiene, see 74.30</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/85.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/85.1"/>
   </rdf:Description>
 </rdf:RDF>

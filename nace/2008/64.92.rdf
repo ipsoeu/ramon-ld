@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/64.92">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/64.92">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64.92</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64.92</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes: - financial service activities primarily concerned with making loans by institutions not involved in monetary intermediation, where the granting of credit can take a variety of forms, such as loans, mortgages, credit cards etc., providing the following types of services: &#x2022; granting of consumer credit &#x2022; international trade financing &#x2022; provision of long-term finance to industry by industrial banks &#x2022; money lending outside the banking system &#x2022; credit granting for house purchase by specialised non-depository institutions &#x2022; pawnshops and pawnbrokers</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes: - financial service activities primarily concerned with making loans by institutions not involved in monetary intermediation, where the granting of credit can take a variety of forms, such as loans, mortgages, credit cards etc., providing the following types of services: &#x2022; granting of consumer credit &#x2022; international trade financing &#x2022; provision of long-term finance to industry by industrial banks &#x2022; money lending outside the banking system &#x2022; credit granting for house purchase by specialised non-depository institutions &#x2022; pawnshops and pawnbrokers</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - credit granting for house purchase by specialised institutions that also take deposits, see 64.19 - operational leasing, see division 77, according to type of goods leased - grant giving activities by membership organisations, see 94.99</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/64.9"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/64.9"/>
   </rdf:Description>
 </rdf:RDF>

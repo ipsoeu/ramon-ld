@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2008/33.20">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2008/33.20">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.20</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33.20</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This class includes the specialised installation of machinery. However, the installation of equipment that forms an integral part of buildings or similar structures, such as installation of escalators, electrical wiring, burglar alarm systems or air-conditioning systems, is classified as construction. This class includes: - installation of industrial machinery in industrial plant - installation and assembly of industrial process control equipment - installation of other industrial equipment, e.g.: &#x2022; communications equipment &#x2022; mainframe and similar computers &#x2022; irradiation and electromedical equipment etc. - dismantling large-scale machinery and equipment - activities of millwrights - machine rigging - installation of bowling alley equipment</skos:definition>
     <xkos:coreContentNote xml:lang="all">This class includes the specialised installation of machinery. However, the installation of equipment that forms an integral part of buildings or similar structures, such as installation of escalators, electrical wiring, burglar alarm systems or air-conditioning systems, is classified as construction. This class includes: - installation of industrial machinery in industrial plant - installation and assembly of industrial process control equipment - installation of other industrial equipment, e.g.: &#x2022; communications equipment &#x2022; mainframe and similar computers &#x2022; irradiation and electromedical equipment etc. - dismantling large-scale machinery and equipment - activities of millwrights - machine rigging - installation of bowling alley equipment</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This class excludes: - installation of elevators, escalators, automated doors, vacuum cleaning systems etc., see 43.29 - installation of doors, staircases, shop fittings, furniture etc., see 43.32 - installation (setting-up) of personal computers, see 62.09</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2008/33.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2008/33.2"/>
   </rdf:Description>
 </rdf:RDF>

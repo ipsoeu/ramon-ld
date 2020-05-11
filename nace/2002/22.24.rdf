@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/nace/2002/22.24">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/nace/2002/22.24">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.24</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22.24</skos:notation>
     <skos:prefLabel xml:lang="en">Pre-press activities</skos:prefLabel>
     <skos:definition xml:lang="en">This class includes: &#x2013; composition, typesetting, phototypesetting, data-input including scanning and optical character recognition, electronic makeup &#x2013; document creation, desktop publishing, and all other origination activities &#x2013; preparation of digital data, e.g. enhancement, selection, linkage of digital data &#x2013; computer aided design, computer aided manufacture, electronic processes for data-output &#x2013; digital imposition &#x2013; plate-making services including imagesetting and platesetting (for the printing processes letterpress and offset) &#x2013; engraving or etching of cylinders for gravure &#x2013; plate processes direct to plate (also photopolymer plates) &#x2013; plates and dies for relief stamping or printing &#x2013; artistic work including litho stones and prepared wood blocks</skos:definition>
     <xkos:coreContentNote xml:lang="en">This class includes: &#x2013; composition, typesetting, phototypesetting, data-input including scanning and optical character recognition, electronic makeup &#x2013; document creation, desktop publishing, and all other origination activities &#x2013; preparation of digital data, e.g. enhancement, selection, linkage of digital data &#x2013; computer aided design, computer aided manufacture, electronic processes for data-output &#x2013; digital imposition &#x2013; plate-making services including imagesetting and platesetting (for the printing processes letterpress and offset) &#x2013; engraving or etching of cylinders for gravure &#x2013; plate processes direct to plate (also photopolymer plates) &#x2013; plates and dies for relief stamping or printing &#x2013; artistic work including litho stones and prepared wood blocks</xkos:coreContentNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/nace/2002/22.2"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/nace/2002/22.2"/>
   </rdf:Description>
 </rdf:RDF>

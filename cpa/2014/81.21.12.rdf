@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
-  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://ipsoeu.github.io/ramon-ld/cpa/2014/81.21.12">
-    <skos:inScheme rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014"/>
+  <rdf:Description xmlns:dct="http://purl.org/dc/terms/" rdf:about="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/81.21.12">
+    <skos:inScheme rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.21.12</dct:identifier>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.21.12</skos:notation>
@@ -9,6 +9,6 @@
     <skos:definition xml:lang="all">This subcategory includes: - services consisting of cleaning and maintaining dwellings or commercial, administrative and industrial buildings: &#x2022; floor cleaning and waxing &#x2022; interior wall cleaning &#x2022; furniture polishing &#x2022; other janitorial maintenance services, including minor repairs</skos:definition>
     <xkos:coreContentNote xml:lang="all">This subcategory includes: - services consisting of cleaning and maintaining dwellings or commercial, administrative and industrial buildings: &#x2022; floor cleaning and waxing &#x2022; interior wall cleaning &#x2022; furniture polishing &#x2022; other janitorial maintenance services, including minor repairs</xkos:coreContentNote>
     <xkos:exclusionNote xml:lang="all">This subcategory excludes: - everyday housework for households, see 81.21.11 - specialised interior cleaning services, such as chimney cleaning, cleaning of fireplaces, stoves, furnaces, incinerators, boilers, ventilation ducts, exhaust units, see 81.22.1</xkos:exclusionNote>
-    <skos:broader rdf:resource="https://ipsoeu.github.io/ramon-ld/cpa/2014/81.21.1"/>
+    <skos:broader rdf:resource="https://w3id.org/ipsoeu/ramon-ld/cpa/2014/81.21.1"/>
   </rdf:Description>
 </rdf:RDF>
